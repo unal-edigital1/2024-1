@@ -3,7 +3,7 @@
 
 ## Introducción 
 
-En las pr{oximas 6 semana se estara trabajando en la adquición , procesamiento y visualización de  imagenes. Para ellos  se hara uso de:
+En las próximas 6 semana se estara trabajando en la adquición , procesamiento y visualización de  imagenes. Para ello se hara uso de:
 
 * Cámara OV7970 sin FIFO la cual :
 	* Matriz fotosensible: 640 x 480, el tañama de la image   se puede configurar 
