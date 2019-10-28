@@ -12,16 +12,16 @@ En las proximas 6 semana se estara trabajando en la adquición , procesamiento y
 * Tarjeta STM o Arduino, En primera instancia  y para las pruebas iniciales, se hara uso de la tarjeta de procesamiento comerciales, como Arduino o STM32 , 
 * Tarjeta de desarrollo FPGA, Nexys4, quacho-basic 
 * Sistema de visualización 
-* Sistema de Capura,  sistema manual apra inicar la captura de imfrmación
+* Sistema de Capura,  sistema manual para iniciar la captura de imfrmación
 
 En resumen se muestra la configuración del dispositivo que se implementará.
 
-![Diagrama](https://github.com/unal-edigital1-2019-2/work1-ram/blob/master/docs/figs/diagramaGeneral.png)
+![Diagrama](https://github.com/unal-edigital1-2019-2/unal-edigital1-2019-2.github.io/blob/master/docs/figs/diagramaGeneral.jpg)
 
 Como se observa en el diagrama anterior se debe  diseñar por  parte de cada grupo  de trabajo el contenido del bloque en verde  el cual se describr a cotinuación:
 
 
-![Diagrama 2](https://github.com/unal-edigital1-2019-2/work1-ram/blob/master/docs/figs/estructura_fpga.png)
+![Diagrama 2](https://github.com/unal-edigital1-2019-2/unal-edigital1-2019-2.github.io/blob/master/docs/figs/estructura_fpga.jpg)
 
 
 En este sentido cada grupo debe trabajar en los bloques internos verdes junto con las interconexiones.  Se proporcionará los bloques se proporcionan  en naranja .
