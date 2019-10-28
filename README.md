@@ -21,7 +21,7 @@ En resumen se muestra la configuración del dispositivo que se implementará.
 Como se observa en el diagrama anterior se debe  diseñar por  parte de cada grupo  de trabajo el contenido del bloque en verde  el cual se describr a cotinuación:
 
 
-![Diagrama 2](https://github.com/unal-edigital1-2019-2/unal-edigital1-2019-2.github.io/blob/master/docs/figs/estructura_fpga.jpg)
+![Diagrama 2](./docs/figs/estructura_fpga.jpg)
 
 
 En este sentido cada grupo debe trabajar en los bloques internos verdes junto con las interconexiones.  Se proporcionará los bloques se proporcionan  en naranja .
