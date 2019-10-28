@@ -55,8 +55,8 @@ Antes de comenzar con cada paquete de trabajo se debe leer las instrucciones  y 
 	* Para crear un grupo nuevo coloque "Grupo-xx", donde xx es el número del grupo.
 	* Para unirse a un grupo existente, busque el nombre  y pulse l botón ´join´.
 	
-	***Nota: Todos los estudaintes debes unise al grupo correspondiente  y tener cuidado de no equivocarse de grupo***
-* Una vez realizado el proceso debe clonar el repositorio creado automaticamente en su computador 
+	***Nota: Todos los estudiantes debes uniser al grupo correspondiente  y tener cuidado de no equivocarse de grupo***
+* Una vez realizado el proceso debe clonar,en su computador,  el repositorio creado automaticamente. 
 
 ```
 git clone <link del repositorio>
