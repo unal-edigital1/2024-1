@@ -3,9 +3,9 @@
 
 ## Introducción 
 
-En las proximas 6 semana se estara trabajando en la adquición , procesamiento y visualización de  imagenes. para ellos  se hara uso de:
+En las pr{oximas 6 semana se estara trabajando en la adquición , procesamiento y visualización de  imagenes. Para ellos  se hara uso de:
 
-* Camara OV7970 sin FIFO la cual :
+* Cámara OV7970 sin FIFO la cual :
 	* Matriz fotosensible: 640 x 480, el tañama de la image   se puede configurar 
 	* Formato de salida RGB, RGB (GRB4: 2: 2, RGB565 / 555/444) sin formato, YUV (4: 2: 2) e YCbCr (4: 2: 2) Admite VGA, CIF y de CIF a formato 40 x 30.
 	* Se configura  por medio del  bus SCCB (compatible con I2C), para obtener los modos de  configuración se recomienda leer la hoja de datos de la camara.
@@ -16,17 +16,17 @@ En las proximas 6 semana se estara trabajando en la adquición , procesamiento y
 
 En resumen se muestra la configuración del dispositivo que se implementará.
 
-![Diagrama](https://github.com/unal-edigital1-2019-2/unal-edigital1-2019-2.github.io/blob/master/docs/figs/diagramaGeneral.jpg)
+![Diagrama](./docs/figs/diagramaGeneral.jpg)
 
-Como se observa en el diagrama anterior se debe  diseñar por  parte de cada grupo  de trabajo el contenido del bloque en verde  el cual se describr a cotinuación:
+Como se observa en el diagrama anterior se debe  diseñar por parte de cada grupo de trabajo el contenido del bloque en verde  el cual se describr a cotinuación:
 
 
 ![Diagrama 2](./docs/figs/estructura_fpga.jpg)
 
 
-En este sentido cada grupo debe trabajar en los bloques internos verdes junto con las interconexiones.  Se proporcionará los bloques se proporcionan  en naranja .
+En este sentido cada grupo debe trabajar en los bloques internos verdes junto con las interconexiones.  Se proporcionarán los bloques en naranja.
 
-En este setido el plan de trabajo propuesto es:
+El plan de trabajo propuesto es:
 
 * WP01: Buffer de memoria  [WP01](https://classroom.github.com/g/Ra4G34mi) 
 	* Semana 1: Buffer de memoria  Simulación (TestBench).  Analizar la máxima memoria ram que podemos alojar en la FPGA,  y planear el método de adquisición de los datos de la cámara 
@@ -46,6 +46,9 @@ Semana 7: Presentación
 
 Para cada paquete de trabajo se debe clonar la plantilla dada, y los resultados del trabajo de cada grupo deben ser subidos antes de la fecha estipulada. se recomienda  leer la ayuda de github classroom en este [link](https://education.github.com/)
 
+* Si no la hecho debe crear una cuenta de github. ver este [video](https://www.youtube.com/watch?v=ezxRcdJ8glM&feature=youtu.be)
+* Para crear repositorios  revise ete [link](https://help.github.com/en/github/getting-started-with-github/create-a-repo)
+
 Antes de comenzar con cada paquete de trabajo se debe leer las instrucciones  y tener todos los archivos. Para acceder a cada paquete de trabajo debe :
 * Aceptar la asignación de cada link dado. 
 * La aplicación les pregunta si desean crear un grupo nuevo o unirse a uno existente:
@@ -53,7 +56,7 @@ Antes de comenzar con cada paquete de trabajo se debe leer las instrucciones  y 
 	* Para unirse a un grupo existente, busque el nombre  y pulse l botón ´join´.
 	
 	***Nota: Todos los estudaintes debes unise al grupo correspondiente  y tener cuidado de no equivocarse de grupo***
-* una vez realizado el proceso debe clonar el repositorio creado automaticamente en su computador 
+* Una vez realizado el proceso debe clonar el repositorio creado automaticamente en su computador 
 
 ```
 git clone <link del repositorio>
