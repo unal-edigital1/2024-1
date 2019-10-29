@@ -55,28 +55,38 @@ Antes de comenzar con cada paquete de trabajo se debe leer las instrucciones  y 
 	* Para crear un grupo nuevo coloque "Grupo-xx", donde xx es el número del grupo.
 	* Para unirse a un grupo existente, busque el nombre  y pulse el botón ´join´.
 	
-	***Nota: Todos los estudiantes debes unirse al grupo correspondiente  y tener cuidado de no equivocarse de grupo***
+***Nota: Todos los estudiantes debes unirse al grupo correspondiente  y tener cuidado de no equivocarse de grupo***
+
 Luego de unirse a cada grupo de trabajo debe clonar su  repositorio en su computador, para lo cual: 
 * Si usted  no tiene ningún conocimiento de cómo hacer esto, recomiendo  usar ***github Desktop** el cual se puede descargar de este [link]( https://desktop.github.com), y la documentación  de uso la encuentra en este [link](https://help.github.com/en/desktop/getting-started-with-github-desktop) *** Recuerde lo que debe hacer es clonar el repositorio creado de forma automática por git classroom y NO crear uno nuevo **
 * Para los estudiantes que usen el sistema operativo Linux  les recomiendo usar la siguiente guía para clonar el repositorio e iniciar en  el mundo de  control de versiones [link]( https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository)
 
-***RECUERDEN:*** Todos los integrantes del grupo deben  trabajar en el respectivo repositorio y participar en los respectivos commit y push, tanto de la documentación{on 
+***RECUERDEN:*** Todos los integrantes del grupo deben  trabajar en el respectivo repositorio y participar en los respectivos commit y push, tanto de la documentación
 
 ## Documentación
-Para todos los paquetes de trabajo se debe  tener la documentación respectiva, que evidencie el progreso del trabajo, puede hacer uso de fotos, videos código y todo lo que el grupo considere necesario  para explicar los avances que va teniendo. 
-En la evaluación de la documentación será  tenida en cuenta la minuciosidad y claridad de la misma.
+Para todos los paquetes de trabajo se debe  realizar  la documentación respectiva, que evidencie el progreso del trabajo. Puede hacer uso de fotos, videos, comentar el código HDL, y todo lo que el grupo considere necesario  para explicar los avances que va teniendo. 
+Recuerde el trabajo que ustedes documenten, será el que leerán sus compañeros de los próximos semestres. En este contexto, la evaluación de la documentación será  tenida en cuenta la minuciosidad y claridad de la misma.
 
-La documentación se debe  diligenciar en el formato Markdown del archivo ´README.md´ ubicado en docs. Se recomienda revisar el siguiente [link](https://guides.github.com/features/mastering-markdown/) que les da una visión rápida de formato usado para hacer la documentación. 
+La documentación se debe  diligenciar en el archivo README.md, que se encuentra en cada repositorio dentro de la carpeta docs, en el cual deben colocar el nombre3 de los integrantes  y el  número de identificación.
+El archivo README.md, se debe escribir en formato Markdown. Para aprender cual es el formato de este documento se recomienda revisar el siguiente [link](https://guides.github.com/features/mastering-markdown/) que les da una visión rápida de formato usado para hacer la documentación. 
+Las imágenes, fotos y soportes gráficos deben ser alojados en la carpeta ‘figs’ y deben ser vinculadas en documento README.md.
 
-Recuerde, todos los paquetes de trabajo son obligatorios
-# código HDL
+# Código HDL
+El código HDL está alojado en la carpeta ´src´. Allí  están los archivos fuentes dados en clase  y allí deben alojar todo los archivos  diseñados  y desarrollados por los integrantes de grupo y según sea solicitado en la  guía de cada paquete de trabajo.
+
+# Entrega
+Recuerde tener presente el deadline  de cada paquete de trabajo, a las 8 de  la noche del día indicado  se cierra  el sistema  y los grupos no podrán actualizar el repositorio.
+Para actualizar el repositorio deben realizar  el respectivo commit y push, según sea la plataforma que estén utilizando y como se explicó en clase.
+Recuerda también revisar que en la página de github se refleja las actualizaciones realizadas por el grupo de trabajo 
+  
+
 ## Desarrollo 
-
+A continuación se presenta cada actividad a realizar, el plan de trabajo del proyecto de cada semana se encuentra en el link de documentación y el link de trabajo se encuentra en la columna  repositorio 
 WP  | semana | deadline  | Tema | Documentación| Repositorio 
 --  | --     | --        | --   | --          | --  
-01| semana 1 | 1 Nov | Bufer de memoria | [link](./docs/WP01.md) | [WP01](https://classroom.github.com/g/Ra4G34mi) 
+01| semana 1 | 1 Nov | Buffer de memoria | [link](./docs/WP01.md) | [WP01](https://classroom.github.com/g/Ra4G34mi) 
 02| semana 2 /semana 3 | 15 Nov | Captura de datos | [link]| [WP02](https://classroom.github.com/g/fTcztVJQ)  
 03  | semana 4 | 22 Nov | Procesamiento | [link]| 
-03| semana 5 | 29 Nov | Envio de Información | [link]| 
+03| semana 5 | 29 Nov | Envió de Información | [link]| 
 04| Semana 8 | 6  Dic | Integración | [link] | 
 
