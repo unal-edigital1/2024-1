@@ -34,7 +34,7 @@ El plan de trabajo propuesto es:
 	* Semana 2: Captura de datos Construcción del bloque de captura de datos y divisor de frecuencias según hoja de datos de la cámara.
 	* Semana 3: Captura de datos Pruebas físicas con cámara 
 * WP03: Procesador
-	* Semana 4: Introducción al procesador *
+	* Semana 4: Procesamiento
 * WP04: Envió de información 
 	* Semana 5: Comunicación serial, GPIO 
 * WP05: Integración
@@ -81,7 +81,9 @@ Recuerda también revisar que en la página de github se refleja las actualizaci
   
 
 ## Desarrollo 
-A continuación se presenta cada actividad a realizar, el plan de trabajo del proyecto de cada semana se encuentra en el link de documentación y el link de trabajo se encuentra en la columna  repositorio 
+A continuación se presenta cada actividad a realizar, el plan de trabajo del proyecto de cada semana se encuentra en el link de documentación y el link de trabajo se encuentra en la columna  repositorio.
+
+
 WP  | semana | deadline  | Tema | Documentación| Repositorio 
 --  | --     | --        | --   | --          | --  
 01| semana 1 | 1 Nov | Buffer de memoria | [link](./docs/WP01.md) | [WP01](https://classroom.github.com/g/Ra4G34mi) 
