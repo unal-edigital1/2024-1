@@ -87,7 +87,7 @@ A continuación se presenta cada actividad a realizar, el plan de trabajo del pr
 WP  | semana | deadline  | Tema | Documentación| Repositorio 
 --  | --     | --        | --   | --          | --  
 01| semana 1 | 1 Nov | Buffer de memoria | [link](./docs/WP01.md) | [WP01](https://classroom.github.com/g/Ra4G34mi) 
-02| semana 2 /semana 3 | 15 Nov | Captura de datos | [link]| [WP02](https://classroom.github.com/g/fTcztVJQ)  
+02| semana 2 /semana 3 | 15 Nov | Captura de datos | [link](./docs/WP02.md) | [WP02](https://classroom.github.com/g/fTcztVJQ)  
 03  | semana 4 | 22 Nov | Procesamiento | [link]| 
 03| semana 5 | 29 Nov | Envió de Información | [link]| 
 04| Semana 8 | 6  Dic | Integración | [link] | 
