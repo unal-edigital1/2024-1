@@ -33,7 +33,7 @@ El plan de trabajo propuesto es:
 * WP02  Captura de Datos [WP02](https://classroom.github.com/g/fTcztVJQ)
 	* Semana 2: Captura de datos Construcción del bloque de captura de datos y divisor de frecuencias según hoja de datos de la cámara.
 	* Semana 3: Captura de datos Pruebas físicas con cámara 
-* WP03: Procesador
+* WP03: Simulación
 	* Semana 4: Procesamiento
 * WP04: Envió de información 
 	* Semana 5: Comunicación serial, GPIO 
@@ -88,7 +88,7 @@ WP  | semana | deadline  | Tema | Documentación| Repositorio
 --  | --     | --        | --   | --          | --  
 01| semana 1 | 1 Nov | Buffer de memoria | [link](./docs/WP01.md) | [WP01](https://classroom.github.com/g/Ra4G34mi) 
 02| semana 2 /semana 3 | 15 Nov | Captura de datos | [link](./docs/WP02.md) | [WP02](https://classroom.github.com/g/fTcztVJQ)  
-03  | semana 4 | 22 Nov | Procesamiento | [link]| 
-03| semana 5 | 29 Nov | Envió de Información | [link]| 
-04| Semana 8 | 6  Dic | Integración | [link] | 
+03  | semana 4 | 16 ene | Procesamiento | [link](./docs/WP03.md) |  [WP03](https://classroom.github.com/g/dq2gMMs9) 
+03| semana 5 | 30 enero | Envió de Información | [link]| 
+04| Semana 8 | 6  febrero | Integración | [link] | 
 
