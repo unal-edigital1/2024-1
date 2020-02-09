@@ -35,7 +35,7 @@ El plan de trabajo propuesto es:
 	* Semana 3: Captura de datos Pruebas físicas con cámara 
 * WP03: Simulación
 	* Semana 4: Procesamiento 
-* WP04: Integración e implementación [WP04]https://classroom.github.com/g/-N1YMEhS)
+* WP04: Integración e implementación [WP04](https://classroom.github.com/g/-N1YMEhS)
 	* Semana 6: Integración del proyecto y pruebas funcionales
 Semana 7: Presentación  
 
@@ -87,5 +87,5 @@ WP  | semana | deadline  | Tema | Documentación| Repositorio
 01| semana 1 | 1 Nov | Buffer de memoria | [link](./docs/WP01.md) | [WP01](https://classroom.github.com/g/Ra4G34mi) 
 02| semana 2 /semana 3 | 15 Nov | Captura de datos | [link](./docs/WP02.md) | [WP02](https://classroom.github.com/g/fTcztVJQ)  
 03  | semana 4 | 16 ene | Procesamiento | [link](./docs/WP03.md) |  [WP03](https://classroom.github.com/g/dq2gMMs9) 
-04| Semana 8 | 6  febrero | Integración | [ [link](./docs/WP04.md) |  [WP04](https://classroom.github.com/g/-N1YMEhS) 
+04| Semana 8 | 6  febrero | Integración | [link](./docs/WP04.md) |  [WP04](https://classroom.github.com/g/-N1YMEhS) 
 
