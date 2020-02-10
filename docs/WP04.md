@@ -36,7 +36,7 @@ Para este paquete de trabajo se debe contar con:
 * Plantilla del proyecto sugerido [WP04](https://classroom.github.com/g/-N1YMEhS) .
 * Datasheet de la cámara OV7670.
 * Desarrollo de los paquetes  de trabajo anteriores.
-* Realizar la coevalucion, segun las indicaciones dadas en clase.
+* Realizar la coevaluación, segun las indicaciones dadas en clase.
 
 ## Desarrollo
 
@@ -53,7 +53,7 @@ Para lo cual, la captura de datos debe ser acorde al funcionamiento de la cámar
 
 ***RECUEDE: Es necesario documentar el módulo diseñado con los respectivos diagramas funcionales y estructurales y registrar la información en README.md ***
 
-Una vez clone el repositorio, en su computador de la plantilla del proyecto [WP02](https://classroom.github.com/g/fTcztVJQ), realizar lo siguiente: 
+Una vez clone el repositorio, en su computador de la plantilla del proyecto [WP04](https://classroom.github.com/g/-N1YMEhS), realizar lo siguiente: 
 
 3. Revisar si el bloque PLL, `clk_32MHZ_to_25M_24M.v` (diagrama azul de la figura 1), propuesto en el bloque test_cam.v, cumple con las necesidades de reloj de entrada y salida para la plataforma utilizada. Recuerde el sistema requiere además de los 32, 50 o 100 Mhz de entrada, generar dos señales de reloj de 25Mhz y 24 Mhz para la pantalla VGA y la Cámara respectivamente. En este sentido, el archivo `clk_32MHZ_to_25M_24M.v` se encuentran en el interior de la carpeta `hdl/scr/PLL`, se debe modificar. 
 
