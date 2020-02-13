@@ -93,7 +93,11 @@ WP  | semana | deadline  | Tema | Documentación| Repositorio
 
 GRUPO  | Entrega WP01  | Entrega WP02  | Entrega WP03 | Entrega WP04 
 --     | --            | --            | --           | --            
-G01    |  [documento](https://github.com/unal-edigital1-2019-2//work01-ramdp-grupo-01/tree/master/docs/README.md) [repositorio](https://github.com/unal-edigital1-2019-2/work01-ramdp-grupo-01) | [documento](https://github.com/unal-edigital1-2019-2/work02-ramdp-grupo-01/tree/master/docs/README.md) [repositorio](https://github.com/unal-edigital1-2019-2/work02-ramdp-grupo-01) |
-[documento](https://github.com/unal-edigital1-2019-2/work03-ramdp-grupo-01/tree/master/docs/README.md) [repositorio](https://github.com/unal-edigital1-2019-2/work03-ramdp-grupo-01) |
-[documento](https://github.com/unal-edigital1-2019-2//work04-ramdp-grupo-01/tree/master/docs/README.md) [repositorio](https://github.com/unal-edigital1-2019-2/work04-ramdp-grupo-01) |
+G01    |  [documento](https://github.com/unal-edigital1-2019-2/work01-ramdp-grupo-01/tree/master/docs/README.md) [repositorio](https://github.com/unal-edigital1-2019-2/work01-ramdp-grupo-01) | 
+
+[documento](https://github.com/unal-edigital1-2019-2/work02-captura-datos-0v7670-grupo-01/tree/master/docs/README.md) [repositorio](https://github.com/unal-edigital1-2019-2/work02-captura-datos-0v7670-grupo-01) |
+
+[documento](https://github.com/unal-edigital1-2019-2/work03-smulacion-ov7670-grupo-01/tree/master/docs/README.md) [repositorio](https://github.com/unal-edigital1-2019-2/work03-smulacion-ov7670-grupo-01) |
+
+[documento](https://github.com/unal-edigital1-2019-2/work04-proyectofinal-grupo-01-1/tree/master/docs/README.md) [repositorio](https://github.com/unal-edigital1-2019-2/work04-proyectofinal-grupo-01-1) 
 
