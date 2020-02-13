@@ -89,7 +89,7 @@ WP  | semana | deadline  | Tema | Documentación| Repositorio
 03  | semana 4 | 16 ene | Procesamiento | [link](./docs/WP03.md) |  [WP03](https://classroom.github.com/g/dq2gMMs9) 
 04| Semana 8 | 6  febrero | Integración | [link](./docs/WP04.md) |  [WP04](https://classroom.github.com/g/-N1YMEhS) 
 
-## GRUPOS
+## GRUPOS DE TRABAJO 
 
 GRUPO  | Entrega WP01  | Entrega WP02  | Entrega WP03 | Entrega WP04 
 --     | --            | --            | --           | --            
@@ -100,3 +100,43 @@ G04    |  [documento](https://github.com/unal-edigital1-2019-2/work01-ramdp-grup
 G05    |  [documento](https://github.com/unal-edigital1-2019-2/work01-ramdp-grupo-05/tree/master/docs/README.md) [repositorio](https://github.com/unal-edigital1-2019-2/work01-ramdp-grupo-05) | [documento](https://github.com/unal-edigital1-2019-2/work02-captura-datos-0v7670-grupo-05/tree/master/docs/README.md) [repositorio](https://github.com/unal-edigital1-2019-2/work02-captura-datos-0v7670-grupo-05) | [documento](https://github.com/unal-edigital1-2019-2/work03-smulacion-ov7670-grupo-05/tree/master/docs/README.md) [repositorio](https://github.com/unal-edigital1-2019-2/work03-smulacion-ov7670-grupo-05) | [documento](https://github.com/unal-edigital1-2019-2/work04-proyectofinal-grupo-05-1/tree/master/docs/README.md) [repositorio](https://github.com/unal-edigital1-2019-2/work04-proyectofinal-grupo-05-1) 
 G06    |  [documento](https://github.com/unal-edigital1-2019-2/work01-ramdp-grupo-06/tree/master/docs/README.md) [repositorio](https://github.com/unal-edigital1-2019-2/work01-ramdp-grupo-06) | [documento](https://github.com/unal-edigital1-2019-2/work02-captura-datos-0v7670-grupo-06/tree/master/docs/README.md) [repositorio](https://github.com/unal-edigital1-2019-2/work02-captura-datos-0v7670-grupo-06) | [documento](https://github.com/unal-edigital1-2019-2/work03-smulacion-ov7670-grupo-06/tree/master/docs/README.md) [repositorio](https://github.com/unal-edigital1-2019-2/work03-smulacion-ov7670-grupo-06) | [documento](https://github.com/unal-edigital1-2019-2/work04-proyectofinal-grupo-06-1/tree/master/docs/README.md) [repositorio](https://github.com/unal-edigital1-2019-2/work04-proyectofinal-grupo-06-1) 
 G07    |  [documento](https://github.com/unal-edigital1-2019-2/work01-ramdp-grupo-07/tree/master/docs/README.md) [repositorio](https://github.com/unal-edigital1-2019-2/work01-ramdp-grupo-07) | [documento](https://github.com/unal-edigital1-2019-2/work02-captura-datos-0v7670-grupo-07/tree/master/docs/README.md) [repositorio](https://github.com/unal-edigital1-2019-2/work02-captura-datos-0v7670-grupo-07) | [documento](https://github.com/unal-edigital1-2019-2/work03-smulacion-ov7670-grupo-07/tree/master/docs/README.md) [repositorio](https://github.com/unal-edigital1-2019-2/work03-smulacion-ov7670-grupo-07) | [documento](https://github.com/unal-edigital1-2019-2/work04-proyectofinal-grupo-07-1/tree/master/docs/README.md) [repositorio](https://github.com/unal-edigital1-2019-2/work04-proyectofinal-grupo-07-1) 
+
+
+## Presentaciones de ideas de trabajo
+
+GRUPO  | Presentación
+--     | --                  
+G01    | [drive](https://drive.google.com/open?id=1DiBjuy4bnp4pkhXw8k3nhnDItCzoqp4o)       
+G02    | [drive](https://drive.google.com/open?id=1TOibu-Dn2buqlZdv8dcxfHzSpmhZV6Eg)       
+G03    | [drive](https://drive.google.com/open?id=1lRJMkxWKL5s5tyEmVS6A0oMXkeiRhvWc)       
+G04    | [drive](https://drive.google.com/open?id=1b-u4xtM17JZsFM3HnyVXctgxr3A18QLb)       
+G05    | [drive](https://drive.google.com/open?id=1XKifSqyyPo1T_Wdlp6i4Big6CFbGj_r8) *      
+G06    | [drive](https://drive.google.com/open?id=1unJBlgiGZGiSPl3-r6PuKc9f2f-GRmM5)       
+G07    | [drive](https://drive.google.com/open?id=1vL1mmQSBh9zwgmCMdDh5lLL1q_EOoifg)
+
+
+## Informes de laboratorios  (5 prelabs)
+
+Grupo	|	Nombre	|	Documentación	|	HDL
+ --	    |	 --	    |	 --	            |	 --
+G01	|	lab01-sumador 1bit (introducción a HDL)	|	[link](https://drive.google.com/open?id=1QJAv7UGuw9zh-KfUQK353QxaaX5oArIj)	|	[link](https://drive.google.com/open?id=1aOBHqn_qoY8eeUo5kCr59b0M2lDa1s7T)
+G01	|	lab02-sumador 4 bit (Introducción a lógica Combinacional)	|	[link](https://drive.google.com/open?id=1yPYj6n39pt3OxfMFjpmOgE7gNEv3WPc6)	|	[link](https://drive.google.com/open?id=1PdtCFB06RmXJvpKrfXNVWObWUsxwO8c2)
+G01	|	lab03-7 segmentos (implementación de Mux-LUT)	|	[link](https://drive.google.com/open?id=1NDXAiWGKAyGJdAGoXpEATCT3ZdEA0vXI)	|	[link](https://drive.google.com/open?id=1qhudhikWryBpDu7LDlvLOIoJqtM3MPOb)
+G01	|	lab04- visualización dinámica (Introducción a Lógica Secuencia)	|	[link](https://drive.google.com/open?id=1s8zIRQ4jJRZqasFDwNHXwM0sFoRbxIwP)	|	[link](https://drive.google.com/open?id=1MMsuOTu2Qqa-PcGKjkjMhuaQV1_K-umH)
+G03	|	lab01-sumador 1bit (introducción a HDL)	|	[link](https://drive.google.com/open?id=1Fl13QhdExqsApysn3Qt3RdOBu1VhMeVW)	|	[link](https://drive.google.com/open?id=1QdrmIFLIv2UUASPWWXzfudj09sO2JEw0)
+G03	|	lab02-sumador 4 bit (Introducción a lógica Combinacional)	|	[link](https://drive.google.com/open?id=1YV_OOqXUbAhnbxmdv_opQZLw7QUqQlEm)	|	[link](https://drive.google.com/open?id=16Eg26a-BCODa1aPASU6KIQQvPPYM-c6U
+G03	|	lab03-7 segmentos (implementación de Mux-LUT)	|	[link](https://drive.google.com/open?id=1-xo_wIs4cr7xW9tSPIAoviBliK_rV4DJ)	|	[link](https://drive.google.com/open?id=1Kj2f-jVqXm7GB7XRH7xsD0XaL2DESzvY)
+G03	|	lab04- visualización dinámica (Introducción a Lógica Secuencia)	|	[link](https://drive.google.com/open?id=1IroohWM7iwQgdN17BbAWqsCgqH5eMLBq)	|	[link](https://drive.google.com/open?id=1DAuBY51WTeexacatZ2RbhJhfSmdExpIy
+G03	|	lab05 -sumador 4 bit secuencial (ejemplo sencillo de maquinas de Estado)	|	[link](https://drive.google.com/open?id=1ktz5tv64MnwQVc-NOlyt-NI4_yB1kkS9)	|	[link](https://drive.google.com/open?id=1mj2HrsLHRslX1-ezYDnaqLoVHWTXZrbC)
+G04	|	lab01-sumador 1bit (introducción a HDL)	|	[link](https://drive.google.com/open?id=1p7DSE1IBeZF8G4p15RQvUo3-mlDbjYfo)	|	[link](https://drive.google.com/open?id=1hBqvLy_5C2uNPiPSslSZxO99aV41sSms)
+G04	|	lab02-sumador 4 bit (Introducción a lógica Combinacional)	|	[link](https://drive.google.com/open?id=1RfPKE4B3xNPb_jAFsez201xLsHkSUUTA)	|	[link](https://drive.google.com/open?id=12Gh1b1FmS_pc0L6V2Q0e4bpGrAUAqCXs)
+G04	|	lab03-7 segmentos (implementación de Mux-LUT)	|	[link](https://drive.google.com/open?id=10E5Fj_8sNGTLtqOAxWA7HSg2q-Z3gkO6)	|	[link](https://drive.google.com/open?id=1z4r0oJYquvPvnPZ2r1B_quPaO0T9YQ3o)
+G04	|	lab04- visualización dinámica (Introducción a Lógica Secuencia)	|	[link](https://drive.google.com/open?id=18TeK1eZxrO_F0PC5zmd38xK7OhWZUKNW)	|	[link](https://drive.google.com/open?id=17z5Xaph560eD_H-q2ugnjU849M1yy1cW)
+G04	|	lab05 -sumador 4 bit secuencial (ejemplo sencillo de maquinas de Estado)	|	[link](https://drive.google.com/open?id=1ITaw252CsYibHgIZ7ZxZ3io3e6NasUzO)	|	[link](https://drive.google.com/open?id=1JsfHToM4EDHuazgkiExNCUN5prdgDGXc)
+G05	|	lab01-sumador 1bit (introducción a HDL)	|	[link](https://drive.google.com/open?id=1BKLmosIxJMNlTsQP23HiCzfX0qpiK-QV)	|	[link](https://drive.google.com/open?id=1b2b6EWJD-XV9ejqMfke4mrL_lRjy3leJ)
+G05	|	lab02-sumador 4 bit (Introducción a lógica Combinacional)	|	[link](https://drive.google.com/open?id=1wslQNKZHvl6IjuQ3qcNgd_UjmHXJftLZ)	|	[link](https://drive.google.com/open?id=1A1K5Y0yvFYp9-GsoWwoaPZFrnNUIVABk)
+G05	|	lab04- visualización dinámica (Introducción a Lógica Secuencia)	|	[link](https://drive.google.com/open?id=1i7wetMi5aJQnv6p4NFZ_dRdd6LBSpEq8)	|	[link](https://drive.google.com/open?id=1v5jYmGTwuN7NBbn3G4mH-0i-QgobOAAF)
+
+
+
+
