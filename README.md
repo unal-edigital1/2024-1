@@ -93,4 +93,4 @@ WP  | semana | deadline  | Tema | Documentación| Repositorio
 
 GRUPO  | Entrega WP01  | Entrega WP02  | Entrega WP03 | Entrega WP04 
 --     | --            | --            | --           | --            
-G01    |  [doc](../../../work01-ramdp-grupo-04/edit/master/docs/README.md) [git](https://github.com/unal-edigital1-2019-2/work01-ramdp-grupo-04)|
+G01    |  [documento](../../../work01-ramdp-grupo-04/tree/master/docs/README.md) [repositorio](https://github.com/unal-edigital1-2019-2/work01-ramdp-grupo-04)|
