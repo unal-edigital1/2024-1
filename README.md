@@ -117,7 +117,7 @@ G07    | [drive](https://drive.google.com/open?id=1vL1mmQSBh9zwgmCMdDh5lLL1q_EOo
 
 ## Informes de laboratorios  (5 prelabs)
 
-Grupo	|	Nombre	|	Documentación	|	HDL
+Grupo	|	labs	|	docs	|	HDL
  --	    |	 --	    |	 --	            |	 --
 G01	|	lab01-sumador 1bit (introducción a HDL)	|	[link](https://drive.google.com/open?id=1QJAv7UGuw9zh-KfUQK353QxaaX5oArIj)	|	[link](https://drive.google.com/open?id=1aOBHqn_qoY8eeUo5kCr59b0M2lDa1s7T)
 G01	|	lab02-sumador 4 bit (Introducción a lógica Combinacional)	|	[link](https://drive.google.com/open?id=1yPYj6n39pt3OxfMFjpmOgE7gNEv3WPc6)	|	[link](https://drive.google.com/open?id=1PdtCFB06RmXJvpKrfXNVWObWUsxwO8c2)
