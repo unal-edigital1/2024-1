@@ -4,10 +4,10 @@
         Ferney Alberto Beltrán Molina, Ing, MSc, PhD(c)
         fabeltranm@unal.edu.co.
 
-# Material de clase, labs de años anteriores
+### Material de clase, labs de años anteriores
 	* [2015-2017](https://sites.google.com/site/edigital1unal/)
-	* [2018] (https://github.com/Fabeltranm/FPGA-Game-D1)
-	* [2019] (https://unal-edigital1-2019-2.github.io/)
+	* [2018](https://github.com/Fabeltranm/FPGA-Game-D1)
+	* [2019](https://unal-edigital1-2019-2.github.io/)
 	
 github:
 https://github.com/Fabeltranm/
