@@ -13,12 +13,12 @@ En las próximas 6 semanas se estará trabajando en la adquisición, procesamien
 
 En resumen se muestra la configuración del dispositivo que se implementará.
 
-![Diagrama](./docs/figs/diagramaGeneral.jpg)
+![Diagrama](./figs/diagramaGeneral.jpg)
 
 Como se observa en el diagrama anterior se debe  diseñar por parte de cada grupo de trabajo el contenido del bloque en verde  el cual se describir a continuación:
 
 
-![Diagrama 2](./docs/figs/estructura_fpga.jpg)
+![Diagrama 2](./figs/estructura_fpga.jpg)
 
 
 En este sentido cada grupo debe trabajar en los bloques internos verdes junto con las interconexiones.  Se proporcionarán los bloques en naranja.
