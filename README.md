@@ -3,14 +3,14 @@
 ### Profesor:
         Ferney Alberto Beltrán Molina, Ing, MSc, PhD(c)
         fabeltranm@unal.edu.co.
+	github: https://github.com/Fabeltranm/
+
 
 ### Material de clase, labs de años anteriores
-	* [2015-2017](https://sites.google.com/site/edigital1unal/)
-	* [2018](https://github.com/Fabeltranm/FPGA-Game-D1)
-	* [2019](https://unal-edigital1-2019-2.github.io/)
+* [2015-2017](https://sites.google.com/site/edigital1unal/)
+* [2018](https://github.com/Fabeltranm/FPGA-Game-D1)
+* [2019](https://unal-edigital1-2019-2.github.io/)
 	
-github:
-https://github.com/Fabeltranm/
 
 ### Descripción
 
@@ -37,8 +37,8 @@ Requisitos: Aparte de los establecidos en cada uno de los programas que incluyen
 * Introducción al Diseño Electrónico Digital  
 * Representación de Datos y Sistemas Numéricos
 * Lógica Combinacional
-* Lógica Secuencial
-* Dispositivos Lógicos Programables
+* Lógica Secuencial FSM
+* Maquinas de Estado Algorítmico 
 * Introducción a procesadores
 
 ### Evaluación
@@ -91,7 +91,8 @@ El código HDL está alojado en la carpeta ´src´. Allí  están los archivos f
 Recuerde tener presente el deadline  de cada paquete de trabajo, a las 8 de  la noche del día indicado  se cierra  el sistema  y los grupos no podrán actualizar el repositorio.
 Para actualizar el repositorio deben realizar  el respectivo commit y push, según sea la plataforma que estén utilizando y como se explicó en clase.
 Recuerda también revisar que en la página de github se refleja las actualizaciones realizadas por el grupo de trabajo 
-  
+
+## Cronograma de laboratorios  (5 prelabs)  
 
 ## Bibliografía
 * Daniel D. Gajski. Principles of Digital Design. Prentice Hall, 1997.
@@ -104,6 +105,5 @@ Recuerda también revisar que en la página de github se refleja las actualizaci
 
 
 
-## cronograma de laboratorios  (5 prelabs)
 
 
