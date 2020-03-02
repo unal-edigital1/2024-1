@@ -51,7 +51,7 @@ Requisitos: Aparte de los establecidos en cada uno de los programas que incluyen
 
 Semana   | Tema   | Documentación | otros 
 --       | --     | --            | --   
-Semana 1 | Introducción al Diseño Electrónico Digital | [link](./slides/WP01.md) | 
+Semana 1 | Introducción al Diseño Electrónico Digital | [link](./slides/week01) | 
 
 ## Laboratorios y Proyecto 
 
