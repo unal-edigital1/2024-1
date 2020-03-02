@@ -4,11 +4,13 @@
         Ferney Alberto Beltrán Molina, Ing, MSc, PhD(c)
         fabeltranm@unal.edu.co.
 
-[Programa y material de Clase](https://drive.google.com/drive/u/1/folders/0B2LNVdDZ7J2pfnM1MjJNd29tcWVUR1A4czl1blpHTW1qdlpqU2FoVk5RblFBZFN0MmhMVDg)
-
+# Material de clase, labs de años anteriores
+	* [2015-2017](https://sites.google.com/site/edigital1unal/)
+	* [2018] (https://github.com/Fabeltranm/FPGA-Game-D1)
+	* [2019] (https://unal-edigital1-2019-2.github.io/)
+	
 github:
-https://github.com/Fabeltranm/FPGA-Game-D1
-https://github.com/Fabeltranm/J1_soc
+https://github.com/Fabeltranm/
 
 ### Descripción
 
@@ -44,6 +46,12 @@ Requisitos: Aparte de los establecidos en cada uno de los programas que incluyen
 * 10% AutoEvaluación
 * 10% CoEvaluación
 * 60% Entrega Final
+
+### Material de Clase
+
+Semana   | Tema   | Documentación | otros 
+--       | --     | --            | --   
+Semana 1 | Introducción al Diseño Electrónico Digital | [link](./slides/WP01.md) | 
 
 ## Laboratorios y Proyecto 
 
@@ -86,17 +94,16 @@ Recuerda también revisar que en la página de github se refleja las actualizaci
   
 
 ## Bibliografía
-Daniel D. Gajski. Principles of Digital Design. Prentice Hall, 1997.
-J. Wakerly Diseño Digital, Ed.3 – Principios y Prácticas.
-Michael D. Ciletti Advanced Digital Design with the Verilog HDL – Prentice Hall India, 2003
-David Harris & Sarah Harris, Digital design and computer architecture, Morgan Kauffman, 2004
-Bob Zeidman, Designing with FPGAs and CPLDs, Elsevier, 2002
-P. Ashenden, Digital Design an embedded systems approach using Verilog, Morgan Kauffman, 2008
-I. Grout, Digital Systems Design with FPGAs and CPLDS, Newnes, 2008.
+* Daniel D. Gajski. Principles of Digital Design. Prentice Hall, 1997.
+* J. Wakerly Diseño Digital, Ed.3 – Principios y Prácticas.
+* Michael D. Ciletti Advanced Digital Design with the Verilog HDL – Prentice Hall India, 2003
+* David Harris & Sarah Harris, Digital design and computer architecture, Morgan Kauffman, 2004
+* Bob Zeidman, Designing with FPGAs and CPLDs, Elsevier, 2002
+* P. Ashenden, Digital Design an embedded systems approach using Verilog, Morgan Kauffman, 2008
+* I. Grout, Digital Systems Design with FPGAs and CPLDS, Newnes, 2008.
 
 
-## Presentaciones de ideas de trabajo
 
-## Informes de laboratorios  (5 prelabs)
+## cronograma de laboratorios  (5 prelabs)
 
 
