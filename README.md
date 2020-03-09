@@ -52,6 +52,7 @@ Requisitos: Aparte de los establecidos en cada uno de los programas que incluyen
 Semana   | Tema   | Documentación | otros 
 --       | --     | --            | --   
 Semana 1 | Introducción al Diseño Electrónico Digital | [link](./slides/week01/week1_digital1.pdf) | 
+Semana 2 | Sistemade Numeración |  [link](./slides/week01/week2_digital1.pdf) |   [link](./slides/week02/)
 
 ## Laboratorios y Proyecto 
 
