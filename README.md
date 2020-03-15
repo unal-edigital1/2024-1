@@ -93,7 +93,18 @@ Recuerde tener presente el deadline  de cada paquete de trabajo, a las 8 de  la 
 Para actualizar el repositorio deben realizar  el respectivo commit y push, según sea la plataforma que estén utilizando y como se explicó en clase.
 Recuerda también revisar que en la página de github se refleja las actualizaciones realizadas por el grupo de trabajo 
 
-## Cronograma de laboratorios  (5 prelabs)  
+## Cronograma de laboratorios  (Prelabs) 
+
+
+Semana   | Tema   | Documentación | otros 
+--       | --     | --            | --   
+Semana 1 | instalacion Vivado | [link](./labs/lab00.md) | 
+Semana 2 | Sumador | [link](./labs/lab01.md) | 
+Semana 3 | BCD2sseg| [link](./labs/lab02.md) | 
+Semana 4 | display 7 segmentos | [link](./labs/lab03.md) | 
+Semana 5 | multiplicador| [link](./labs/lab04.md) | 
+tree/master/slides/week02)
+
 
 ## Bibliografía
 * Daniel D. Gajski. Principles of Digital Design. Prentice Hall, 1997.
