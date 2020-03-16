@@ -53,6 +53,7 @@ Semana   | Tema   | Documentación | otros
 --       | --     | --            | --   
 Semana 1 | Introducción al Diseño Electrónico Digital | [link](./slides/week01/week1_digital1.pdf) | 
 Semana 2 | Sistemade Numeración |  [link](./slides/week02/week2_digital1.pdf) |   [link](https://github.com/unal-edigital1-2020-1/page/tree/master/slides/week02)
+Semana 3 | Lógica Combinacional álgebra de boole |  [link](./slides/week03/week3_digital1.pdf) |   [link](https://github.com/unal-edigital1-2020-1/page/tree/master/slides/week03)
 
 ## Laboratorios y Proyecto 
 
