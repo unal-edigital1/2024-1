@@ -1,9 +1,20 @@
-## Laboratorio 01: introducci�n al HDL
+## Laboratorio 01: introducción al HDL
 ### sumador 4 bits
 
-# Ejercicio 1 - Diseño de sumador 1 bit 
+# Introducción
 
-## Especificación
+En este paquete de trabajo los estudiantes deben familiarizarce con el  framework de trabajo de la FPGA seleccionado, a partir de la descripción de un sumador de 1, y su instanciación para un sumador de 4 bit 
+
+Para este paquete de trabajo, deben estar inscrito en un grupo y clonar la información del siguiente link [WP01](https://classroom.github.com/g/Iq3-osyX). Una vez aceptado el repositorio debe descargarlo en su computador, para ello debe clonar el mismo. Si no sabe cómo hacerlo revise la metodología de trabajo, donde se explica el proceso
+
+Una vez clone el repositorio, realice lo siguiente:
+
+Las documentación deben estar diligencia en el archivo README.md del repositorio clonado.
+
+#  Desarrollo
+## 1 Diseño de sumador 1 bit 
+
+### Especificación
 Diseñar un sumador de un bit A y un bit B completo. Es decir el sumador cuenta con carrier  y se comporta acorde a la siguiente tabla de verdad.
 
 A  | B  | Cin | Out | Cout 
@@ -17,25 +28,25 @@ A  | B  | Cin | Out | Cout
 1| 1 | 0 | 0| 1
 1| 1 | 1 | 1| 1
 
-## Bloque Funcional
+### Bloque Funcional
 
 Según la especificación del sumador completo de 1 bit. se deduce que el bloque o modulo funcional esta dado por la siguiente gráfica: 
 
 ![Sumador 1bit](https://github.com/Fabeltranm/SPARTAN6-ATMEGA-MAX5864/blob/master/lab/lab01-sumador1b/doc/bloqSum1b.jpg)
 
-## Lógica Combinacional 
+### Lógica Combinacional 
 
-Optimizando el circuito, según la Tabla de verdad , podemos observar que la lógica combinación del ejercicio propuesto esta dada por:
+Optimizando el circuito, según la Tabla de verdad , podemos observar que la lógica combinacional del ejercicio propuesto esta dada por:
 
 ![Sumador 1bit](https://github.com/Fabeltranm/SPARTAN6-ATMEGA-MAX5864/blob/master/lab/lab01-sumador1b/doc/sum1bPuertas.jpg)
  
-## Implementación HDL verilog
+### HDL verilog
 
 Antes que nada  verifique que tenga el programa para sintetizar la descripción de hardware.
 
-### Descripción Funcional 
-
-Una vez abierto el  framework  de su preferencia, digitar o copiar el siguiente código, si lo prefiere puede descargar el código del repositorio en este [link](https://github.com/Fabeltranm/SPARTAN6-ATMEGA-MAX5864/tree/master/lab/lab01-sumador1b)
+Una vez abierto el  framework  de su preferencia, digitar o copiar el siguiente código, recuerde que el HDL lo encuentra en la carpeta src [WP01](https://classroom.github.com/g/Iq3-osyX). 
+   
+   ***Nota:*** Recuerde  se debe clonar el repositorio en su computador, e importar el archivo ***sum1bcc_primitive.v***
 
 ```verilog
 
@@ -62,12 +73,14 @@ module sum1bcc_primitive (A, B, Ci,Cout,S);
 
 endmodule
 ```
-Observe que el HDL inicia con la descripción del módulo ``` sum1bcc_primitive.v``` : Se definen las  entradas  y salidas del bloque funcional , tal cual  como se estaba especificado en el bloque funcional
+Observe que el HDL inicia con la descripción del módulo ``` sum1bcc_primitive``` : Se definen las  entradas  y salidas del bloque funcional , tal cual  como se estaba especificado en el bloque funcional.
 
 Luego se instancia las respectivas puertas lógicas (AND, OR, XOR), acorde a los resultados de la lógica de la tabla de verdad. Se resalta la definición de tres componentes ```a_ab, x_ab, cout_t ``` , de tipo ```wire ```, que no es  mas que 'cables' utilizados para conectar las salidas y entradas de unos módulos, en el actual ejemplo son conexiones de puertas. 
 
 
-Sin embargo,  como su nombre lo indica se esta realizando una descripción funcional del módulo, y en este sentido, podemos tener varios  tipos de descripción. en el archivo ``` sum1bcc.v```, pueden observar la siguiente descripción:
+Sin embargo,  como su nombre lo indica se esta realizando una descripción funcional del módulo, y en este sentido, podemos tener varios  tipos de descripción. 
+
+En el archivo ``` sum1bcc.v```, que se encuentra en la carpeta src de  su paquete de trabajo clonado, pueden observar la siguiente descripción:
 
 ```verilog
 module sum1bcc (A, B, Ci,Cout,S);
@@ -93,9 +106,11 @@ endmodule
 Se evidencia que esta nueva descripción cuenta con un  ```  Reg ```  de 2 bits ``` st ```. ``` Reg ``` , en este sentido, representan un elemento de almacenamiento de datos y conserva dicho valor hasta que se les asigna el siguiente valor.
 
 
+
 ### Simulación ISIM
 General la simulación visual  y forzar la entradas A B y Ci a clock para  validar todas las posibles entradas.
 Comprobar su funcionamiento.
+
 
 # Ejercicio 2 - Diseño de sumador 4 bit 
 
@@ -150,7 +165,7 @@ Para la generación de estímulos de la señales de entrada y ver la respuesta d
 
 ![Testbench](https://github.com/Fabeltranm/SPARTAN6-ATMEGA-MAX5864/blob/master/lab/lab02-sumador4b/doc/testbench.jpg)
 
-Para probar el módulo diseñar se debe construir el archivo testbench.v  en el cual se generan los estímulos en el tiempo  de las señales de entrada.
+Para probar el módulo diseñado se debe construir el archivo testbench.v  en el cual se generan los estímulos en el tiempo  de las señales de entrada.
 
 ![test2](https://github.com/Fabeltranm/SPARTAN6-ATMEGA-MAX5864/blob/master/lab/lab02-sumador4b/doc/testbench2.jpg.png)
 
@@ -190,4 +205,6 @@ endmodule
 
 ````
 Una vez, copie el archivo genere la simulación  y revise los resultados  dados
+
+## entregables 
 
