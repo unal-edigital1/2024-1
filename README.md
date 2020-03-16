@@ -97,10 +97,10 @@ Recuerda también revisar que en la página de github se refleja las actualizaci
 ## Cronograma de laboratorios  (Prelabs) 
 
 
-Semana   | Tema   | Guia de laboratorio | WP 
+Semana   | Tema   | Guia de laboratorio | WP | deadline 
 --       | --     | --            | --   
-Semana 1 | instalacion Vivado | [link](./labs/lab00.md) | 
-Semana 2 | Sumador | [link](./labs/lab01.md) | 
+Semana 1 | instalaci'on Vivado | [link](./labs/lab00.md) | 
+Semana 2 | Sumador | [link](./labs/lab01.md) | [link](https://classroom.github.com/g/Iq3-osyX) | 23 de marzo 8:00pm
 Semana 3 | BCD2sseg| [link](./labs/lab02.md) | 
 Semana 4 | display 7 segmentos | [link](./labs/lab03.md) | 
 Semana 5 | multiplicador| [link](./labs/lab04.md) | 
