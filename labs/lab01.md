@@ -221,5 +221,5 @@ Una vez clone el repositorio y lea la anterior guia, realice lo siguiente:
 
 # Deadline
 
-    ***23 de Marzo 8 de la Noche***
+    23 de Marzo 8 de la Noche
 
