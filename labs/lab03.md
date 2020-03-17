@@ -1,2 +1,2 @@
-## Laboratorio 03: instanciación 
+## Laboratorio 03: instanciaciÃ³n 
 ### display_7segx4

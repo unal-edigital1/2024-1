@@ -1,2 +1,2 @@
-## Laboratorio 03: instanciación 
-### display_7segx4
+## Laboratorio 04
+### Multiplicador
