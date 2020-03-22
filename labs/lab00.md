@@ -22,11 +22,9 @@ Por ellos, y acorde con la tecnología de trabajo se recomienda instalar las her
 * [Eclipse](https://www.eclipse.org) + [PyDev](https://www.pydev.org/)
 * [Sublime Text](http://www.sublimetext.com)
 
-## Instalación de Vivado
-
 
 ### Descargar instalador
-
+## Instalación de Vivado
 
 ## Configuración básica para un nuevo proyecto en Vivado
 
