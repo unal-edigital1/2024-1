@@ -7,9 +7,9 @@ En este paquete de trabajo los estudiantes deben familiarizarce con el  framewor
 
 Para este paquete de trabajo, deben estar inscrito en un grupo y clonar la información del siguiente link [WP01](https://classroom.github.com/g/Iq3-osyX). Una vez aceptado el repositorio debe descargarlo en su computador, para ello debe clonar el mismo. Si no sabe cómo hacerlo revise la metodología de trabajo, donde se explica el proceso
 
-Una vez clone el repositorio, realice lo siguiente:
-
 Las documentación deben estar diligencia en el archivo README.md del repositorio clonado.
+
+Una vez clone el repositorio, realice lo siguiente:
 
 #  Desarrollo
 ## 1 Diseño de sumador 1 bit 
