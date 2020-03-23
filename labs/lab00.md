@@ -80,7 +80,7 @@ En esta ventana vamos a crear el script donde vamos a agregar el codigo de nuest
 Y darle un nombre al script donde vamos a describir el hardware de la FPGA
 ![project6](https://github.com/unal-edigital1-2020-1/page/blob/master/labs/figs/imagen18.jpg)
 
-En esta ventana vamos a especificarle que clase de FPGA vamos a usar en el proyecto. Para las practicas de este semestre vamos a usar una ***Nexys 4***, esta tarjeta de desarrollo tiene una FPGA de referencia xc7a100tcsg324-1, para poder encontrarla en el catalogo se recomienda colocar los filtros como estan en la parte superior de la siguiente imagen. 
+En esta ventana vamos a especificarle que clase de FPGA vamos a usar en el proyecto. Para las practicas de este semestre vamos a usar una ***Nexys 4***, esta tarjeta de desarrollo tiene una FPGA de referencia ***xc7a100tcsg324-1***, para poder encontrarla en el catalogo se recomienda colocar los filtros como estan en la parte superior de la siguiente imagen. 
 ![project7](https://github.com/unal-edigital1-2020-1/page/blob/master/labs/figs/imagen19.jpg)
 
 Por ultimo el sistema te va a dar un resumen de como va a crear el proyecto.
