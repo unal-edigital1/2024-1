@@ -33,7 +33,7 @@ Escogen el paquete que es para todos los sistemass operativos
 ![Download(https://github.com/unal-edigital1-2020-1/page/tree/master/labs/figs/Imagen2.png)
 
 Para poder descargar el archivo el sistema les pedira que creen una cuenta
-![sigin](https://github.com/unal-edigital1-2020-1/page/tree/master/labs/figs/Imagen1.png)
+![sigin](https://github.com/unal-edigital1-2020-1/page/blob/master/labs/figs/Imagen1.png)
 
 luego de descargar el archivo deben abrirlo, les paarecera la sigueinte ventana
 ![instlacion1](https://github.com/unal-edigital1-2020-1/page/tree/master/labs/figs/Imagen3.png)
