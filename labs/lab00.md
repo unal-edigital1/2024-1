@@ -26,7 +26,9 @@ Por ellos, y acorde con la tecnología de trabajo se recomienda instalar las her
 ### Descargar instalador
 ## Instalación de Vivado
 Primero es necesario que descarguen el archivo .tar que usaran para realizar la instalacion.
+
 [Descarga](https://www.xilinx.com/support/download.html)
+
 Escogen el paquete que es para todos los sistemass operativos
 ![Download(https://github.com/unal-edigital1-2020-1/page/tree/master/labs/figs/Imagen2.png)
 
