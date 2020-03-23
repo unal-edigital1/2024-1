@@ -39,25 +39,25 @@ luego de descargar el archivo deben abrirlo, les paarecera la sigueinte ventana
 ![instlacion1](https://github.com/unal-edigital1-2020-1/page/tree/master/labs/figs/Imagen3.png)
 
 Ingresan su usuario y contraseña, activan ***Download and Install Now***
-![instalacion2](https://github.com/unal-edigital1-2020-1/page/tree/master/labs/figs/Imagen4.png)
+![instalacion2](https://github.com/unal-edigital1-2020-1/page/blob/master/labs/figs/Imagen4.png)
 
 Activan las 3 casillas como muestra en la imagen y le dan Next
-![instalacion3](https://github.com/unal-edigital1-2020-1/page/tree/master/labs/figs/Imagen5.png)
+![instalacion3](https://github.com/unal-edigital1-2020-1/page/blob/master/labs/figs/Imagen5.png)
 
 Activan la casilla ***Vivado*** y le dan Next
-![instalacion4](https://github.com/unal-edigital1-2020-1/page/tree/master/labs/figs/Imagen6.png)
+![instalacion4](https://github.com/unal-edigital1-2020-1/page/blob/master/labs/figs/Imagen6.png)
 
 Seleccionan la casilla ***Vivado HL WebPACK***
-![instalacion5](https://github.com/unal-edigital1-2020-1/page/tree/master/labs/figs/Imagen7.png)
+![instalacion5](https://github.com/unal-edigital1-2020-1/page/blob/master/labs/figs/Imagen7.png)
 
 En esta ventana solo deben dejar las casillas seleccionadas como se muestra en la siguiente imagen
-![instalacion6](https://github.com/unal-edigital1-2020-1/page/tree/master/labs/figs/Imagen8.png)
+![instalacion6](https://github.com/unal-edigital1-2020-1/page/blob/master/labs/figs/Imagen8.png)
 
 Cuando les pida crear la carpeta donde guardar los proyectos darle ***Yes*** (recuerden dicha caroeta, ya qu ela vamos a necesitar mas adelante)
-![instalacion6](https://github.com/unal-edigital1-2020-1/page/tree/master/labs/figs/Imagen10.png)
+![instalacion6](https://github.com/unal-edigital1-2020-1/page/blob/master/labs/figs/Imagen10.png)
 
 por ultimo es darle en ***Install*** y esperar que el programa se instale
-![instalacion6](https://github.com/unal-edigital1-2020-1/page/tree/master/labs/figs/Imagen11.png)
+![instalacion6](https://github.com/unal-edigital1-2020-1/page/blob/master/labs/figs/Imagen11.png)
 
 
 ## Configuración básica para un nuevo proyecto en Vivado
