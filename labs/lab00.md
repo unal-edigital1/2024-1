@@ -68,25 +68,25 @@ por ultimo es darle en ***Install*** y esperar que el programa se instale
 ![project2](https://github.com/unal-edigital1-2020-1/page/blob/master/labs/figs/image14.jpg)
 
 
-![project3](https://github.com/unal-edigital1-2020-1/page/blob/master/labs/figs/image15.jpg)
+![project3](https://github.com/unal-edigital1-2020-1/page/blob/master/labs/figs/imagen15.jpg)
 
 
-![project4](https://github.com/unal-edigital1-2020-1/page/blob/master/labs/figs/image16.jpg)
+![project4](https://github.com/unal-edigital1-2020-1/page/blob/master/labs/figs/imagen16.jpg)
 
 
-![project5](https://github.com/unal-edigital1-2020-1/page/blob/master/labs/figs/image17.jpg)
+![project5](https://github.com/unal-edigital1-2020-1/page/blob/master/labs/figs/imagen17.jpg)
 
 
-![project6](https://github.com/unal-edigital1-2020-1/page/blob/master/labs/figs/image18.jpg)
+![project6](https://github.com/unal-edigital1-2020-1/page/blob/master/labs/figs/imagen18.jpg)
 
 
-![project7](https://github.com/unal-edigital1-2020-1/page/blob/master/labs/figs/image19.jpg)
+![project7](https://github.com/unal-edigital1-2020-1/page/blob/master/labs/figs/imagen19.jpg)
 
 
-![project8](https://github.com/unal-edigital1-2020-1/page/blob/master/labs/figs/image20.jpg)
+![project8](https://github.com/unal-edigital1-2020-1/page/blob/master/labs/figs/imagen20.jpg)
 
 
-![project9](https://github.com/unal-edigital1-2020-1/page/blob/master/labs/figs/image21.jpg)
+![project9](https://github.com/unal-edigital1-2020-1/page/blob/master/labs/figs/imagen21.jpg)
 
 
 ![project10](https://github.com/unal-edigital1-2020-1/page/blob/master/labs/figs/image22.jpg)
