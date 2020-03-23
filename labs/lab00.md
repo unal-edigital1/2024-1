@@ -62,34 +62,35 @@ por ultimo es darle en ***Install*** y esperar que el programa se instale
 
 ## Configuración básica para un nuevo proyecto en Vivado
 ### Creacion de un nuevo proyecto
-
+Al abrir el software ***vivado 2019.2*** aparecera la siguiente ventana, dele click a ***Create Project*** 
 ![project1](https://github.com/unal-edigital1-2020-1/page/blob/master/labs/figs/image13.jpg)
 
+Darle ***Next*** 
 ![project2](https://github.com/unal-edigital1-2020-1/page/blob/master/labs/figs/image14.jpg)
 
-
+En este punto definimos el nombre del proyecto y su ubicacion, es importante tener presente donde se va a guardar el proyecto. Dale ***Next***
 ![project3](https://github.com/unal-edigital1-2020-1/page/blob/master/labs/figs/imagen15.jpg)
 
-
+En esta ventana vamos a escoger la opcion ***RTL Project*** y luego ***Next***
 ![project4](https://github.com/unal-edigital1-2020-1/page/blob/master/labs/figs/imagen16.jpg)
 
-
+En esta ventana vamos a crear el script donde vamos a agregar el codigo de nuestro proyecto.  Es darle en ***Create File***
 ![project5](https://github.com/unal-edigital1-2020-1/page/blob/master/labs/figs/imagen17.jpg)
 
-
+Y darle un nombre al script donde vamos a describir el hardware de la FPGA
 ![project6](https://github.com/unal-edigital1-2020-1/page/blob/master/labs/figs/imagen18.jpg)
 
-
+En esta ventana vamos a especificarle que clase de FPGA vamos a usar en el proyecto. Para las practicas de este semestre vamos a usar una ***Nexys 4***, esta tarjeta de desarrollo tiene una FPGA de referencia xc7a100tcsg324-1, para poder encontrarla en el catalogo se recomienda colocar los filtros como estan en la parte superior de la siguiente imagen. 
 ![project7](https://github.com/unal-edigital1-2020-1/page/blob/master/labs/figs/imagen19.jpg)
 
-
+Por ultimo el sistema te va a dar un resumen de como va a crear el proyecto.
 ![project8](https://github.com/unal-edigital1-2020-1/page/blob/master/labs/figs/imagen20.jpg)
 
-
+Esta entana te va a preguntar si deseas agregar las variables de entrada y salida del proyecto desde aqui, se pueden agregar en el listado o ingresar en el codigo
 ![project9](https://github.com/unal-edigital1-2020-1/page/blob/master/labs/figs/imagen21.jpg)
 
-
+Despues de creado el proyecto apareceran varias ventanas, la ventana ***Source*** es la que tiene las carpetas del proyecto. En nuestro caso dicha carpeta tiene el nombre de ***Main.v***
 ![project10](https://github.com/unal-edigital1-2020-1/page/blob/master/labs/figs/image22.jpg)
 
-
+Le damos doble click en el archivo del proyecto y nos habre el script para poder trabajar en el e iniciar nuestro proyecto.
 ![project11](https://github.com/unal-edigital1-2020-1/page/blob/master/labs/figs/image23.jpg)
