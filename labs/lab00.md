@@ -78,7 +78,7 @@ En esta ventana vamos a crear el script donde vamos a agregar el codigo de nuest
 ![project5](https://github.com/unal-edigital1-2020-1/page/blob/master/labs/figs/imagen17.jpg)
 
 
-Y darle un nombre al script donde vamos a describir el hardware de la FPGA
+Y darle un nombre al script donde vamos a describir el hardware de la FPGA. Este nombre no puede contener espacios: 
 ![project6](https://github.com/unal-edigital1-2020-1/page/blob/master/labs/figs/imagen18.jpg)
 
 
