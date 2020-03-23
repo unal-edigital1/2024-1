@@ -61,4 +61,35 @@ por ultimo es darle en ***Install*** y esperar que el programa se instale
 
 
 ## Configuración básica para un nuevo proyecto en Vivado
+### Creacion de un nuevo proyecto
 
+![project1](https://github.com/unal-edigital1-2020-1/page/blob/master/labs/figs/image13.jpg)
+
+![project1](https://github.com/unal-edigital1-2020-1/page/blob/master/labs/figs/image14.jpg)
+
+
+![project1](https://github.com/unal-edigital1-2020-1/page/blob/master/labs/figs/image15.jpg)
+
+
+![project1](https://github.com/unal-edigital1-2020-1/page/blob/master/labs/figs/image16.jpg)
+
+
+![project1](https://github.com/unal-edigital1-2020-1/page/blob/master/labs/figs/image17.jpg)
+
+
+![project1](https://github.com/unal-edigital1-2020-1/page/blob/master/labs/figs/image18.jpg)
+
+
+![project1](https://github.com/unal-edigital1-2020-1/page/blob/master/labs/figs/image19.jpg)
+
+
+![project1](https://github.com/unal-edigital1-2020-1/page/blob/master/labs/figs/image20.jpg)
+
+
+![project1](https://github.com/unal-edigital1-2020-1/page/blob/master/labs/figs/image21.jpg)
+
+
+![project1](https://github.com/unal-edigital1-2020-1/page/blob/master/labs/figs/image22.jpg)
+
+
+![project1](https://github.com/unal-edigital1-2020-1/page/blob/master/labs/figs/image23.jpg)
