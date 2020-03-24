@@ -6,7 +6,7 @@
 
 En este paquete de trabajo los estudiantes deben familiarizarce con el  framework de trabajo de la FPGA seleccionado, a partir de la descripción dedecodificador BCD2SSeg
 
-Para este paquete de trabajo, deben estar inscrito en un grupo y clonar la información del siguiente link [WP02](https://classroom.github.com/g). Una vez aceptado el repositorio debe descargarlo en su computador, para ello debe clonar el mismo. Si no sabe cómo hacerlo revise la metodología de trabajo, donde se explica el proceso
+Para este paquete de trabajo, deben estar inscrito en un grupo y clonar la información del siguiente link [WP02](https://classroom.github.com/g/ncuHozyh). Una vez aceptado el repositorio debe descargarlo en su computador, para ello debe clonar el mismo. Si no sabe cómo hacerlo revise la metodología de trabajo, donde se explica el proceso
 
 Las documentación deben estar diligencia en el archivo README.md del repositorio clonado.
 
@@ -82,7 +82,7 @@ Se evidencia que se deben construir cuatro módulos  básicos, de los cuales uno
 
 Una vez clone el repositorio y lea la anterior guia, realice lo siguiente:
 
-En el paquete de trabajo [WP02](https://classroom.github.com/g/)   esta la descripción del hardware que se implementa para visualizar un número hexadecimal de 32 bits en 4 display de 7 segmentos.
+En el paquete de trabajo [WP02](https://classroom.github.com/g/ncuHozyh)  esta la descripción del hardware que se implementa para visualizar un número hexadecimal de 32 bits en 4 display de 7 segmentos.
 
 
 * Comprenda cada línea del código HDL de los archivos que se encuentra en la carpera src. Si cree necesario realice los respectivos comentarios en el mismo archivo y comente
@@ -93,3 +93,7 @@ En el paquete de trabajo [WP02](https://classroom.github.com/g/)   esta la descr
 * Genera la simulación, Revise que el sistema funciona como usted lo esperaba. Realice lo comentarios necesarios en el archivo README.md.
 * Modificar o Añadir los bloques necesarios para que la visualización sea en representación Decimal y no Hexadecimal.
 * Realice la respectiva publicación del repositorio antes de la fecha dada con todo el código fuente
+
+# Deadline
+
+    06 de abril 8 de la Noche
