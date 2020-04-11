@@ -55,7 +55,10 @@ Semana 1 | Introducción al Diseño Electrónico Digital | [link](./slides/week0
 Semana 2 | Sistema de Numeración |  [link](./slides/week02/week2_digital1.pdf) |   [link](https://github.com/unal-edigital1-2020-1/page/tree/master/slides/week02)
 Semana 3 | Lógica Combinacional álgebra de boole |  [link](./slides/week03/week3_digital1%20(1).pdf) |   [link](https://github.com/unal-edigital1-2020-1/page/tree/master/slides/week03) | [link](https://drive.google.com/file/d/1Lucnhk6SqXFx1QFvFwRIXKRFcBv6Fnk0/view?usp=sharing)
 Semana 4 | Lógica Combinacional reducción de terminos |  [link](./slides/week04/week4_digital1.pdf) |   [link](https://github.com/unal-edigital1-2020-1/page/tree/master/slides/week04) | [link1](https://drive.google.com/file/d/10-aWawi6PnuxX9WxCjOQh1TYCNwh4vTE/view?usp=sharing) [link2](https://drive.google.com/file/d/1D62UhCwoOHLtaNyOAboCbUSeD1vQU2gx/view?usp=sharing)
-Semana 5 | Lógica Combinacional  tiempo de propagación |  [link](./slides/week05/week5_digital1.pdf) |   [link](https://github.com/unal-edigital1-2020-1/page/tree/master/slides/week05) | [link](https://drive.google.com/file/d/1sxGgmMSsUyP_DjjIFUm1tUcD87u7nE2W/view?usp=sharing)
+Semana 5 | Lógica Combinacional  tiempo de propagación |  [link](./slides/week05/week5_digital1.pdf) |   [link](https://github.com/unal-edigital1-2020-1/page/tree/master/slides/week05) | [link](https://drive.google.com/file/d/1sxGgmMSsUyP_DjjIFUm1tUcD87u7nE2W/view?usp=sharing) [link2](https://drive.google.com/file/d/1VZ9esK_r4KLXEWijzo5rCmcqFM6ZsdMQ/view?usp=sharing)
+Semana 6 | ideas de proyecto / presentación labslnd | | |
+Semana 6 | lógica secuencial |
+
 
 
 ## Laboratorios y Proyecto 
