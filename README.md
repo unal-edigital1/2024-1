@@ -57,7 +57,7 @@ Semana 3 | Lógica Combinacional álgebra de boole |  [link](./slides/week03/wee
 Semana 4 | Lógica Combinacional reducción de terminos |  [link](./slides/week04/week4_digital1.pdf) |   [link](https://github.com/unal-edigital1-2020-1/page/tree/master/slides/week04) | [link1](https://drive.google.com/file/d/10-aWawi6PnuxX9WxCjOQh1TYCNwh4vTE/view?usp=sharing) [link2](https://drive.google.com/file/d/1D62UhCwoOHLtaNyOAboCbUSeD1vQU2gx/view?usp=sharing)
 Semana 5 | Lógica Combinacional  tiempo de propagación |  [link](./slides/week05/week5_digital1.pdf) |   [link](https://github.com/unal-edigital1-2020-1/page/tree/master/slides/week05) | [link](https://drive.google.com/file/d/1sxGgmMSsUyP_DjjIFUm1tUcD87u7nE2W/view?usp=sharing) [link2](https://drive.google.com/file/d/1VZ9esK_r4KLXEWijzo5rCmcqFM6ZsdMQ/view?usp=sharing)
 Semana 6 | Ideas de proyecto  Presentación labsland | [link](https://github.com/unal-edigital1-2020-1/page/blob/master/slides/week06/laboratorio%20de%20%20implementaci%C3%B3n.pptx) | |
-Semana 6 | lógica secuencial |
+Semana 6 | lógica secuencial | [link](./slides/week06/week6_digital1.pdf) 
 
 
 
