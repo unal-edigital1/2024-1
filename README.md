@@ -59,7 +59,8 @@ Semana 5 | Lógica Combinacional  tiempo de propagación |  [link](./slides/week
 Semana 6 | Ideas de proyecto  Presentación labsland | [link](https://github.com/unal-edigital1-2020-1/page/blob/master/slides/week06/laboratorio%20de%20%20implementaci%C3%B3n.pptx) | |
 Semana 6 | lógica secuencial | [link](./slides/week06/week6_digital1.pdf) |[link](https://github.com/unal-edigital1-2020-1/page/tree/master/slides/week06) | [link](https://drive.google.com/file/d/175v50qA-l8rseuwI29-uvIka085E6M8b/view?usp=sharing) |
 
- 
+## Tutorias 
+* [14 de abril, configuración git ](https://drive.google.com/file/d/1g7gR4HmyNd5qsYGZwOFSVYfc5JuuLey6/view?usp=sharing)
 
 ## Laboratorios y Proyecto 
 
