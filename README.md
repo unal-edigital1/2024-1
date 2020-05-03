@@ -66,7 +66,7 @@ Semana 7 | ASM | [link](./slides/week09/week09_digital1.pdf) |[link](https://git
 
 ## Tutorias 
 * [14 de abril, configuración git ](https://drive.google.com/file/d/1g7gR4HmyNd5qsYGZwOFSVYfc5JuuLey6/view?usp=sharing)
-* [27 de abril, preguntas de DataPath ](https://drive.google.com/file/d/17v3vqUW72Ij_uqdl4q65D4wsBorbZhQl/view?usp=sharing)
+* [05 de mayo, preguntas de DataPath ](https://drive.google.com/file/d/17v3vqUW72Ij_uqdl4q65D4wsBorbZhQl/view?usp=sharing)
 
 ## Laboratorios y Proyecto 
 
