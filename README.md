@@ -60,13 +60,13 @@ Semana 6 | Ideas de proyecto  Presentación labsland | [link](https://github.com
 Semana 6 | lógica secuencial | [link](./slides/week06/week6_digital1.pdf) |[link](https://github.com/unal-edigital1-2020-1/page/tree/master/slides/week06) | [link](https://drive.google.com/file/d/1IXrPGXHTiQMij2TSr5SB75TYXegODOfK/view?usp=sharing) |
 Semana 7 | Presentación de proyectos de los estudiantes  |  |[link](https://github.com/unal-edigital1-2020-1/page/tree/master/slides/week07) | [link](https://drive.google.com/file/d/1V4LC1ZAMpzOyFRO5wQIXmeF_uwTpFYLZ/view?usp=sharing) |
 Semana 8 | ASMD | [link](./slides/week08/week8_digital1.pdf) |[link](https://github.com/unal-edigital1-2020-1/page/tree/master/slides/week08) | [link](https://drive.google.com/file/d/1QobVzSvJwOM05BRtXtKDnBFrzO6d8kve/view?usp=sharing) |
-Semana 9 | ASM | [link](./slides/week09/week09_digital1.pdf) |[link](https://github.com/unal-edigital1-2020-1/page/tree/master/slides/week09) | 
+Semana 9 | ASM | [link](./slides/week09//week9_AP_Digital1.pdf) |[link](https://github.com/unal-edigital1-2020-1/page/tree/master/slides/week09) |  [link V1](https://drive.google.com/file/d/1UVrmpNXlS95BpPjD5AXGfZLv1W2QwjLr/view?usp=sharing)  [link V2](https://drive.google.com/file/d/1lLmsR-_7ZoS7nPerDKAjBJanM-GX4Hj8/view?usp=sharing)
 
 
 
 ## Tutorias 
 * [14 de abril, configuración git ](https://drive.google.com/file/d/1g7gR4HmyNd5qsYGZwOFSVYfc5JuuLey6/view?usp=sharing)
-* [05 de mayo, preguntas de DataPath ](https://drive.google.com/file/d/17v3vqUW72Ij_uqdl4q65D4wsBorbZhQl/view?usp=sharing)
+* [03 de mayo, preguntas de DataPath ](https://drive.google.com/file/d/17v3vqUW72Ij_uqdl4q65D4wsBorbZhQl/view?usp=sharing)
 
 ## Laboratorios y Proyecto 
 
