@@ -62,9 +62,7 @@ Semana 7 | Presentación de proyectos de los estudiantes  |  |[link](https://git
 Semana 8 | ASMD | [link](./slides/week08/week8_digital1.pdf) |[link](https://github.com/unal-edigital1-2020-1/page/tree/master/slides/week08) | [link](https://drive.google.com/file/d/1QobVzSvJwOM05BRtXtKDnBFrzO6d8kve/view?usp=sharing) |
 Semana 9 | ASM | [link](./slides/week09/week9_Digital1.pdf) |[link](https://github.com/unal-edigital1-2020-1/page/tree/master/slides/week09) |  [link V1](https://drive.google.com/file/d/1UVrmpNXlS95BpPjD5AXGfZLv1W2QwjLr/view?usp=sharing)  [link V2](https://drive.google.com/file/d/1lLmsR-_7ZoS7nPerDKAjBJanM-GX4Hj8/view?usp=sharing)
 Semana 10 | proyecto | [link](./slides/week10/) |  |  [link](https://drive.google.com/file/d/1gGyCktFh_aNmWY4zGPnf9ekhGOFdESXR/view?usp=sharing)  
-Semana 11 -13| introducción procesador  | [link](./slides/week11/week11_Digital1.pdf) |  |  [link 13-05](https://drive.google.com/file/d/1NyNNGg3gxyfqkoh64q4L50ljmNuJG8V0/view?usp=sharing)  [link 18-05](https://drive.google.com/file/d/1LAovlHuhNV1vY0Hh1vREkT4kyILrF37Z/view?usp=sharing)  
-[link 20-05](https://drive.google.com/file/d/1A0zwhV5hiN7nx5inWYc4PxnU834USyYz/view?usp=sharing)  
-[link 01-06](https://drive.google.com/file/d/1lLLJKYbNmBhywkP0-YnjoF0qu2d228WU/view?usp=sharing)  
+Semana 11 -13| introducción procesador  | [link](./slides/week11/week11_Digital1.pdf) |  |  [link 13-05](https://drive.google.com/file/d/1NyNNGg3gxyfqkoh64q4L50ljmNuJG8V0/view?usp=sharing)  [link 18-05](https://drive.google.com/file/d/1LAovlHuhNV1vY0Hh1vREkT4kyILrF37Z/view?usp=sharing)  [link 20-05](https://drive.google.com/file/d/1A0zwhV5hiN7nx5inWYc4PxnU834USyYz/view?usp=sharing)  [link 01-06](https://drive.google.com/file/d/1lLLJKYbNmBhywkP0-YnjoF0qu2d228WU/view?usp=sharing)  
 
 
 ## Tutorias 
