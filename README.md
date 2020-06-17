@@ -124,6 +124,18 @@ Semana 4 | display 7 segmentos | [link](./labs/lab03.md) | | |
 Semana 5 | multiplicador| [link](./labs/lab04.md) | | |
 
 
+## Desarrollo proyecto
+A continuación se presenta cada actividad a realizar, el plan de trabajo del proyecto de cada semana se encuentra en el link de documentación y el link de trabajo se encuentra en la columna  repositorio.
+
+
+WP  | semana | deadline  | Tema | Documentación| Repositorio 
+--  | --     | --        | --   | --          | --  
+01| semana 1 | 18 de junio | Buffer de memoria | [link](./docs/WP01.md) | [WP01]() 
+02| semana 2 /semana 3 |   | Captura de datos | [link](./docs/WP02.md) |  [WP02]()  
+03  | semana 4 |  | Procesamiento | [link](./docs/WP03.md) |  [WP03]() 
+
+
+
 ## Bibliografía
 * Daniel D. Gajski. Principles of Digital Design. Prentice Hall, 1997.
 * J. Wakerly Diseño Digital, Ed.3 – Principios y Prácticas.
