@@ -64,6 +64,11 @@ Semana 9 | ASM | [link](./slides/week09/week9_Digital1.pdf) |[link](https://gith
 Semana 10 | proyecto | [link](./slides/week10/) |  |  [link](https://drive.google.com/file/d/1gGyCktFh_aNmWY4zGPnf9ekhGOFdESXR/view?usp=sharing)  
 Semana 11 -13| introducción procesador  | [link](./slides/week11/week11_Digital1.pdf) |  |  [link 13-05](https://drive.google.com/file/d/1NyNNGg3gxyfqkoh64q4L50ljmNuJG8V0/view?usp=sharing)  [link 18-05](https://drive.google.com/file/d/1LAovlHuhNV1vY0Hh1vREkT4kyILrF37Z/view?usp=sharing)  [link 20-05](https://drive.google.com/file/d/1A0zwhV5hiN7nx5inWYc4PxnU834USyYz/view?usp=sharing)  [link 01-06](https://drive.google.com/file/d/1lLLJKYbNmBhywkP0-YnjoF0qu2d228WU/view?usp=sharing)  
 
+Semana 14 -15|  procesador  | [link](./slides/week11/week11_Digital1.pdf) |  |  [link 03-06](https://drive.google.com/file/d/1iqka0CR_r1l6f0TJpRfvGfd5fxshd-hQ/view?usp=sharing)  [link 08-06](https://drive.google.com/file/d/1vG7fuCCGk_IT_3JNL4cTfIABNJ3dbbmz/view?usp=sharing)  [link 10-06](https://drive.google.com/file/d/1iqka0CR_r1l6f0TJpRfvGfd5fxshd-hQ/view?usp=sharing)  
+
+
+
+
 
 ## Tutorias 
 * [14 de abril, configuración git ](https://drive.google.com/file/d/1g7gR4HmyNd5qsYGZwOFSVYfc5JuuLey6/view?usp=sharing)
