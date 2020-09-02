@@ -12,9 +12,9 @@ Por ellos, y acorde con la tecnología de trabajo se recomienda instalar las her
 ### Herramientas de Sintetización
 
 * [ISEWebpack](https://github.com/Fabeltranm/SPARTAN6-ATMEGA-MAX5864/wiki/Instalaci%C3%B3n-y-Configuraci%C3%B3n#instalaci%C3%B3n-de-isewebpack) Descontinuado 
-* [Vivado](https://www.xilinx.com/products/design-tools/vivado.html) (redomendada para Digital 1 )
+* [Vivado](https://www.xilinx.com/products/design-tools/vivado.html) 
 * [yosys](http://www.clifford.at/yosys/) Open
-* [Quartus Prime lite](http://fpgasoftware.intel.com/?edition=lite) [guia](https://github.com/ELINGAP-7545/lab00#instalaci%C3%B3n-de-quartus-prime-lite)
+* [Quartus Prime lite](http://fpgasoftware.intel.com/?edition=lite) [guia](https://github.com/ELINGAP-7545/lab00#instalaci%C3%B3n-de-quartus-prime-lite) (recomendada para Digital 1 )
 
 ### Instalar el IDE de su preferencia (si no desea utilizar los del fabricante)
 * [Vim](https://www.vim.org/)
