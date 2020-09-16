@@ -119,10 +119,22 @@ Para ejecutar el simulador de EDA (en este caso, Modelsim-Altera) automáticamen
    3. En la entrada Modelsim-Altera, la ubicación del ejecutable debería ser algo así como ```C:\intelFPGA_lite\19.1\modelsim_ase\win32aloem```.
    4. Si no es así, busque el directorio que contiene el ejecutable de Modelsim-Altera
 simulador
-  5. Haga clic en ****ok***
+  5. Haga clic en ***ok***
+
+#### b. ModelSim-Altera
+
+una vez configurado, estas listo para realizar las simulaciones del banco de pruebas, (testBench), para ello:
+
+1. Invocar ModelSim desde Quartus:  Tools --> Run Simulation Tool --> RTL Simulation
+2. En ModelSim, abra la vista de la ***library***  si aún no está abierta (seleccionando ***View -->
+Library*** y verifique que la libreria ***work***, tenga el archivo **sum1bcc**.
+3. En la pestaña library, seleccione work --> sum1bcc, que es el banco de pruebas. Haga clic.
+4. Deben cargarse dos ventanas de simulación: la ventana de ***Objects*** y la ventana de ***wave***. Si no, las cargarlos usted mismo haciendo clic en el menú ***view*** y marcando la respectiva ventana.
+5. Para mostrar todas las señales de prueba en la ventana Wave, teniendo como foco la ventana ***Objects***, haga clic en add -> A Wave -> Signals in Region.  Alternativamente, puede mostrar algunas señales seleccionadas en la ventana Wave: En la ventana  ***Objects***, seleccione las señales que le gustaría monitorear y arrástrelas a la ventana Wave (o copiar y pegar).
+6. configure las señales en sus estados , y haga clic en ***Run***
 
 
-# Ejercicio 2 - Diseño de sumador 4 bit 
+## Ejercicio 2 - Diseño de sumador 4 bit 
 
 A partir del bloque funcional del sumador de 1 bit se puede construir el sumador de 4 bits. para ello se debe instancia 4 bloques sumadores de 1 bit.
 
@@ -180,7 +192,7 @@ Para probar el módulo diseñado se debe construir el archivo testbench.v  en el
 ![test2](https://github.com/Fabeltranm/SPARTAN6-ATMEGA-MAX5864/blob/master/lab/lab02-sumador4b/doc/testbench2.jpg.png)
 
 
-Para generar el archivo testbech.v , se recomienda seguir el procedimientos de este [link](https://www.xilinx.com/support/documentation/sw_manuals/xilinx10/isehelp/ise_c_simulation_test_bench.htm) y  copie en el archivo lo siguiente:
+Para generar el archivo testbech.v , se recomienda seguir el procedimientos dado en clase, o seguir el manual ***Simulation-Lab_Manual*** de la carpeta doc del repositorio   y  copie en el archivo lo siguiente:
 
 ```` verilog
 module testbench;
@@ -215,6 +227,7 @@ endmodule
 
 ````
 Una vez, copie el archivo genere la simulación  y revise los resultados  dados
+
 
 # Entregables
 
