@@ -1,4 +1,4 @@
-# Laboratorio 01: introducción al HDL
+# Laboratorio 01: introducción al HDL  quartus
 ## sumador 4 bits
 
 # Introducción
@@ -107,9 +107,19 @@ Se evidencia que esta nueva descripción cuenta con un  ```  Reg ```  de 2 bits 
 
 
 
-### Simulación ISIM
-General la simulación visual  y forzar la entradas A B y Ci a clock para  validar todas las posibles entradas.
-Comprobar su funcionamiento.
+### Simulación Funcional  QUARTUS 
+1. General la simulación visual  y forzar la entradas A B y Ci a clock para  validar todas las posibles entradas.
+2. Comprobar su funcionamiento.
+#### a. Configure el path del simulador en quartus 
+
+Para ejecutar el simulador de EDA (en este caso, Modelsim-Altera) automáticamente desde el software Quartus II usando la función NativeLink, se debe especificar la ruta de  herramienta de simulación realizando los siguientes pasos:
+
+   1. En el menú tool, haga clic en ***Opciones***. Aparece el cuadro de diálogo Opciones.
+   2. En la lista ***Category***, en  ****General category***, seleccione ***EDA Tool Options***. 
+   3. En la entrada Modelsim-Altera, la ubicación del ejecutable debería ser algo así como ```C:\intelFPGA_lite\19.1\modelsim_ase\win32aloem```.
+   4. Si no es así, busque el directorio que contiene el ejecutable de Modelsim-Altera
+simulador
+  5. Haga clic en ****ok***
 
 
 # Ejercicio 2 - Diseño de sumador 4 bit 
