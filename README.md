@@ -93,13 +93,17 @@ Recuerda también revisar que en la página de github se refleja las actualizaci
 
 ## videos de clase 
 
-Semana   | 
+ 
 [26-08 G1](https://drive.google.com/file/d/1tQlwaNEJkeQVi16u5bmvYHZNrVHGbALj/view?usp=sharing) | 
 [26-08 G2](https://drive.google.com/file/d/1kJG7Rbma7dRv0eO7Y4PDHAyh12HGbs25/view?usp=sharing) | 
 [02-09 G1](https://drive.google.com/file/d/1QZ95HsvKZ5vPQLUJZjLEhet-Wf-uNfSE/view?usp=sharing) | 
 [02-09 G2](https://drive.google.com/file/d/1TnKJFNLpXc1ZkgNyOK3z1EJHVTOfO0Nl/view?usp=sharing) | 
 [09-09 G1](https://drive.google.com/file/d/132qPbsDcNTg2vUuT-BQkz1t03iNwcEuh/view?usp=sharing) | 
 [09-09 G2](https://drive.google.com/file/d/132qPbsDcNTg2vUuT-BQkz1t03iNwcEuh/view?usp=sharing) | 
+[16-09 G1](https://drive.google.com/file/d/1G6aZDc0p99_zjGOFnau-2ErIJ-7g20IL/view?usp=sharing) | 
+[16-09 G2](https://drive.google.com/file/d/1p8f2X_sYjiimNP34i36pcaC2DN4OXNGe/view?usp=sharing) | 
+
+
 
 ## Cronograma de laboratorios  (Prelabs) 
 
