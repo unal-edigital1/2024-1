@@ -23,3 +23,4 @@ Por ellos, y acorde con la tecnología de trabajo se recomienda instalar las her
 * [Sublime Text](http://www.sublimetext.com)
 
 
+![imaborrar](https://github.com/unal-edigital1/2020-2/blob/master/labs/figs/Imagen1.png)
