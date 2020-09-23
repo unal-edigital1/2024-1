@@ -1,4 +1,4 @@
-## Laboratorio 02: testbench 
+## Laboratorio 02: Testbench 
 ### BCD2sseg
 
 
@@ -96,4 +96,4 @@ En el paquete de trabajo [WP02](https://classroom.github.com/g/ncuHozyh)  esta l
 
 # Deadline
 
-    06 de abril 8 de la Noche
+    30 de septiembre 8 de la Noche
