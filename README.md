@@ -112,8 +112,8 @@ Semana   | Tema   | Guia de laboratorio | WP | deadline
 Semana 1 | instalación Vivado/Quartus | [link](./labs/lab00.md) | |
 Semana 1 | Configuracion de Git y  | [link](./labs/lab00.md) | |
 Semana 2 | Sumador | [link](./labs/lab01.md) | [WP01](https://classroom.github.com/a/2d6Bcm-f) | 23/09 8:00pm |
-Semana 3 | BCD2sseg | [link](./labs/lab02.md) | [WP02](https://classroom.github.com/g/N-V9VYYQ) | 01/10 8:00pm |
-Semana 4 | display 7 segmentos | [link](./labs/lab03.md) | | |
+Semana 4 | BCD2sseg | [link](./labs/lab02.md) | [WP02](https://classroom.github.com/g/N-V9VYYQ) | 07/10 8:00pm |
+Semana 6 | display 7 segmentos | [link](./labs/lab03.md) | | |
 Semana 5 | multiplicador| [link](./labs/lab04.md) | | |
 
 
