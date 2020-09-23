@@ -96,4 +96,4 @@ En el paquete de trabajo [WP02](https://classroom.github.com/g/N-V9VYYQ)  esta l
 
 # Deadline
 
-    1 de octibre  8 de la Noche
+    7 de octubre  8 de la Noche
