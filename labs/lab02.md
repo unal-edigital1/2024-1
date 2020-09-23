@@ -85,7 +85,7 @@ Una vez clone el repositorio y lea la anterior guia, realice lo siguiente:
 En el paquete de trabajo [WP02](https://classroom.github.com/g/N-V9VYYQ)  esta la descripción del hardware que se implementa para visualizar un número hexadecimal de 32 bits en 4 display de 7 segmentos.
 
 
-* Comprenda cada línea del código HDL de los archivos que se encuentra en la carpera src. Si cree necesario realice los respectivos comentarios en el mismo archivo y comente
+* Comprenda cada línea del código HDL de los archivos que se encuentra en la carpera src. Si cree necesario realice los respectivos comentarios en el mismo archivo.
 
 * Realice la simulación para el BCD-7seg, analice los resultados.
 * Cree el nuevo proyecto HDL para Visualización Dinámica 4 Display, tomando como base los archivos dados.
