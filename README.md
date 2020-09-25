@@ -101,6 +101,8 @@ Recuerda también revisar que en la página de github se refleja las actualizaci
 [09-09 G2](https://drive.google.com/file/d/132qPbsDcNTg2vUuT-BQkz1t03iNwcEuh/view?usp=sharing) | 
 [16-09 G1](https://drive.google.com/file/d/1G6aZDc0p99_zjGOFnau-2ErIJ-7g20IL/view?usp=sharing) | 
 [16-09 G2](https://drive.google.com/file/d/1p8f2X_sYjiimNP34i36pcaC2DN4OXNGe/view?usp=sharing) | 
+[23-09 G1](https://drive.google.com/file/d/1F44ZLHwdps9mdXvVmu9DTeFdr7dPH-LI/view?usp=sharing) | 
+[23-09 G2](https://drive.google.com/file/d/1TS8PrH2sn_0kOZ2EVDDuAmCP9xQRJctH/view?usp=sharing) | 
 
 
 
