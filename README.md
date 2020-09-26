@@ -104,7 +104,8 @@ Recuerda también revisar que en la página de github se refleja las actualizaci
 [23-09 G1](https://drive.google.com/file/d/1F44ZLHwdps9mdXvVmu9DTeFdr7dPH-LI/view?usp=sharing) | 
 [23-09 G2](https://drive.google.com/file/d/1TS8PrH2sn_0kOZ2EVDDuAmCP9xQRJctH/view?usp=sharing) | 
 
-
+## tutorias 
+[carpera de los videos de las tutorias](https://drive.google.com/drive/folders/15YOL_NpGvfaiXsru1UYrfMXeIR6mxAbF?usp=sharing)
 
 ## Cronograma de laboratorios  (Prelabs) 
 
