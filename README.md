@@ -103,6 +103,9 @@ Recuerda también revisar que en la página de github se refleja las actualizaci
 [16-09 G2](https://drive.google.com/file/d/1p8f2X_sYjiimNP34i36pcaC2DN4OXNGe/view?usp=sharing) | 
 [23-09 G1](https://drive.google.com/file/d/1F44ZLHwdps9mdXvVmu9DTeFdr7dPH-LI/view?usp=sharing) | 
 [23-09 G2](https://drive.google.com/file/d/1TS8PrH2sn_0kOZ2EVDDuAmCP9xQRJctH/view?usp=sharing) | 
+[30-09 G1](https://drive.google.com/file/d/13JhSyk9yW4VUBhY-Fgx52sBkHb1m99AA/view?usp=sharing) | 
+[30-09 G2](https://drive.google.com/file/d/1SW4lVqVmHY3pdxBqt6cF0LzTHh5F3XDo/view?usp=sharing) | 
+
 
 ## tutorias 
 [carpera de los videos de las tutorias](https://drive.google.com/drive/folders/15YOL_NpGvfaiXsru1UYrfMXeIR6mxAbF?usp=sharing)
