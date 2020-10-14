@@ -14,7 +14,7 @@ Las documentación deben estar diligencia en el archivo README.md del repositori
 
 1. Debe seguir la guía dada en el pdf [laboratorio de implementación.pdf] y copiar el siguiente código HDL en la plataforma labsland
 
-''' verilog
+```verilog
 
 module bcd2sseg (V_SW, G_HEX0);
 
@@ -52,4 +52,4 @@ always @ ( * ) begin
 end
 
 endmodule
-´´´´
+```
