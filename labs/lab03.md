@@ -54,8 +54,8 @@ end
 endmodule
 ```
 2. Verifica que funciona los 7 segmentos  en la plataforma labsland,  para ello: 
-	1. Comprueba la lógica en la FPGA real.
-	2. Introduce cada uno de los números posibles mediante los interruptores, y verifica que se muestran todos correctamente, desde el 0 hasta el 15.
+	1. Comprobar la lógica en la FPGA real.
+	2. Introducir cada uno de los números posibles mediante los interruptores, y verifica que se muestran todos correctamente, desde el 0 hasta el 15.
 
 3. Realice lo comentarios necesarios en el archivo README.md.
 4. Una vez se familiarece con la plataforma modificar o añadir los archivos necesarios  de la visualziación hexadecimal  del laboratorio 02 en la fpga  de labsland, tenga encuenta  los parametros dados en clase.
