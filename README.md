@@ -114,7 +114,7 @@ Semana 1 | instalación Vivado/Quartus | [link](./labs/lab00.md) | |
 Semana 1 | Configuracion de Git y  | [link](./labs/lab00.md) | |
 Semana 2 | Sumador | [link](./labs/lab01.md) | [WP01](https://classroom.github.com/a/2d6Bcm-f) | 23/09 8:00pm |
 Semana 4 | BCD2sseg display 7 segmentos | [link](./labs/lab02.md) | [WP02](https://classroom.github.com/g/Oj3ihRmL) | 14/10 8:00pm |
-Semana 6 | implementación en Labsland| [link](./labs/lab03.md) | [laboratorio de implementación.pdf] (https://github.com/unal-edigital1/2020-2/tree/master/slides/week06) |20/10 8:pm |
+Semana 6 | implementación en Labsland| [link](./labs/lab03.md) | [laboratorio de implementación.pdf](https://github.com/unal-edigital1/2020-2/tree/master/slides/week06) |20/10 8:pm |
 Semana 7 | multiplicador| [link](./labs/lab04.md) | | |
 
 
