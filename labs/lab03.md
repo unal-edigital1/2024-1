@@ -1,4 +1,4 @@
-## Laboratorio 03: Implementación por medio de plataforma virtual labsland
+## Laboratorio 03: Implementación por medio de plataforma remota labsland
 
 ### Introducción
 
@@ -6,7 +6,7 @@ El objetivo es la implemetación  en una  FPGA remota del HDL  del display de 7 
 
 En este sentido  el  estudiante  se  familiriza con el entorno de labsland, por medio de la implentación de un 7 segmentos  para luego dar paso a la implementación  de los dos  resultados del laboratorio 02.
 
-para este paquete de trabajo, deben estar inscrito en un grupo y clonar la información del siguiente link [WP03](). Una vez aceptado el repositorio debe descargarlo en su computador, para ello debe clonar el mismo. Si no sabe cómo hacerlo revise la metodología de trabajo, donde se explica el proceso
+para este paquete de trabajo, deben estar inscrito en un grupo y clonar la información del siguiente link [WP03](https://classroom.github.com/g/pHyeUqlc). Una vez aceptado el repositorio debe descargarlo en su computador, para ello debe clonar el mismo. Si no sabe cómo hacerlo revise la metodología de trabajo, donde se explica el proceso
 
 Las documentación deben estar diligencia en el archivo README.md del repositorio clonado.
 
