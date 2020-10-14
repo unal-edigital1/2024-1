@@ -1,4 +1,4 @@
-## Laboratorio 03: implementación por medio de plataforma virtual labsland
+## Laboratorio 03: Implementación por medio de plataforma virtual labsland
 
 ### Introducción
 
@@ -12,7 +12,7 @@ Las documentación deben estar diligencia en el archivo README.md del repositori
 
 ### Desarrollo
 
-1. Debe seguir la guía dada en el pdf [laboratorio de implementación.pdf] y copiar el siguiente código HDL en la plataforma labsland
+1. Debe seguir la guía dada en el pdf [laboratorio de implementación.pdf](https://github.com/unal-edigital1/2020-2/blob/master/slides/week06/laboratorio%20de%20%20implementaci%C3%B3n.pdf) y copiar el siguiente código HDL en la plataforma labsland
 
 ```verilog
 
@@ -63,9 +63,8 @@ endmodule
 6. Repita el procedimiento para la visualización sea en representación Decimal.
 7. Realice la respectiva publicación del repositorio antes de la fecha dada con todo el código fuente
 
-RECUERDEN: 
+### RECUERDEN: 
 
 1. Todos los integrantes del grupo deben trabajar en el respectivo repositorio y participar en los commit push, y la construcción de la documentación
 2. El trabajo que ustedes documenten, será el que leerán sus compañeros de los próximos semestres. En este contexto, en la evaluación de la documentación será tenida en cuenta la minuciosidad y claridad de la misma.
-
-La documentación se debe diligenciar en el archivo README.md, que se encuentra en cada repositorio. El archivo README.md, se debe escribir en formato Markdown. Para aprender cual es el formato de este documento se recomienda revisar el siguiente [link](https://guides.github.com/features/mastering-markdown/) que les da una visión rápida de formato usado para hacer la documentación. Las imágenes, fotos y soportes gráficos deben ser alojados en la carpeta ‘figs’ y deben ser vinculadas en documento README.md.
+3 La documentación se debe diligenciar en el archivo README.md, que se encuentra en cada repositorio. El archivo README.md, se debe escribir en formato Markdown. Para aprender cual es el formato de este documento se recomienda revisar el siguiente [link](https://guides.github.com/features/mastering-markdown/) que les da una visión rápida de formato usado para hacer la documentación. Las imágenes, fotos y soportes gráficos deben ser alojados en la carpeta ‘figs’ y deben ser vinculadas en documento README.md.
