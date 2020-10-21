@@ -3,7 +3,7 @@
 # Introducción
 
 
-Para este paquete de trabajo, deben estar inscrito en un grupo y clonar la información del siguiente link [WP04](). Una vez aceptado el repositorio debe descargarlo en su computador, para ello debe clonar el mismo. Si no sabe cómo hacerlo revise la metodología de trabajo, donde se explica el proceso
+Para este paquete de trabajo, deben estar inscrito en un grupo y clonar la información del siguiente link [WP04](https://classroom.github.com/g/4dGUSzLj). Una vez aceptado el repositorio debe descargarlo en su computador, para ello debe clonar el mismo. Si no sabe cómo hacerlo revise la metodología de trabajo, donde se explica el proceso
 
 Las documentación deben estar diligencia en el archivo README.md del repositorio clonado.
 
