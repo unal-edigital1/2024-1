@@ -12,7 +12,7 @@ Una vez clone el repositorio, realice lo siguiente:
 
 ## Descripción 
 
-Un banco de registros  es un grupo de n registro y señales de control  qe permiten que cada registros sea escrito o leido. Por lo generar el banco de registro tiene  un puerto de salida de datos y uno de entrada.  Dependiedo de la aplicación el banco de registro debe  permite la lectura y escritura simultánea de varios registros.  Para mayor información, si lo considera pertinente, puede leer la información complementaria de este [link](https://github.com/unal-edigital1/2020-2/tree/master/slides/week06) y la presentación.
+Un banco de registros  es un grupo de n registro y señales de control las cuales permiten que cada registros sea escrito o leido. Por lo generar el banco de registro tiene  un puerto de salida de datos y uno de entrada.  Dependiedo de la aplicación el banco de registro debe  permite la lectura y escritura simultánea de varios registros.  Para mayor información, si lo considera pertinente, puede leer la información complementaria de este [link](https://github.com/unal-edigital1/2020-2/tree/master/slides/week06) y la presentación.
 
 
 ![cn](https://github.com/Fabeltranm/SPARTAN6-ATMEGA-MAX5864/blob/master/lab/lab07-BancosRgistro/doc/caja%20negra.png)
@@ -21,10 +21,8 @@ Para implementar en un banco de registro en esta laboratorio debe modificar los 
 
 * El banco de registro tenga 8 registros de  4 bits R/W,
 * Permita  la lectura de 2 registros  simultáneamente,
-* Permita la escritura  de 1 registro, acorde a la señal de control regwrite y, 
-* cuente con señal de rst, la cual  ponga  todos los registros en un valor conocido.
-
-
+* Permita la escritura  de 1 registro, acorde a la señal de control regwrite 
+* Cuente con señal de rst, la cual  ponga  todos los registros en un valor conocido.
 * Visualizar la información, en al menos dos display de 7 segmentos (información de cada registro leído).
 * El ingreso de la información se debe hacer por medio de los interruptores.
 
@@ -37,7 +35,7 @@ Para implementar en un banco de registro en esta laboratorio debe modificar los 
 Entregables:
 
 * Documentación
-* Archivo `testbench` el cuál debe simular la escritura de 16 registros y 8 lecturas mas el rst, el resultado de la simulación debe visualizarse en diagrama de tiempo.
+* Archivo `testbench` el cuál debe simular la escritura de 8 registros y 4 lecturas mas el rst, el resultado de la simulación debe visualizarse en diagrama de tiempo.
 * Vídeo de la implementación.
 * Código HDL de la solución.
 .
