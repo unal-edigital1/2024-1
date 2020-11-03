@@ -100,6 +100,9 @@ Recuerda también revisar que en la página de github se refleja las actualizaci
 [23-09 G1](https://drive.google.com/file/d/1F44ZLHwdps9mdXvVmu9DTeFdr7dPH-LI/view?usp=sharing) | [23-09 G2](https://drive.google.com/file/d/1TS8PrH2sn_0kOZ2EVDDuAmCP9xQRJctH/view?usp=sharing)  
 [30-09 G1](https://drive.google.com/file/d/13JhSyk9yW4VUBhY-Fgx52sBkHb1m99AA/view?usp=sharing) | [30-09 G2](https://drive.google.com/file/d/1SW4lVqVmHY3pdxBqt6cF0LzTHh5F3XDo/view?usp=sharing)  
 [07-10 G1](https://drive.google.com/drive/folders/1sa6xkT_qnAeImq9jvKn-kHgLg5FaEygn?usp=sharing) | [07-10 G2](https://drive.google.com/drive/folders/1DUELqld8ZTb_3qfARU4QuL5y_wdsRU9_?usp=sharing)
+[14-10 G1](https://drive.google.com/drive/folders/13tNhqnej1d1_lE9_1HA1vbKne1atDI5M?usp=sharing)  | [14-10 G2](https://drive.google.com/drive/folders/17phA0J5RJawBEq5jn5pMjydyfF_yGP0O?usp=sharing)
+[21-10 G1](https://drive.google.com/drive/folders/1yFe1CfK9-lZsmY8s_yIL8sHNG81UYm_9?usp=sharing)  | [21-10 G2](https://drive.google.com/drive/folders/1Xw-wh2LPRRw9ELd-DyFtg3MO_EKXZIA0?usp=sharing)
+[28-10 G1](https://drive.google.com/drive/folders/1IO0enNH6nYZ88-BAXF9QSD4v_YXS4AK_?usp=sharing)  | [28-10 G2](https://drive.google.com/drive/folders/1LQcoXboTlNDJkTBW3MdvFnVZUy2OTEco?usp=sharing)
 
 
 ## tutorias 
