@@ -123,7 +123,6 @@ Semana 4 | BCD2sseg display 7 segmentos | [link](./labs/lab02.md) | [WP02](https
 Semana 6 | implementación en Labsland| [link](./labs/lab03.md) |  [WP03](https://classroom.github.com/g/pHyeUqlc) [laboratorio de implementación.pdf](https://github.com/unal-edigital1/2020-2/tree/master/slides/week06) |20/10 8:00 pm |
 Semana 8 | Banco de Registro| [link](./labs/lab04.md) | [WP04](https://classroom.github.com/g/4dGUSzLj)| 28/10 9:00 am|
 Semana 9 | multiplicador| [link](./labs/lab05.md) | | |
-Semana 10 | ALU| [link](./labs/lab06.md) | | |
 
 
 
@@ -132,11 +131,12 @@ Semana 10 | ALU| [link](./labs/lab06.md) | | |
 A continuación se presenta cada actividad a realizar, el plan de trabajo del proyecto de cada semana se encuentra en el link de documentación y el link de trabajo se encuentra en la columna  repositorio.
 
 
+
 WP  | semana | deadline  | Tema | Documentación| Repositorio 
 --  | --     | --        | --   | --          | --  
-01| semana 1 | 18 de junio | Buffer de memoria | [link](./docs/WP01.md) | [WP01](https://classroom.github.com/g/t-U9fDWO) .
-02| semana 2 /semana 3 |   | Captura de datos | [link](./docs/WP02.md) |  [WP02](https://classroom.github.com/g/fGrpRaaz)
-03  | semana 4 |  | Procesamiento | [link](./docs/WP03.md) |  [WP03]() 
+01| semana 1 |  | Prueba Buffer de memoria y test VGA | [link](./docs/WP01.md) | [WP01]().
+02| semana 2 |   | FSM de Juego Propuesto  | [link](./docs/WP02.md) |  [WP02](https://classroom.github.com/g/fGrpRaaz)
+03  | semana 3 |  | Entrega  | [link](./docs/WP03.md) |  [WP03]() 
 
 
 
