@@ -131,20 +131,11 @@ Semana 9 | multiplicador| [link](./labs/lab05.md) | | |
 A continuación se presenta cada actividad a realizar, el plan de trabajo del proyecto de cada semana se encuentra en el link de documentación y el link de trabajo se encuentra en la columna  repositorio.
 
 
-
 WP  | semana | deadline  | Tema | Documentación| Repositorio 
 --  | --     | --        | --   | --          | --  
-01| semana 1 |  | Definición completa de  los periféricos  y mapa de memoria  | [link](./docs/WP01.md) | [WP01]().
-02| semana 2 |   | Construcción del bloque Driver Radar, Estructura  del software  | [link](./docs/WP02.md) |  [WP02]()
-03  | semana 3 |  | Construcción del bloque  Cámara  y modulo de procesamiento   | [link](./docs/WP03.md) |  [WP03]() 
-04  | semana 4 |  | Integración driver con SoC, pruebas  funcionales de cada driver.  | [link](./docs/WP03.md) |  [WP04]() 
-05  | semana 5 |  | : Software  del hard procesador  y el procesador IP  | [link](./docs/WP03.md) |  [WP05]() 
-06  | semana 6 |  | Integración del proyecto y pruebas funcionales  | [link](./docs/WP03.md) |  [WP06]() 
-
-07  | semana 7 |  | Presentación | [link](./docs/WP03.md) |  [WP07]() 
-
-
-
+01| semana 1 |  | Prueba Buffer de memoria y test VGA | [link](./docs/WP01.md) | [WP01](https://classroom.github.com/g/SShlYBvq).
+02| semana 2 |   | FSM de Juego Propuesto  | [link](./docs/WP02.md) |  [WP02]()
+03  | semana 3 |  | Entrega  | [link](./docs/WP03.md) |  [WP03]()
 
 ## Bibliografía
 * Daniel D. Gajski. Principles of Digital Design. Prentice Hall, 1997.
