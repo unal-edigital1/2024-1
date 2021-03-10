@@ -1,4 +1,4 @@
-##  LABORATORIO DE ELECTRÓNICA DIGITAL 1 2020-2 UNIVERSIDAD NACIONAL DE COLOMBIA 
+##  LABORATORIO DE ELECTRÓNICA DIGITAL 1 2010-1 UNIVERSIDAD NACIONAL DE COLOMBIA 
 [https://unal-edigital1.github.io/2020-2/](https://unal-edigital1.github.io/2020-2/)
 ### Profesor:
 	Ferney Alberto Beltrán Molina, Ing, MSc, PhD(c)
@@ -92,24 +92,7 @@ Recuerda también revisar que en la página de github se refleja las actualizaci
 
 ## videos de clase 
 
- 
-[26-08 G1](https://drive.google.com/file/d/1tQlwaNEJkeQVi16u5bmvYHZNrVHGbALj/view?usp=sharing) | [26-08 G2](https://drive.google.com/file/d/1kJG7Rbma7dRv0eO7Y4PDHAyh12HGbs25/view?usp=sharing)  
-[02-09 G1](https://drive.google.com/file/d/1QZ95HsvKZ5vPQLUJZjLEhet-Wf-uNfSE/view?usp=sharing) | [02-09 G2](https://drive.google.com/file/d/1TnKJFNLpXc1ZkgNyOK3z1EJHVTOfO0Nl/view?usp=sharing)  
-[09-09 G1](https://drive.google.com/file/d/132qPbsDcNTg2vUuT-BQkz1t03iNwcEuh/view?usp=sharing) | [09-09 G2](https://drive.google.com/file/d/132qPbsDcNTg2vUuT-BQkz1t03iNwcEuh/view?usp=sharing)  
-[16-09 G1](https://drive.google.com/file/d/1G6aZDc0p99_zjGOFnau-2ErIJ-7g20IL/view?usp=sharing) | [16-09 G2](https://drive.google.com/file/d/1p8f2X_sYjiimNP34i36pcaC2DN4OXNGe/view?usp=sharing)  
-[23-09 G1](https://drive.google.com/file/d/1F44ZLHwdps9mdXvVmu9DTeFdr7dPH-LI/view?usp=sharing) | [23-09 G2](https://drive.google.com/file/d/1TS8PrH2sn_0kOZ2EVDDuAmCP9xQRJctH/view?usp=sharing)  
-[30-09 G1](https://drive.google.com/file/d/13JhSyk9yW4VUBhY-Fgx52sBkHb1m99AA/view?usp=sharing) | [30-09 G2](https://drive.google.com/file/d/1SW4lVqVmHY3pdxBqt6cF0LzTHh5F3XDo/view?usp=sharing)  
-[07-10 G1](https://drive.google.com/drive/folders/1sa6xkT_qnAeImq9jvKn-kHgLg5FaEygn?usp=sharing) | [07-10 G2](https://drive.google.com/drive/folders/1DUELqld8ZTb_3qfARU4QuL5y_wdsRU9_?usp=sharing)
-
-[14-10 G1](https://drive.google.com/drive/folders/13tNhqnej1d1_lE9_1HA1vbKne1atDI5M?usp=sharing)  | [14-10 G2](https://drive.google.com/drive/folders/17phA0J5RJawBEq5jn5pMjydyfF_yGP0O?usp=sharing)
-
-[21-10 G1](https://drive.google.com/drive/folders/1yFe1CfK9-lZsmY8s_yIL8sHNG81UYm_9?usp=sharing)  | [21-10 G2](https://drive.google.com/drive/folders/1Xw-wh2LPRRw9ELd-DyFtg3MO_EKXZIA0?usp=sharing)
-
-[28-10 G1](https://drive.google.com/drive/folders/1IO0enNH6nYZ88-BAXF9QSD4v_YXS4AK_?usp=sharing)  | [28-10 G2](https://drive.google.com/drive/folders/1LQcoXboTlNDJkTBW3MdvFnVZUy2OTEco?usp=sharing)
-
-
 ## tutorias 
-[carpeta de los videos de las tutorias](https://drive.google.com/drive/folders/15YOL_NpGvfaiXsru1UYrfMXeIR6mxAbF?usp=sharing)
 
 ## Cronograma de laboratorios  (Prelabs) 
 
@@ -118,10 +101,10 @@ Semana   | Tema   | Guia de laboratorio | WP | deadline
 --       | --     | --            	| -- | --   
 Semana 1 | instalación Vivado/Quartus | [link](./labs/lab00.md) | |
 Semana 1 | Configuracion de Git y  | [link](./labs/lab00.md) | |
-Semana 2 | Sumador | [link](./labs/lab01.md) | [WP01](https://classroom.github.com/a/2d6Bcm-f) | 23/09 8:00pm |
-Semana 4 | BCD2sseg display 7 segmentos | [link](./labs/lab02.md) | [WP02](https://classroom.github.com/g/Oj3ihRmL) | 14/10 8:00pm |
+Semana 2 | Sumador | [link](./labs/lab01.md) | [WP01](https://classroom.github.com/a/2d6Bcm-f) |  |
+Semana 4 | BCD2sseg display 7 segmentos | [link](./labs/lab02.md) | [WP02](https://classroom.github.com/g/Oj3ihRmL) | |
 Semana 6 | implementación en Labsland| [link](./labs/lab03.md) |  [WP03](https://classroom.github.com/g/pHyeUqlc) [laboratorio de implementación.pdf](https://github.com/unal-edigital1/2020-2/tree/master/slides/week06) |20/10 8:00 pm |
-Semana 8 | Banco de Registro| [link](./labs/lab04.md) | [WP04](https://classroom.github.com/g/4dGUSzLj)| 28/10 9:00 am|
+Semana 8 | Banco de Registro| [link](./labs/lab04.md) | [WP04](https://classroom.github.com/g/4dGUSzLj)| |
 Semana 9 | multiplicador| [link](./labs/lab05.md) | | |
 
 
