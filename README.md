@@ -1,5 +1,5 @@
-##  LABORATORIO DE ELECTRÓNICA DIGITAL 1 2010-1 UNIVERSIDAD NACIONAL DE COLOMBIA 
-[https://unal-edigital1.github.io/2020-2/](https://unal-edigital1.github.io/2020-2/)
+##  LABORATORIO DE ELECTRÓNICA DIGITAL 1 2021-1 UNIVERSIDAD NACIONAL DE COLOMBIA 
+
 ### Profesor:
 	Ferney Alberto Beltrán Molina, Ing, MSc, PhD(c)
 	fabeltranm@unal.edu.co.
