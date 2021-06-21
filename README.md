@@ -120,6 +120,11 @@ WP  | semana | deadline  | Tema | Documentación| Repositorio
 02| semana 2 |   | FSM de Juego Propuesto  | [link](./docs/WP02.md) |  [WP02]()
 03  | semana 3 |  | Entrega  | [link](./docs/WP03.md) |  [WP03]()
 
+## resultados 2020-2
+
+[GRUPO 05](https://github.com/unal-edigital1-lab/wp01-vga-grupo05)
+[GRUPO 04](https://github.com/unal-edigital1-lab/wp01-vga-grupo04)
+
 ## Bibliografía
 * Daniel D. Gajski. Principles of Digital Design. Prentice Hall, 1997.
 * J. Wakerly Diseño Digital, Ed.3 – Principios y Prácticas.
