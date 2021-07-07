@@ -1,6 +1,7 @@
 # Paquete de trabajo
 
 link [WP05](https://classroom.github.com/g/Gopv8Srb)
+[slide](https://github.com/unal-edigital1-2020-1/page/tree/master/slides/week08)
 
 # Descripción general del sistema: (tomado del documento de clase)
 
