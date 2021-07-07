@@ -33,6 +33,10 @@ la caja funcional o caja negra   tiene como entradas multiplicando y el multipli
 
 # Entregable
 
+simulación
+implementación
+video de funcionamiento 
+
 
 ## referencias:
 
