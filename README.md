@@ -120,10 +120,10 @@ WP  | semana | deadline  | Tema | Documentación| Repositorio
 02| semana 2 |   |propuesta adición |  |  [WP02]()
 03  | semana 3 |  | Entrega  |  [WP03](https://classroom.github.com/g/rxPrqTE5)
 
-## resultados 2020-2
+## resultados 2021-1
 
-[GRUPO 03](https://github.com/unal-edigital1-lab/)
-[GRUPO 04](https://github.com/unal-edigital1-lab/)
+[GRUPO 01](https://github.com/unal-edigital1-lab/wp01-entregafinal-grupo-01)
+[GRUPO 06](https://github.com/unal-edigital1-lab/wp01-entregafinal-grupo-06)
 
 ## Bibliografía
 * Daniel D. Gajski. Principles of Digital Design. Prentice Hall, 1997.
