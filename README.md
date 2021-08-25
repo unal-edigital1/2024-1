@@ -118,7 +118,7 @@ WP  | semana | deadline  | Tema | Documentación| Repositorio
 --  | --     | --        | --   | --          | --  
 01| semana 1 |  | Prueba Buffer de memoria y cpnfigutación test VGA | [link](./docs/WP01.md) | [WP01](https://classroom.github.com/g/qtq2UbmU).
 02| semana 2 |   |propuesta adición |  |  [WP02]()
-03  | semana 3 |  | Entrega  |  [WP03]()
+03  | semana 3 |  | Entrega  |  [WP03](https://classroom.github.com/g/rxPrqTE5)
 
 ## resultados 2020-2
 
