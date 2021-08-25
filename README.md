@@ -122,8 +122,8 @@ WP  | semana | deadline  | Tema | Documentación| Repositorio
 
 ## resultados 2020-2
 
-[GRUPO 05](https://github.com/unal-edigital1-lab/wp01-vga-grupo05)
-[GRUPO 04](https://github.com/unal-edigital1-lab/wp01-vga-grupo04)
+[GRUPO 03](https://github.com/unal-edigital1-lab/)
+[GRUPO 04](https://github.com/unal-edigital1-lab/)
 
 ## Bibliografía
 * Daniel D. Gajski. Principles of Digital Design. Prentice Hall, 1997.
