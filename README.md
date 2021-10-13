@@ -10,6 +10,7 @@
 * [2018](https://github.com/Fabeltranm/FPGA-Game-D1/wiki)
 * [2019](https://unal-edigital1-2019-2.github.io/)
 * [2020-1](https://unal-edigital1-2020-1.github.io/page)
+* [2020-2](https://unal-edigital1.github.io/2020-2/)
 * [2021-1](https://unal-edigital1.github.io/2021-1/)
 
 	
