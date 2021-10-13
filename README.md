@@ -1,4 +1,4 @@
-##  LABORATORIO DE ELECTRÓNICA DIGITAL 1 2021-1 UNIVERSIDAD NACIONAL DE COLOMBIA 
+##  LABORATORIO DE ELECTRÓNICA DIGITAL 1 2021-2 UNIVERSIDAD NACIONAL DE COLOMBIA 
 
 ### Profesor:
 	Ferney Alberto Beltrán Molina, Ing, MSc, PhD(c)
@@ -10,6 +10,7 @@
 * [2018](https://github.com/Fabeltranm/FPGA-Game-D1/wiki)
 * [2019](https://unal-edigital1-2019-2.github.io/)
 * [2020-1](https://unal-edigital1-2020-1.github.io/page)
+* [2021-1](https://github.com/unal-edigital1/2021-1)
 
 	
 
@@ -120,10 +121,7 @@ WP  | semana | deadline  | Tema | Documentación| Repositorio
 02| semana 2 |   |propuesta adición |  |  [WP02]()
 03  | semana 3 |  | Entrega  |  [WP03](https://classroom.github.com/g/rxPrqTE5)
 
-## resultados 2021-1
 
-[GRUPO 01](https://github.com/unal-edigital1-lab/wp01-entregafinal-grupo-01)
-[GRUPO 06](https://github.com/unal-edigital1-lab/wp01-entregafinal-grupo-06)
 
 ## Bibliografía
 * Daniel D. Gajski. Principles of Digital Design. Prentice Hall, 1997.
