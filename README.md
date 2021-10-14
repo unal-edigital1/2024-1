@@ -70,6 +70,8 @@ Luego de unirse a cada grupo de trabajo debe clonar su  repositorio en su comput
 
 ***RECUERDEN:*** Todos los integrantes del grupo deben  trabajar en el respectivo repositorio y participar en los  commit  push, y la construcción de la documentación
 
+ [Video configuración git ](https://drive.google.com/file/d/1g7gR4HmyNd5qsYGZwOFSVYfc5JuuLey6/view?usp=sharing)
+
 
 ###  Documentación
 
