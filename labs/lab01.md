@@ -5,7 +5,7 @@
 
 En este paquete de trabajo los estudiantes deben familiarizarce con el  framework de trabajo de la FPGA seleccionado, a partir de la descripción de un sumador de 1, y su instanciación para un sumador de 4 bit 
 
-Para este paquete de trabajo, deben estar inscrito en un grupo y clonar la información del siguiente link [WP01](https://classroom.github.com/a/2d6Bcm-f). Una vez aceptado el repositorio debe descargarlo en su computador, para ello debe clonar el mismo. Si no sabe cómo hacerlo revise la metodología de trabajo, donde se explica el proceso
+Para este paquete de trabajo, deben estar inscrito en un grupo y clonar la información del siguiente link [WP01](https://classroom.github.com/a/WlxjmZTc). Una vez aceptado el repositorio debe descargarlo en su computador, para ello debe clonar el mismo. Si no sabe cómo hacerlo revise la metodología de trabajo, donde se explica el proceso
 
 Las documentación deben estar diligencia en el archivo README.md del repositorio clonado.
 
@@ -44,7 +44,16 @@ Optimizando el circuito, según la Tabla de verdad , podemos observar que la ló
 
 Antes que nada  verifique que tenga el programa para sintetizar la descripción de hardware.
 
-Una vez abierto el  framework  de su preferencia, digitar o copiar el siguiente código, recuerde que el HDL lo encuentra en la carpeta src [WP01](https://classroom.github.com/a/2d6Bcm-f). 
+Una vez abierto el  framework  de su preferencia, digitar o copiar el siguiente código, recuerde que el HDL lo encuentra en la carpeta src [
+
+
+
+
+
+
+
+
+](https://classroom.github.com/a/2d6Bcm-f). 
    
    ***Nota:*** Recuerde  se debe clonar el repositorio en su computador, e importar el archivo ***sum1bcc_primitive.v***
 
