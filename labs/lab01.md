@@ -44,16 +44,7 @@ Optimizando el circuito, según la Tabla de verdad , podemos observar que la ló
 
 Antes que nada  verifique que tenga el programa para sintetizar la descripción de hardware.
 
-Una vez abierto el  framework  de su preferencia, digitar o copiar el siguiente código, recuerde que el HDL lo encuentra en la carpeta src [
-
-
-
-
-
-
-
-
-](https://classroom.github.com/a/2d6Bcm-f). 
+Una vez abierto el  framework  de su preferencia, digitar o copiar el siguiente código, recuerde que el HDL lo encuentra en la carpeta src 
    
    ***Nota:*** Recuerde  se debe clonar el repositorio en su computador, e importar el archivo ***sum1bcc_primitive.v***
 
