@@ -144,13 +144,6 @@ Library*** y verifique que la libreria ***work***, tenga el archivo **sum1bcc**.
 
 Analice la simulación de cada uno de los archivos y compruebe que el sumador funciona correctamente. la simulación se debe realizar con  quartus ModelSim, segun la guia de simulación.
 
-Cree el nuevo proyecto HDL para el sumador de 4 bit, onde el top sea sum4bcc.v e instancie el sumador de 1 bit sum1bcc.v
-Creer el archivo testbench.v
-
-Genera la simulación, Revise que el sistema funciona como usted lo esperaba. Realice lo comentarios necesarios en el archivo README.md.
-Realice la respectiva publicación del repositorio antes de la fecha dada con todo el código fuente
-
-
 
 
 ## Ejercicio 2 - Diseño de sumador 4 bit 
