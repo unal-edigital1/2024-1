@@ -44,6 +44,9 @@ Optimizando el circuito, según la Tabla de verdad , podemos observar que la ló
 
 Antes que nada  verifique que tenga el programa para sintetizar la descripción de hardware.
 
+Una vez abierto el  framework  de [Quartus prime lite](https://github.com/ELINGAP-7545/lab00#configuraci%C3%B3n-b%C3%A1sica-para-un-nuevo-proyecto-en-quartus-prime-lite), En la barra de herramientas (toolbar) de Quartus, navegar en el menu File y hacer clic en New... selecionar verilog HDL File
+
+
 Una vez abierto el  framework  de su preferencia, digitar o copiar el siguiente código, recuerde que el HDL lo encuentra en la carpeta src 
    
    ***Nota:*** Recuerde  se debe clonar el repositorio en su computador, e importar el archivo ***sum1bcc_primitive.v***
@@ -105,84 +108,9 @@ endmodule
 
 Se evidencia que esta nueva descripción cuenta con un  ```  Reg ```  de 2 bits ``` st ```. ``` Reg ``` , en este sentido, representan un elemento de almacenamiento de datos y conserva dicho valor hasta que se les asigna el siguiente valor.
 
-##### 4 Implementación HDL verilog
-
-  Nota: verifique que tenga el programa para sintetizar la descripción de hardware, para este ejemplo, se usa [Quartus prime lite](https://github.com/ELINGAP-7545/lab00#configuraci%C3%B3n-b%C3%A1sica-para-un-nuevo-proyecto-en-quartus-prime-lite), si desea usar ise  ir al  [link](https://github.com/Fabeltranm/SPARTAN6-ATMEGA-MAX5864/wiki/Introducci%C3%B3n) 
-
-
-Una vez abierto el  framework  de [Quartus prime lite](https://github.com/ELINGAP-7545/lab00#configuraci%C3%B3n-b%C3%A1sica-para-un-nuevo-proyecto-en-quartus-prime-lite), En la barra de herramientas (toolbar) de Quartus, navegar en el menu File y hacer clic en New... selecionar verilog HDL File (ver imagen)
-
-
-
-
-![proyectWizard](./figs/f5.PNG) 
-
-```verilog
-
-module sum1bcc_primitive (A, B, Ci,Cout,S);
-
-  input  A;
-  input  B;
-  input  Ci;
-  output Cout;
-  output S;
-
-  wire a_ab;
-  wire x_ab;
-  wire cout_t;
-
-  and(a_ab,A,B);
-  xor(x_ab,A,B);
-
-  xor(S,x_ab,Ci);
-  and(cout_t,x_ab,Ci);
-
-  or (Cout,cout_t,a_ab);
-
-endmodule
-```
-Observe que el HDL inicia con la descripción del módulo ``` sum1bcc_primitive.v``` : Se definen las  entradas  y salidas del bloque funcional , tal cual  como se estaba especificado en el bloque funcional
-
-Luego se instancia las respectivas puertas lógicas (AND, OR, XOR), acorde a los resultados de la lógica de la tabla de verdad. Se resalta la definición de tres componentes ```a_ab, x_ab, cout_t ``` , de tipo ```wire ```, que no es  mas que 'cables' utilizados para conectar las salidas y entradas de unos módulos, en el actual ejemplo son conexiones de puertas. 
-
-Sin embargo,  como su nombre lo indica se esta realizando una descripción funcional del módulo, y en este sentido, podemos tener varios  tipos de descripción. en el archivo ``` sum1bcc.v```, pueden observar la siguiente descripción:
-
-```verilog
-module sum1bcc (A, B, Ci,Cout,S);
-
-  input  A;
-  input  B;
-  input  Ci;
-  output Cout;
-  output S;
-
-  reg [1:0] st;
-
-  assign S = st[0];
-  assign Cout = st[1];
-
-  always @ ( * ) begin
-    st  =   A+B+Ci;
-  end
-  
-endmodule
-```
-
-Se evidencia que esta nueva descripción cuenta con un  ```  Reg ```  de 2 bits ``` st ```. ``` Reg ``` , en este sentido, representan un elemento de almacenamiento de datos y conserva dicho valor hasta que se les asigna el siguiente valor.
-
 ### Entregables 1
 
 Comprenda cada línea del código HDL del archivo sum1bcc_primitive.v y sum1bcc.v que se encuentra en la carpera src. Si cree necesario realice los respectivos comentarios en el mismo archivo y comente las diferencias entre las dos descripciones.
-
-Analice la simulación de cada uno de los archivos y compruebe que el sumador funciona correctamente. la simulación se debe realizar con  quartus ModelSim, segun la guia de simulación.
-
-Cree el nuevo proyecto HDL para el sumador de 4 bit, onde el top sea sum4bcc.v e instancie el sumador de 1 bit sum1bcc.v
-Creer el archivo testbench.v
-
-Genera la simulación, Revise que el sistema funciona como usted lo esperaba. Realice lo comentarios necesarios en el archivo README.md.
-Realice la respectiva publicación del repositorio antes de la fecha dada con todo el código fuente
-
-
 
 
 
@@ -211,6 +139,18 @@ Library*** y verifique que la libreria ***work***, tenga el archivo **sum1bcc**.
 4. Deben cargarse dos ventanas de simulación: la ventana de ***Objects*** y la ventana de ***wave***. Si no, las cargarlos usted mismo haciendo clic en el menú ***view*** y marcando la respectiva ventana.
 5. Para mostrar todas las señales de prueba en la ventana Wave, teniendo como foco la ventana ***Objects***, haga clic en add -> A Wave -> Signals in Region.  Alternativamente, puede mostrar algunas señales seleccionadas en la ventana Wave: En la ventana  ***Objects***, seleccione las señales que le gustaría monitorear y arrástrelas a la ventana Wave (o copiar y pegar).
 6. configure las señales en sus estados , y haga clic en ***Run***
+
+##  Entregable 2
+
+Analice la simulación de cada uno de los archivos y compruebe que el sumador funciona correctamente. la simulación se debe realizar con  quartus ModelSim, segun la guia de simulación.
+
+Cree el nuevo proyecto HDL para el sumador de 4 bit, onde el top sea sum4bcc.v e instancie el sumador de 1 bit sum1bcc.v
+Creer el archivo testbench.v
+
+Genera la simulación, Revise que el sistema funciona como usted lo esperaba. Realice lo comentarios necesarios en el archivo README.md.
+Realice la respectiva publicación del repositorio antes de la fecha dada con todo el código fuente
+
+
 
 
 ## Ejercicio 2 - Diseño de sumador 4 bit 
@@ -308,13 +248,9 @@ endmodule
 Una vez, copie el archivo genere la simulación  y revise los resultados  dados
 
 
-# Entregables
+# Entregables 3
 
 Una vez clone el repositorio y lea la anterior guia, realice lo siguiente:
-
-* Comprenda cada línea del código HDL del archivo sum1bcc_primitive.v y  sum1bcc.v que se encuentra en la carpera src. Si cree necesario realice los respectivos comentarios en el mismo archivo y comente las diferencias entre las dos descripciones.
-
-* Analice la simulación de cada uno de los archivos y compruebe que el sumador funciona correctamente.
 
 * Cree el nuevo proyecto HDL para el sumador de 4 bit, onde el top sea sum4bcc.v e instancie el sumador de 1 bit ***sum1bcc.v***
 * Creer el archivo testbench.v
@@ -322,6 +258,4 @@ Una vez clone el repositorio y lea la anterior guia, realice lo siguiente:
 * Realice la respectiva publicación del repositorio antes de la fecha dada con todo el código  fuente 
 
 # Deadline
-
-    16 de septiembre 8 de la Noche
 
