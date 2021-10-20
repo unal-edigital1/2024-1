@@ -105,6 +105,85 @@ endmodule
 
 Se evidencia que esta nueva descripción cuenta con un  ```  Reg ```  de 2 bits ``` st ```. ``` Reg ``` , en este sentido, representan un elemento de almacenamiento de datos y conserva dicho valor hasta que se les asigna el siguiente valor.
 
+##### 4 Implementación HDL verilog
+
+  Nota: verifique que tenga el programa para sintetizar la descripción de hardware, para este ejemplo, se usa [Quartus prime lite](https://github.com/ELINGAP-7545/lab00#configuraci%C3%B3n-b%C3%A1sica-para-un-nuevo-proyecto-en-quartus-prime-lite), si desea usar ise  ir al  [link](https://github.com/Fabeltranm/SPARTAN6-ATMEGA-MAX5864/wiki/Introducci%C3%B3n) 
+
+
+Una vez abierto el  framework  de [Quartus prime lite](https://github.com/ELINGAP-7545/lab00#configuraci%C3%B3n-b%C3%A1sica-para-un-nuevo-proyecto-en-quartus-prime-lite), En la barra de herramientas (toolbar) de Quartus, navegar en el menu File y hacer clic en New... selecionar verilog HDL File (ver imagen)
+
+
+
+
+![proyectWizard](./figs/f5.PNG) 
+
+```verilog
+
+module sum1bcc_primitive (A, B, Ci,Cout,S);
+
+  input  A;
+  input  B;
+  input  Ci;
+  output Cout;
+  output S;
+
+  wire a_ab;
+  wire x_ab;
+  wire cout_t;
+
+  and(a_ab,A,B);
+  xor(x_ab,A,B);
+
+  xor(S,x_ab,Ci);
+  and(cout_t,x_ab,Ci);
+
+  or (Cout,cout_t,a_ab);
+
+endmodule
+```
+Observe que el HDL inicia con la descripción del módulo ``` sum1bcc_primitive.v``` : Se definen las  entradas  y salidas del bloque funcional , tal cual  como se estaba especificado en el bloque funcional
+
+Luego se instancia las respectivas puertas lógicas (AND, OR, XOR), acorde a los resultados de la lógica de la tabla de verdad. Se resalta la definición de tres componentes ```a_ab, x_ab, cout_t ``` , de tipo ```wire ```, que no es  mas que 'cables' utilizados para conectar las salidas y entradas de unos módulos, en el actual ejemplo son conexiones de puertas. 
+
+Sin embargo,  como su nombre lo indica se esta realizando una descripción funcional del módulo, y en este sentido, podemos tener varios  tipos de descripción. en el archivo ``` sum1bcc.v```, pueden observar la siguiente descripción:
+
+```verilog
+module sum1bcc (A, B, Ci,Cout,S);
+
+  input  A;
+  input  B;
+  input  Ci;
+  output Cout;
+  output S;
+
+  reg [1:0] st;
+
+  assign S = st[0];
+  assign Cout = st[1];
+
+  always @ ( * ) begin
+    st  =   A+B+Ci;
+  end
+  
+endmodule
+```
+
+Se evidencia que esta nueva descripción cuenta con un  ```  Reg ```  de 2 bits ``` st ```. ``` Reg ``` , en este sentido, representan un elemento de almacenamiento de datos y conserva dicho valor hasta que se les asigna el siguiente valor.
+
+### Entregables 1
+
+Comprenda cada línea del código HDL del archivo sum1bcc_primitive.v y sum1bcc.v que se encuentra en la carpera src. Si cree necesario realice los respectivos comentarios en el mismo archivo y comente las diferencias entre las dos descripciones.
+
+Analice la simulación de cada uno de los archivos y compruebe que el sumador funciona correctamente. la simulación se debe realizar con  quartus ModelSim, segun la guia de simulación.
+
+Cree el nuevo proyecto HDL para el sumador de 4 bit, onde el top sea sum4bcc.v e instancie el sumador de 1 bit sum1bcc.v
+Creer el archivo testbench.v
+
+Genera la simulación, Revise que el sistema funciona como usted lo esperaba. Realice lo comentarios necesarios en el archivo README.md.
+Realice la respectiva publicación del repositorio antes de la fecha dada con todo el código fuente
+
+
+
 
 
 ### Simulación Funcional  QUARTUS 
