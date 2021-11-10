@@ -1,0 +1,53 @@
+//深圳市21EDA电子.
+//开发板型号:A-C5FB
+//www.21eda.com
+//www.sz-21eda.com
+//www.21eda.net
+
+//一位数码管试验
+//利用分频计数器得到数码管显示效果，显示0到F。
+//视频教程适合我们21EDA电子的所有学习板
+module SMG_LED (clk_50M,led_bit,dataout);
+
+input clk_50M;      //系统时钟50M输入 从17脚输入。
+output [7:0] dataout;   //定义数码管的7段码输出，
+output led_bit;         //一位数码管的位选择使能输出。
+
+reg [7:0] dataout;
+reg       led_bit;  
+reg [27:0] count; //分频计数器
+
+ always led_bit <= 'b0; //是数码管的位选择处于导通状态
+//分频计数器
+always @ ( posedge clk_50M )
+ begin
+  count<=count+1;  //计数器自加
+ end
+
+always @ ( posedge clk_50M )
+ begin
+  case ( count[27:24] )
+  //  case ( count[27:24] )这一句希望初学者看明白,
+  //  修改 count[27:24] 他们的值，就可以看到数码管变法的速度。
+  //  也是分频的关键
+  //  在数码管上面显示0到F
+  0: dataout<=8'b11000000;  //共阳数码管显示0的段码
+  1: dataout<=8'b11111001;
+  2: dataout<=8'b10100100;  //共阳数码管显示2的段码
+  3: dataout<=8'b10110000;
+  4: dataout<=8'b10011001;
+  5: dataout<=8'b10010010;  
+  6: dataout<=8'b10000010; 
+  7: dataout<=8'b11111000;
+  8: dataout<=8'b10000000;
+  9: dataout<=8'b10010000;
+  10:dataout<=8'b10001000;
+  11:dataout<=8'b10000011;
+  12:dataout<=8'b11000110;
+  13:dataout<=8'b10100001;
+  14:dataout<=8'b10000110;
+  15:dataout<=8'b10001110;  //共阳数码管显示F的段码
+  endcase
+ end
+endmodule
+

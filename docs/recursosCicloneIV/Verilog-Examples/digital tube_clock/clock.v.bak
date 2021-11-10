@@ -1,0 +1,138 @@
+//深圳市21EDA电子.
+//开发板型号:A-C5FB
+//www.21eda.com
+//www.sz-21eda.com
+//www.21eda.net
+
+//学习数码管显示时钟原理
+//视频教程适合我们21EDA电子的所有学习板
+module clock(clk,key_in,sm_bit,sm_seg);		//模块名clock
+input clk;									//输入时钟
+input[1:0] key_in;								//输入按键
+output[0:7]	sm_bit;							//数码管选择输出引脚
+output[7:0] sm_seg;							//数码管段输出引脚
+
+
+reg[7:0] sm_seg_r;								//定义数码管输出寄存器
+reg[7:0] sm_bit_r;								//定义数码管选择输出寄存器
+reg[3:0] disp_dat;							//定义显示数据寄存器
+reg[24:0]count;								//定义计数寄存器
+reg[23:0]hour;								//定义现在时刻寄存器
+reg sec,keyen;								//定义标志位
+reg[1:0]dout1,dout2,dout3;					//寄存器
+wire[1:0]key_done;							//按键消抖输出
+
+assign sm_bit = sm_bit_r;							//输出数码管选择
+assign sm_seg = sm_seg_r;							//输出数码管译码结果	
+
+//秒信号产生部分
+always @(posedge clk)   					//定义clock上升沿触发
+begin
+	count = count + 1'b1;
+	if(count == 25'd25000000)				//0.5S到了吗？
+	begin
+		count = 25'd0;						//计数器清零
+		sec = ~sec;							//置位秒标志
+	end
+end
+
+//按键消抖处理部分
+assign key_done = (dout1 | dout2 | dout3);	//按键消抖输出
+
+always @(posedge count[17])
+begin
+	dout1 <= key_in;
+	dout2 <= dout1;
+	dout3 <= dout2;	
+end
+
+always @(negedge key_done[0])
+begin
+	keyen = ~keyen;							//将琴键开关转换为乒乓开关
+end
+
+//数码管动态扫描显示部分
+always @(posedge clk)   					//count[17:15]大约1ms改变一次
+begin
+	case(count[17:15])						//选择扫描显示数据
+		3'd0:disp_dat = hour[3:0];			//秒个位
+		3'd1:disp_dat = hour[7:4];			//秒十位
+		3'd2:disp_dat = 4'ha;				//显示"-"
+		3'd3:disp_dat = hour[11:8];			//分个位
+		3'd4:disp_dat = hour[15:12];		//分十位
+		3'd5:disp_dat = 4'ha;				//显示"-"
+		3'd6:disp_dat = hour[19:16];		//时个位
+		3'd7:disp_dat = hour[23:20];		//时十位
+	endcase
+	case(count[17:15])						//选择数码管显示位
+		3'd7:sm_bit_r = 8'b11111110;			//选择第一个数码管显示
+		3'd6:sm_bit_r = 8'b11111101;			//选择第二个数码管显示
+		3'd5:sm_bit_r = 8'b11111011;			//选择第三个数码管显示
+		3'd4:sm_bit_r = 8'b11110111;			//选择第四个数码管显示
+		3'd3:sm_bit_r = 8'b11101111;			//选择第五个数码管显示
+		3'd2:sm_bit_r = 8'b11011111;			//选择第六个数码管显示
+		3'd1:sm_bit_r = 8'b10111111;			//选择第七个数码管显示
+		3'd0:sm_bit_r = 8'b01111111;			//选择第八个数码管显示
+	endcase	
+end
+
+always @(posedge clk)
+begin
+	case(disp_dat)
+		4'h0:sm_seg_r = 8'hc0;					//显示0
+		4'h1:sm_seg_r = 8'hf9;					//显示1
+		4'h2:sm_seg_r = 8'ha4;					//显示2
+		4'h3:sm_seg_r = 8'hb0;					//显示3
+		4'h4:sm_seg_r = 8'h99;					//显示4
+		4'h5:sm_seg_r = 8'h92;					//显示5
+		4'h6:sm_seg_r = 8'h82;					//显示6
+		4'h7:sm_seg_r = 8'hf8;					//显示7
+		4'h8:sm_seg_r = 8'h80;					//显示8
+		4'h9:sm_seg_r = 8'h90;					//显示9
+		4'ha:sm_seg_r = 8'hbf;					//显示-
+		default:sm_seg_r = 8'hff;				//不显示
+	endcase
+	if((count[17:15]== 3'd2)&sec)
+		sm_seg_r = 8'hff;
+end
+
+//计时处理部分
+always @(negedge sec or negedge key_done[1])//计时处理
+begin
+	if(!key_done[1])						//是清零键吗？
+	begin
+		hour = 24'h0;						//是，则清零
+	end
+	else if(!keyen)
+	begin
+		hour[3:0] = hour[3:0] + 1'b1;		//秒加1
+		if(hour[3:0] == 4'ha)
+		begin
+			hour[3:0] = 4'h0;
+			hour[7:4] = hour[7:4] + 1'b1;	//秒的十位加一
+			if(hour[7:4] == 4'h6)
+			begin
+				hour[7:4] = 4'h0;
+				hour[11:8] = hour[11:8] + 1'b1;//分个位加一
+				if(hour[11:8] == 4'ha)
+				begin
+					hour[11:8] = 4'h0;
+					hour[15:12] = hour[15:12] + 1'b1;//分十位加一
+					if(hour[15:12] == 4'h6)
+					begin
+						hour[15:12] = 4'h0;
+						hour[19:16] = hour[19:16] + 1'b1;//时个位加一
+						if(hour[19:16] == 4'ha)
+						begin
+							hour[19:16] = 4'h0;
+							hour[23:20] = hour[23:20] + 1'b1;//时十位加一
+						end
+						if(hour[23:16] == 8'h24)
+							hour[23:16] = 8'h0;
+					end
+				end
+			end
+		end
+	end
+end
+endmodule

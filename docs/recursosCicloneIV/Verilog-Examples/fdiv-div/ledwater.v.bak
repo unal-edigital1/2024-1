@@ -1,0 +1,69 @@
+//深圳市21EDA电子.
+//开发板型号:A-C5FB
+//www.21eda.com
+//www.sz-21eda.com
+//www.21eda.net
+
+//利用分频计数器得到显示一秒和0.5的闪烁效果
+//视频教程适合我们21EDA电子的所有学习板
+
+module ledwater (clk_50M,led_out,f_led_out);
+input   clk_50M;       //系统时钟输入50M
+                       //意味每一秒要变化50,000,000HZ
+output  led_out;       //每一秒闪烁一下
+output  f_led_out;     //每二秒闪烁一下
+
+reg [24:0] count;  //分频计数器，25000000分频 一秒
+reg [24:0] f_count;//分频计数器，12500000分频 0.5秒
+
+reg  div_clk, f_div_clk;
+reg  led_out, f_led_out;
+
+
+
+//分频计数器。得到一秒的频率
+always @ ( posedge clk_50M )
+begin
+if ( count==25000000 )
+ begin     //我们的时钟本身是每一秒要变化50,000,000HZ
+           //我们现在用count这个计数器让它自加到25,000,000HZ
+  div_clk<=~div_clk;  //在这里我们就得到了0.5秒变化一次的信号。
+                      //所以一个周期就是1Hz也就是一秒。
+   count<=0;          //把计数器清零。
+  end
+else
+  count<=count+1;     //计数器自加。
+  led_out<=div_clk;  //利用分频计数器得到显示一秒的闪烁效果
+                      //在LED灯上面表现出来。
+end 
+
+//分频计数器。得到0.5秒的频率
+always @ ( posedge clk_50M )
+begin
+if ( f_count==12500000 )    //我们现在用count这个计数器让它自加到12,500,000HZ
+ begin
+  f_div_clk<=~f_div_clk;    //在这里我们就得到了0.25秒变化一次的信号。
+                            //所以一个周期就是0.5也就是2HZ。
+   f_count<=0;
+  end
+else
+  f_count<=f_count+1;      //计数器自加。
+  f_led_out<=f_div_clk;   //利用分频计数器得到显示一秒的闪烁效果
+                           //在LED灯上面表现出来。
+end
+
+endmodule
+
+
+
+
+
+
+
+
+
+
+
+
+
+
