@@ -108,10 +108,10 @@ Semana   | Tema   | Guia de laboratorio | WP | deadline
 Semana 1 | instalación Vivado/Quartus | [link](./labs/lab00.md) | |
 Semana 1 | Configuracion de Git y Quartus sum1b | [link](./labs/lab00.md) | [WP00](https://classroom.github.com/a/WlxjmZTc)  |
 Semana 2 | Sumador 4b  y testbench| [link](./labs/lab01.md) | [WP01](https://classroom.github.com/a/UtSalc5L) |  |
-Semana 4 | BCD2sseg display 7 segmentos | [link](./labs/lab02.md) | [WP02](https://classroom.github.com/g/DXONjTre) | |
-Semana 6 | implementación| [link](./labs/lab03.md) |  [WP03](https://classroom.github.com/g/pHyeUqlc) [laboratorio de implementación.pdf](https://github.com/unal-edigital1/2020-2/tree/master/slides/week06) | |
-Semana 8 | Banco de Registro| [link](./labs/lab04.md) | [WP04](https://classroom.github.com/g/3Obi80PV)| |
-Semana 9 | multiplicador| [link](./labs/lab05.md) |[WP05](https://classroom.github.com/g/Gopv8Srb) | |
+Semana 4 | BCD2sseg display 7 segmentos | [link](./labs/lab02.md) | [WP02](https://classroom.github.com/a/92sH5dbi) | |
+Semana 6 | implementación| [link](./labs/lab03.md) |  [WP03](https://classroom.github.com/) [laboratorio de implementación.pdf](https://github.com/unal-edigital1/2020-2/tree/master/slides/week06) | |
+Semana 8 | Banco de Registro| [link](./labs/lab04.md) | [WP04](https://classroom.github.com/)| |
+Semana 9 | multiplicador| [link](./labs/lab05.md) |[WP05](https://classroom.github.com/) | |
 
 
 
