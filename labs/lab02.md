@@ -93,6 +93,7 @@ En el paquete de trabajo [WP02]  esta la descripción del hardware que se implem
 * Genera la simulación, Revise que el sistema funciona como usted lo esperaba. Realice lo comentarios necesarios en el archivo README.md.
 * Modificar o Añadir los bloques necesarios para que la visualización sea en representación Decimal y no Hexadecimal.
 * Realice la respectiva publicación del repositorio antes de la fecha dada con todo el código fuente
+* * implementar e la tarjeta el desarrollo de HDL
 
 # Deadline
 
