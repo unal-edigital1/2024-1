@@ -1,4 +1,4 @@
-## Laboratorio 02: Testbench 
+## Laboratorio 02: Testbench  e implementacion de 7 segmentos 
 ### BCD2sseg
 
 
