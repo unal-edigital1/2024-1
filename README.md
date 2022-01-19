@@ -123,18 +123,18 @@ Semana 4 | BCD2sseg display 7 segmentos | [link](./labs/lab02.md) | [WP02](https
 Semana 6 | implementación| [link](./labs/lab03.md) |  [WP03](https://classroom.github.com/) [laboratorio de implementación.pdf](https://github.com/unal-edigital1/2020-2/tree/master/slides/week06) | |
 Semana 8 | Banco de Registro| [link](./labs/lab04.md) | [WP04](https://classroom.github.com/a/oueb-ku-)| |
 Semana 9 | multiplicador| [link](./labs/lab05.md) |[WP05](https://classroom.github.com/) | |
+Semana 10|  Prueba Buffer de memoria y cpnfigutación test VGA | [link](./docs/WP01.md) | [WP01](https://classroom.github.com/a/kzH-jQad).
 
 
 
 
 ## Desarrollo proyecto
-A continuación se presenta cada actividad a realizar, el plan de trabajo del proyecto de cada semana se encuentra en el link de documentación y el link de trabajo se encuentra en la columna  repositorio.
+A  partir de los laboratorisos el estudiante realiza el plan de trabajo del proyecto.
 
 
 WP  | semana | deadline  | Tema | Documentación| Repositorio 
 --  | --     | --        | --   | --          | --  
-01| semana 1 |  | Prueba Buffer de memoria y cpnfigutación test VGA | [link](./docs/WP01.md) | [WP01](https://classroom.github.com/g/qtq2UbmU).
-02| semana 2 |   |propuesta adición |  |  [WP02]()
+02  | semana 2 |   |propuesta adición |  |  [WP02]()
 03  | semana 3 |  | Entrega  |  [WP03](https://classroom.github.com/g/rxPrqTE5)
 
 
