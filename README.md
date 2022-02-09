@@ -123,7 +123,7 @@ Semana 4 | BCD2sseg display 7 segmentos | [link](./labs/lab02.md) | [L02](https:
 Semana 6 | implementación| [link](./labs/lab03.md) |  [L03](https://classroom.github.com/) [laboratorio de implementación.pdf](https://github.com/unal-edigital1/2020-2/tree/master/slides/week06) | |
 Semana 8 | Banco de Registro| [link](./labs/lab04.md) | [L04](https://classroom.github.com/a/oueb-ku-)| |
 Semana 9 | multiplicador| [link](./labs/lab05.md) |[L05](https://github.com/unal-edigital1/lab05) | |
-Semana 10|  Prueba Buffer de memoria y cpnfigutación test VGA | [link](./docs/WP01.md) | [WP01](https://classroom.github.com/a/kzH-jQad)
+Semana 10|  Prueba Buffer de memoria y configutación test VGA | [link](./docs/WP01.md) | [WP01](https://classroom.github.com/a/kzH-jQad)
 
 
 
@@ -138,6 +138,10 @@ WP  | semana | deadline  | Tema | Documentación| Repositorio
 03  | semana 3 |  | Entrega  ||  [WP03](https://classroom.github.com/a/Jdvy6_3g)
 
 
+## Entregas
+### Proyecto 
+* [Grupo03](https://github.com/unal-edigital1-lab/wp01-2021-2-grupo03-2021-2)
+* [Grupo05]
 
 ## Bibliografía
 * Daniel D. Gajski. Principles of Digital Design. Prentice Hall, 1997.
