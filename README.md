@@ -160,7 +160,7 @@ WP  | semana | deadline  | Tema | Documentación| Repositorio
 * [lab VGA G08](https://github.com/unal-edigital1-lab/wp01-2021-2-grupo08-2021-2)
 * [lab BR G08](https://github.com/unal-edigital1-lab/lab04-2021-2-grupo08-2021-2)
 * [lab VD G08](https://github.com/unal-edigital1-lab/lab02-2021-2-grupo-8-2021-2)
-* [lab SUM G08](https://github.com/unal-edigital1-lab/lab01-2021-2-brrsanchezfi)
+* [lab SUM G08](https://github.com/unal-edigital1-lab/lab01-2021-2-jubarreras)
 
 ## Bibliografía
 * Daniel D. Gajski. Principles of Digital Design. Prentice Hall, 1997.
