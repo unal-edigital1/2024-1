@@ -150,6 +150,12 @@ WP  | semana | deadline  | Tema | Documentación| Repositorio
 * [lab VD G07](https://github.com/unal-edigital1-lab/lab02-2021-2-grupo7-2021-2)
 * [lab SUM G07](https://github.com/unal-edigital1-lab/lab01-2021-2-Diegoapp55)
 
+
+* [lab VGA G06](https://github.com/unal-edigital1-lab/wp01-2021-2-grupo06-2021-2)
+* [lab BR G06](https://github.com/unal-edigital1-lab/lab04-2021-2-grupo06-2021-2)
+* [lab VD G06](https://github.com/unal-edigital1-lab/lab02-2021-2-grupo06-2021-2)
+* [lab SUM G06](https://github.com/unal-edigital1-lab/lab01-2021-2-FaSaSu20)
+
 ## Bibliografía
 * Daniel D. Gajski. Principles of Digital Design. Prentice Hall, 1997.
 * J. Wakerly Diseño Digital, Ed.3 – Principios y Prácticas.
