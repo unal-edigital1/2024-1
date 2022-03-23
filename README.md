@@ -117,7 +117,7 @@ Recuerda también revisar que en la página de github se refleja las actualizaci
 Semana   | Tema   | Guia de laboratorio | WP | deadline 
 --       | --     | --            	| -- | --   
 Semana 1 | instalación Vivado/Quartus | [link](./labs/lab00.md) | |
-Semana 1 | L1 Configuracion de Git y Quartus sum1b | [link](./labs/lab00.md) | [L00Basico](https://classroom.github.com/a/NBX54cVx) [L00 sum1b](https://classroom.github.com/a/i3tLepNR)  |
+Semana 1 | L1 Configuracion de Git y Quartus sum1b | [link](./labs/lab00.md) | [L00 Basico](https://classroom.github.com/a/NBX54cVx) [L01 sum1b](https://classroom.github.com/a/i3tLepNR)  |
 Semana 2 | L2 Sumador 4b  y testbench| [link](./labs/lab01.md) | [L01](https://classroom.github.com/a/UtSalc5L) |  |
 Semana 4 | L3 BCD2sseg display 7 segmentos | [link](./labs/lab02.md) | [L02](https://classroom.github.com/a/92sH5dbi) | |
 Semana 6 |  opcional implementación en remoto| [link](./labs/lab03.md) |  [L03](https://classroom.github.com/) [laboratorio de implementación.pdf](https://github.com/unal-edigital1/2020-2/tree/master/slides/week06) | |
