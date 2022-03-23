@@ -95,17 +95,17 @@ Recuerde tener presente el deadline  de cada paquete de trabajo, a las 8 de  la 
 Para actualizar el repositorio deben realizar  el respectivo commit y push, según sea la plataforma que estén utilizando y como se explicó en clase.
 Recuerda también revisar que en la página de github se refleja las actualizaciones realizadas por el grupo de trabajo 
 
-### tarjetas de trabajo 
+### Tarjetas de trabajo 
 
 #### CicloneIV
 * [link de documentación](https://www.didacticaselectronicas.com/index.php/sistemas-de-desarrollo/cpld-y-fpga/tarjeta-de-desarrollo-altera-cyclone-iv-tarjetas-sistemas-boards-de-desarrollo-fpga-ep4ce10e22c8n-altera-cyclone-iv-4-detail)
 * [link de documentación 2](http://land-boards.com/blwiki/index.php?title=A-C4E6_Cyclone_IV_FPGA_EP4CE6E22C8N_Development_Board)
 * [Recursos](https://github.com/unal-edigital1/2021-2/tree/master/docs/recursosCicloneIV)
 
-### ejemplos sencillos de programación
+### Ejemplos sencillos de programación
 *[link](https://github.com/unal-edigital1/2021-2/tree/master/docs/recursosCicloneIV/Verilog-Examples)
 
-## videos de clase 
+## Videos de clase 
 
 [drive](https://drive.google.com/drive/folders/14dKrOBZGk-wQYUbxMbgQIClqHZV0Hbfb?usp=sharing)
 
