@@ -1,10 +1,10 @@
-##  LABORATORIO DE ELECTRÓNICA DIGITAL 1 2021-2 UNIVERSIDAD NACIONAL DE COLOMBIA 
+##  LABORATORIO DE ELECTRÓNICA DIGITAL 1 2022-2 UNIVERSIDAD NACIONAL DE COLOMBIA 
 
 ### Profesor:
 	Ferney Alberto Beltrán Molina, Ing, MSc, PhD(c)
 	fabeltranm@unal.edu.co.
 	github: https://github.com/Fabeltranm/
-   https://unal-edigital1.github.io/2021-2
+   https://unal-edigital1.github.io/2022-1
 
 ### Material de clase, labs de años anteriores
 * [2015-2017](https://sites.google.com/site/edigital1unal/)
@@ -13,20 +13,20 @@
 * [2020-1](https://unal-edigital1-2020-1.github.io/page)
 * [2020-2](https://unal-edigital1.github.io/2020-2/)
 * [2021-1](https://unal-edigital1.github.io/2021-1/)
+* [2021-2](https://unal-edigital1.github.io/2021-2/)
 
 	
 
 ### Descripción
 
-Este curso proporciona las bases metodológicas y tecnológicas para el diseño de sistemas digitales. Una vez cursado el estudiante debe ser capaz de realizar el proceso completo de diseño de un sistema digital complejo, desde su especificación hasta la implementación física, utilizando herramientas CAD que faciliten el proceso, y su implementación 
+Este curso-laboratorio proporciona las bases metodológicas y tecnológicas para el diseño de sistemas digitales. Una vez cursado el estudiante debe ser capaz de realizar el proceso completo de diseño de un sistema digital complejo, desde su especificación hasta la implementación física, utilizando herramientas CAD que faciliten el proceso, y su implementación 
 
 
 ### Metodología
 
-El estudiante es responsable de adquirir el conocimiento, y tiene la responsabilidad de preparar los temas que se van a tratar , antes de cada nuevo tema se dejarán lecturas, talleres y prácticas que deben ser realizadas por el estudiante y las dudas se discutirán y aclararán en clase de laboratorio.
+El estudiante es responsable de adquirir el conocimiento, y tiene la responsabilidad de preparar los temas que se van a tratar , antes de cada nuevo tema se dejarán lecturas para las prácticas que deben ser realizadas por el estudiante y las dudas se discutirán y aclararán en clase de laboratorio.
 
 Adicionalmente, el estudiante debe aprender a manejar por su cuenta los programas computacionales utilizados en el curso. Con esto se elimina la dependencia tecnológica y permite que en la vida profesional se puedan adquirir nuevos conocimientos de forma autónoma. Sobra decir que el componente práctico es de vital importancia ya que el estudiante debe ser capáz de realizar implementaciones físicas que cumplan con especificaciones físicas, eléctricas, funcionales y económicas.
-
 
 Requisitos: Aparte de los establecidos en cada uno de los programas que incluyen la asignatura, es recomendable que el estudiante tenga disposición para el diseño e implementación de circuitos electrónicos y así como bases en algún lenguaje de programación de computadores.
 
@@ -46,7 +46,7 @@ Requisitos: Aparte de los establecidos en cada uno de los programas que incluyen
 * PROYECTO fINAL
 
 ### Evaluación
-* 100% Proyecto. los laboratorios son prerequisitos ,  y se realzian las respectivas realimentaciones  y observaciones de mejora, Todos los laboratoriso deben tener documentación.
+* 100% Proyecto. se realizan 7 laboratorios como prerequisitos ,  y se realzian las respectivas realimentaciones  y observaciones de mejora, Todos los laboratoriso deben tener documentación.
 
 ## Estructura de los Laboratorios y Proyecto 
 
@@ -111,19 +111,19 @@ Recuerda también revisar que en la página de github se refleja las actualizaci
 
 ## tutorias 
 
-## Cronograma de laboratorios  (Prelabs) 
+## Cronograma de laboratorios  (labs) 
 
 
 Semana   | Tema   | Guia de laboratorio | WP | deadline 
 --       | --     | --            	| -- | --   
 Semana 1 | instalación Vivado/Quartus | [link](./labs/lab00.md) | |
-Semana 1 | Configuracion de Git y Quartus sum1b | [link](./labs/lab00.md) | [L00](https://classroom.github.com/a/WlxjmZTc)  |
-Semana 2 | Sumador 4b  y testbench| [link](./labs/lab01.md) | [l01](https://classroom.github.com/a/UtSalc5L) |  |
-Semana 4 | BCD2sseg display 7 segmentos | [link](./labs/lab02.md) | [L02](https://classroom.github.com/a/92sH5dbi) | |
-Semana 6 | implementación| [link](./labs/lab03.md) |  [L03](https://classroom.github.com/) [laboratorio de implementación.pdf](https://github.com/unal-edigital1/2020-2/tree/master/slides/week06) | |
-Semana 8 | Banco de Registro| [link](./labs/lab04.md) | [L04](https://classroom.github.com/a/oueb-ku-)| |
-Semana 9 | multiplicador| [link](./labs/lab05.md) |[L05](https://github.com/unal-edigital1/lab05) | |
-Semana 10|  Prueba Buffer de memoria y configutación test VGA | [link](./docs/WP01.md) | [WP01](https://classroom.github.com/a/kzH-jQad)
+Semana 1 | L1 Configuracion de Git y Quartus sum1b | [link](./labs/lab00.md) | [L00](https://classroom.github.com/a/)  |
+Semana 2 | L2 Sumador 4b  y testbench| [link](./labs/lab01.md) | [l01](https://classroom.github.com/a/UtSalc5L) |  |
+Semana 4 | L3 BCD2sseg display 7 segmentos | [link](./labs/lab02.md) | [L02](https://classroom.github.com/a/92sH5dbi) | |
+Semana 6 |  opcional implementación en remoto| [link](./labs/lab03.md) |  [L03](https://classroom.github.com/) [laboratorio de implementación.pdf](https://github.com/unal-edigital1/2020-2/tree/master/slides/week06) | |
+Semana 8 | L4 Banco de Registro| [link](./labs/lab04.md) | [L04](https://classroom.github.com/a/)| |
+Semana 9 | L5 multiplicador| [link](./labs/lab05.md) |[L05](https://github.com/unal-edigital1/lab05) | |
+Semana 10|  L6 Prueba Buffer de memoria y configutación test VGA | [link](./docs/WP01.md) | [WP01](https://classroom.github.com/a/)
 
 
 
@@ -135,32 +135,13 @@ A  partir de los laboratorisos el estudiante realiza el plan de trabajo del proy
 WP  | semana | deadline  | Tema | Documentación| Repositorio 
 --  | --     | --        | --   | --          | --  
 02  | semana 2 |   |propuesta adición |  |  [WP02]()
-03  | semana 3 |  | Entrega  ||  [WP03](https://classroom.github.com/a/Jdvy6_3g)
+03  | semana 3 |  | Entrega  ||  [WP03](https://classroom.github.com/a/)
 
 
 ## Entregas
-### Proyecto 
-* [Grupo03](https://github.com/unal-edigital1-lab/wp01-2021-2-grupo03-2021-2)
-* [Grupo05](https://github.com/unal-edigital1-lab/wp01-2021-2-grupo05-2021-2)
-
 ### Laboratorios
+### Proyecto 
 
-* [lab VGA G07](https://github.com/unal-edigital1-lab/wp01-2021-2-grupo7-2021-2)
-* [lab BR G07](https://github.com/unal-edigital1-lab/lab04-2021-2-grupo7-2021-2)
-* [lab VD G07](https://github.com/unal-edigital1-lab/lab02-2021-2-grupo7-2021-2)
-* [lab SUM G07](https://github.com/unal-edigital1-lab/lab01-2021-2-Diegoapp55)
-
-
-* [lab VGA G06](https://github.com/unal-edigital1-lab/wp01-2021-2-grupo06-2021-2)
-* [lab BR G06](https://github.com/unal-edigital1-lab/lab04-2021-2-grupo06-2021-2)
-* [lab VD G06](https://github.com/unal-edigital1-lab/lab02-2021-2-grupo06-2021-2)
-* [lab SUM G06](https://github.com/unal-edigital1-lab/lab01-2021-2-FaSaSu20)
-
-
-* [lab VGA G08](https://github.com/unal-edigital1-lab/wp01-2021-2-grupo08-2021-2)
-* [lab BR G08](https://github.com/unal-edigital1-lab/lab04-2021-2-grupo08-2021-2)
-* [lab VD G08](https://github.com/unal-edigital1-lab/lab02-2021-2-grupo-8-2021-2)
-* [lab SUM G08](https://github.com/unal-edigital1-lab/lab01-2021-2-jubarreras)
 
 ## Bibliografía
 * Daniel D. Gajski. Principles of Digital Design. Prentice Hall, 1997.
