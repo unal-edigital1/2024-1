@@ -82,7 +82,7 @@ Luego se instancia las respectivas puertas lógicas (AND, OR, XOR), acorde a los
 
 #### Entregables 1
 
-* Comprenda cada línea del código HDL del archivo sum1bcc_primitive.v que se encuentra en la carpera src. 
+* Comprenda cada línea del código HDL del archivo sum1bcc_primitive.v que se encuentra en la carpera src y comente si es necesario  en el archivo README.md
 
 #### b. HDL con descripción de suma
 
@@ -117,14 +117,11 @@ Se evidencia que esta nueva descripción cuenta con un  ```  Reg ```  de 2 bits 
 
 #### Entregables 2
 
-* Implemente u nnuevo proyecto, pero donde el archivo top sea elmodule sum1bcc del archivo ``` sum1bcc.v```
-* Comprenda cada línea del código HDL del archivo sum1bcc.v que se encuentra en la carpera src, si cree necesario realice los respectivos comentarios en el mismo archivo 
-* Comente las diferencias entre las dos descripciones ```modulo sum1bcc``` y ```modulo sum1bcc_primitive```
+* Implemente un nuevo proyecto en quartus, pero donde el archivo top sea elmodule sum1bcc del archivo ``` sum1bcc.v```
+* Comprenda cada línea del código HDL del archivo sum1bcc.v que se encuentra en la carpera src, si cree necesario realice los respectivos comentarios en el mismo archivo o el README.md
+* Comente en el archivo README.md las diferencias entre las dos descripciones ```modulo sum1bcc``` y ```modulo sum1bcc_primitive```
 
 ### 5 Simulación Funcional  QUARTUS sum1bcc
-Objetivo:
-1. General la simulación visual  y forzar la entradas A B y Ci a clock para  validar todas las posibles entradas.
-2. Comprobar su funcionamiento.
 
 #### a. Configure el path del simulador en quartus 
 
@@ -150,8 +147,8 @@ Library*** y verifique que la libreria ***work***, tenga el archivo **sum1bcc**.
 6. configure las señales en sus estados , y haga clic en ***Run***
 
 ####  Entregable 3
-
-* Analice la simulación de cada uno de los archivos y compruebe que el sumador funciona correctamente. la simulación se debe realizar con  quartus ModelSim, segun la guia de simulación.
+* General la simulación visual  y forzar la entradas A B y Ci a clock para  validar todas las posibles entradas.
+* Analice la simulación de cada uno de los archivos y compruebe que el sumador funciona correctamente.
 * Generar las graficas respectivas y documente sus resultados en README.md
 
 
