@@ -1,4 +1,4 @@
-## Laboratorio 0: instalación y configuración de Framework para FPGA y prueba de un simador de 1 bit
+## Laboratorio 0: instalación y configuración de Framework para FPGA y prueba de un sumador de 1 bit
 
 ***Field Programmable Gate Array (FPGA)*** son dispositivos reconfigurables, en los cuales se puede implementar cualquier lógica combinacional o secuencia, en generial un amplio abanico de funciones electronicas. Esto es gracias a que las FPGAS son dispositivos que integran bloques lógicos y que se pueden interconectar según la funcional deseada escrita en el Lenguaje de descripción de hardware (HDL).
 
