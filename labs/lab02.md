@@ -1,4 +1,4 @@
-# Laboratorio 02: implemetacion del sumador de 4 bits en HDL  quartus
+# Laboratorio 02: implemetación del sumador de 4 bits en HDL  quartus
 
 
 # Introducción
