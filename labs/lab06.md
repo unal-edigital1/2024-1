@@ -1,7 +1,6 @@
-# Paquete de trabajo
+# Laboratorio 06 Multiplicador 
 
-link [WP05](https://classroom.github.com/g/Gopv8Srb)
-[slide](https://github.com/unal-edigital1-2020-1/page/tree/master/slides/week08)
+explicaci+´n generar de FSM [slide](https://github.com/unal-edigital1-2020-1/page/tree/master/slides/week08)
 
 # Descripción general del sistema: (tomado del documento de clase)
 
@@ -38,7 +37,4 @@ implementación
 video de funcionamiento 
 
 
-## referencias:
-
-Doc de la asignatura
 
