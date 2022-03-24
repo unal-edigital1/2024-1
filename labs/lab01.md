@@ -1,4 +1,4 @@
-## Prueba basicas de Quartuus con el Funcionamiento del sumador de 1 bit
+## Lab 01: Prueba básicas de Quartuus con el Funcionamiento del sumador de 1 bit
 
 ### Introducción
 
@@ -39,14 +39,13 @@ Optimizando el circuito, según la Tabla de verdad , podemos observar que la ló
 
 Una vez abierto el  framework  de [Quartus prime lite](https://github.com/ELINGAP-7545/lab00#configuraci%C3%B3n-b%C3%A1sica-para-un-nuevo-proyecto-en-quartus-prime-lite), cree el nuevo proyecto como se explico en el laboratorio anterior con el wizard.
 
-![proyectWizard](./figs/f5.png) 
-
 ***Nota***: Recuerde se debe clonar el repositorio en su computador, e importar el archivo ***sum1bcc_primitive.v***
 
-Sin embargo si no importo el archivo ***sum1bcc_primitive.v*** , digitar o copiar el siguiente código, recuerde que el HDL lo encuentra en la carpeta src
+Sin embargo si ***no*** importo el archivo ***sum1bcc_primitive.v*** ,  realice el siguiente procedimiento: 
 
-
-
+1. Navegar en el menu File y hacer clic en New... selecionar verilog HDL File  según imagen;
+![proyectWizard](./figs/f5.png) 
+2.  Digitar o copiar el siguiente código, peor antes  recuerde que el HDL lo encuentra en la carpeta src 
 
 
 ```verilog
@@ -73,6 +72,7 @@ module sum1bcc_primitive (A, B, Ci,Cout,S);
 
 endmodule
 ```
+
 Observe que el HDL inicia con la descripción del módulo ``` sum1bcc_primitive.v``` : Se definen las  entradas  y salidas del bloque funcional , tal cual  como se estaba especificado en el bloque funcional
 
 Luego se instancia las respectivas puertas lógicas (AND, OR, XOR), acorde a los resultados de la lógica de la tabla de verdad. Se resalta la definición de tres componentes ```a_ab, x_ab, cout_t ``` , de tipo ```wire ```, que no es  mas que 'cables' utilizados para conectar las salidas y entradas de unos módulos, en el actual ejemplo son conexiones de puertas. 
