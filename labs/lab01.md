@@ -1,12 +1,10 @@
 ## Lab 01: Prueba básicas de Quartuus con el Funcionamiento del sumador de 1 bit
 
-### Introducción
 
 En este paquete de trabajo los estudiantes deben familiarizarce con el framework de trabajo de la FPGA seleccionado, a partir de la descripción de un sumador de 1, y su simulación básica 
 
-### Diseño de sumador 1 bit 
 
-#### 1 Especificación
+### 1 Especificación
 Diseñar un sumador de un bit A y un bit B completo. Es decir el sumador cuenta con carrier  y se comporta acorde a la siguiente tabla de verdad.
 
 A  | B  | Cin | Out | Cout 
@@ -20,24 +18,24 @@ A  | B  | Cin | Out | Cout
 1| 1 | 0 | 0| 1
 1| 1 | 1 | 1| 1
 
-#### 2 Bloque Funcional
+### 2 Bloque Funcional
 
 Según la especificación del sumador completo de 1 bit. se deduce que el bloque o modulo funcional esta dado por la siguiente gráfica: 
 
 ![Sumador 1bit](https://github.com/Fabeltranm/SPARTAN6-ATMEGA-MAX5864/blob/master/lab/lab01-sumador1b/doc/bloqSum1b.jpg)
 
-#### 3 Lógica Combinacional 
+### 3 Lógica Combinacional 
 
 Optimizando el circuito, según la Tabla de verdad , podemos observar que la lógica combinación del ejercicio propuesto esta dada por:
 
 ![Sumador 1bit](https://github.com/Fabeltranm/SPARTAN6-ATMEGA-MAX5864/blob/master/lab/lab01-sumador1b/doc/sum1bPuertas.jpg)
  
-#### 4 Implementación HDL verilog
+### 4 Implementación HDL verilog
 
 
    ***Nota*** : verifique que tenga el programa para sintetizar la descripción de hardware, para este ejemplo, se usa [Quartus prime lite](https://github.com/ELINGAP-7545/lab00#configuraci%C3%B3n-b%C3%A1sica-para-un-nuevo-proyecto-en-quartus-prime-lite), si desea usar el framework de Xilinx  ir al  [link](https://github.com/Fabeltranm/SPARTAN6-ATMEGA-MAX5864/wiki/Introducci%C3%B3n)
  
-##### a. HDL con bloques primitives
+#### a. HDL con bloques primitives
 
 Una vez abierto el  framework  de [Quartus prime lite](https://github.com/ELINGAP-7545/lab00#configuraci%C3%B3n-b%C3%A1sica-para-un-nuevo-proyecto-en-quartus-prime-lite), cree el nuevo proyecto como se explico en el laboratorio anterior con el wizard.
 
@@ -82,11 +80,11 @@ Observe que el HDL inicia con la descripción del módulo ``` sum1bcc_primitive.
 Luego se instancia las respectivas puertas lógicas (AND, OR, XOR), acorde a los resultados de la lógica de la tabla de verdad. Se resalta la definición de tres componentes ```a_ab, x_ab, cout_t ``` , de tipo ```wire ```, que no es  mas que 'cables' utilizados para conectar las salidas y entradas de unos módulos, en el actual ejemplo son conexiones de puertas. 
 
 
-##### Entregables 1
+#### Entregables 1
 
 * Comprenda cada línea del código HDL del archivo sum1bcc_primitive.v que se encuentra en la carpera src. 
 
-##### b. HDL con descripción de suma
+#### b. HDL con descripción de suma
 
 como vimos en el paso anterior y su nombre lo indica se esta realizando una descripción funcional del módulo,este sentido, podemos tener varios tipos de descripción, pero que cumplen con el mismo funcionamiento. a continuacíón se presenta otra descripción a partir del mismo sumados. 
 
@@ -117,18 +115,18 @@ endmodule
 Se evidencia que esta nueva descripción cuenta con un  ```  Reg ```  de 2 bits ``` st ```. ``` Reg ``` , en este sentido, representan un elemento de almacenamiento de datos y conserva dicho valor hasta que se les asigna el siguiente valor.
 
 
-##### Entregables 2
+#### Entregables 2
 
 * Implemente u nnuevo proyecto, pero donde el archivo top sea elmodule sum1bcc del archivo ``` sum1bcc.v```
 * Comprenda cada línea del código HDL del archivo sum1bcc.v que se encuentra en la carpera src, si cree necesario realice los respectivos comentarios en el mismo archivo 
 * Comente las diferencias entre las dos descripciones ```modulo sum1bcc``` y ```modulo sum1bcc_primitive```
 
-#### 5 Simulación Funcional  QUARTUS sum1bcc
+### 5 Simulación Funcional  QUARTUS sum1bcc
 Objetivo:
 1. General la simulación visual  y forzar la entradas A B y Ci a clock para  validar todas las posibles entradas.
 2. Comprobar su funcionamiento.
 
-##### a. Configure el path del simulador en quartus 
+#### a. Configure el path del simulador en quartus 
 
 Para ejecutar el simulador de EDA (en este caso, Modelsim-Altera) automáticamente desde el software Quartus II usando la función NativeLink, se debe especificar la ruta de  herramienta de simulación realizando los siguientes pasos:
 
@@ -139,7 +137,7 @@ Para ejecutar el simulador de EDA (en este caso, Modelsim-Altera) automáticamen
 simulador
   5. Haga clic en ***ok***
 
-##### b. ModelSim-Altera
+#### b. ModelSim-Altera
 
 una vez configurado, estas listo para realizar las simulaciones del banco de pruebas, (testBench), para ello:
 
@@ -151,7 +149,7 @@ Library*** y verifique que la libreria ***work***, tenga el archivo **sum1bcc**.
 5. Para mostrar todas las señales de prueba en la ventana Wave, teniendo como foco la ventana ***Objects***, haga clic en add -> A Wave -> Signals in Region.  Alternativamente, puede mostrar algunas señales seleccionadas en la ventana Wave: En la ventana  ***Objects***, seleccione las señales que le gustaría monitorear y arrástrelas a la ventana Wave (o copiar y pegar).
 6. configure las señales en sus estados , y haga clic en ***Run***
 
-##  Entregable 3
+####  Entregable 3
 
 * Analice la simulación de cada uno de los archivos y compruebe que el sumador funciona correctamente. la simulación se debe realizar con  quartus ModelSim, segun la guia de simulación.
 * Generar las graficas respectivas y documente sus resultados en README.md
