@@ -1,4 +1,4 @@
-## Laboratorio 02: Testbench  e implementacion de 7 segmentos 
+## Laboratorio 02: simulación por medio de Testbench  e implementacion de 7 segmentos 
 ### BCD2sseg
 
 
@@ -82,18 +82,28 @@ Se evidencia que se deben construir cuatro módulos  básicos, de los cuales uno
 
 Una vez clone el repositorio y lea la anterior guia, realice lo siguiente:
 
-En el paquete de trabajo [WP02]  esta la descripción del hardware que se implementa para visualizar un número hexadecimal de 32 bits en 4 display de 7 segmentos.
+En el paquete de trabajo esta la descripción del hardware que se implementa para visualizar un número hexadecimal de 32 bits en 4 display de 7 segmentos.
 
 
 * Comprenda cada línea del código HDL de los archivos que se encuentra en la carpera src. Si cree necesario realice los respectivos comentarios en el mismo archivo.
 
-* Realice la simulación para el BCD-7seg, analice los resultados.
+1*  Simulación
+* Realice la simulación por medi ode testbench para el BCD-7seg, analice los resultados.
 * Cree el nuevo proyecto HDL para Visualización Dinámica 4 Display, tomando como base los archivos dados.
-* Creer el archivo testbench.v
+* Creer el archivo testbench.v para simular la visualización de 4 display
 * Genera la simulación, Revise que el sistema funciona como usted lo esperaba. Realice lo comentarios necesarios en el archivo README.md.
+
+2* implementación
+* implementar e la tarjeta el desarrollo de HDL según los parametros dados en clase 
+* Comprobar la lógica en la FPGA real 
+* Introducir cada uno de los números posibles mediante los interruptores, y verifica que se muestran todos correctamente
+* Realice lo comentarios necesarios en el archivo README.md.
+
+
+3* Adicionales 
 * Modificar o Añadir los bloques necesarios para que la visualización sea en representación Decimal y no Hexadecimal.
 * Realice la respectiva publicación del repositorio antes de la fecha dada con todo el código fuente
-* * implementar e la tarjeta el desarrollo de HDL
+
 
 # Deadline
 
