@@ -1,17 +1,16 @@
-# Laboratorio 01: introducción al HDL  quartus
-## sumador 4 bits
+# Laboratorio 02: implemetacion del sumador de 4 bits en HDL  quartus
+
 
 # Introducción
 
 En este paquete de trabajo los estudiantes deben familiarizarce con el  framework de trabajo de la FPGA seleccionado, a partir de la descripción de un sumador de 1, y su instanciación para un sumador de 4 bit  con su respectiva simulación
 
-Para este paquete de trabajo, deben estar inscrito en un grupo y clonar la información del siguiente link [WP01](https://classroom.github.com/a/UtSalc5L). Una vez aceptado el repositorio debe descargarlo en su computador, para ello debe clonar el mismo. Si no sabe cómo hacerlo revise la metodología de trabajo, donde se explica el proceso
+Para este paquete de trabajo, deben estar inscrito en un grupo y clonar la información del paquete de trabajo. Una vez aceptado el repositorio debe descargarlo en su computador, para ello debe clonar el mismo. Si no sabe cómo hacerlo revise la metodología de trabajo, donde se explica el proceso
 
 Las documentación deben estar diligencia en el archivo README.md del repositorio clonado.
 
 Una vez clone el repositorio, realice lo siguiente:
 
-#  Desarrollo
 ## 1 Diseño de sumador 1 bit 
 
 ### Especificación
