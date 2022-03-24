@@ -34,16 +34,20 @@ Optimizando el circuito, según la Tabla de verdad , podemos observar que la ló
  
 ##### 4 Implementación HDL verilog
 
-   ```
-   ***Nota***: verifique que tenga el programa para sintetizar la descripción de hardware, para este ejemplo, se usa [Quartus prime lite](https://github.com/ELINGAP-7545/lab00#configuraci%C3%B3n-b%C3%A1sica-para-un-nuevo-proyecto-en-quartus-prime-lite), si desea usar el framework de Xilinx  ir al  [link](https://github.com/Fabeltranm/SPARTAN6-ATMEGA-MAX5864/wiki/Introducci%C3%B3n)
- ```
+   ***Nota*** : verifique que tenga el programa para sintetizar la descripción de hardware, para este ejemplo, se usa [Quartus prime lite](https://github.com/ELINGAP-7545/lab00#configuraci%C3%B3n-b%C3%A1sica-para-un-nuevo-proyecto-en-quartus-prime-lite), si desea usar el framework de Xilinx  ir al  [link](https://github.com/Fabeltranm/SPARTAN6-ATMEGA-MAX5864/wiki/Introducci%C3%B3n)
+ 
 
-Una vez abierto el  framework  de [Quartus prime lite](https://github.com/ELINGAP-7545/lab00#configuraci%C3%B3n-b%C3%A1sica-para-un-nuevo-proyecto-en-quartus-prime-lite), En la barra de herramientas (toolbar) de Quartus, navegar en el menu File y hacer clic en New... selecionar verilog HDL File (ver imagen)
+Una vez abierto el  framework  de [Quartus prime lite](https://github.com/ELINGAP-7545/lab00#configuraci%C3%B3n-b%C3%A1sica-para-un-nuevo-proyecto-en-quartus-prime-lite), cree el nuevo proyecto como se explico en el laboratorio anterior con el wizard.
+
+![proyectWizard](./figs/f5.png) 
+
+***Nota***: Recuerde se debe clonar el repositorio en su computador, e importar el archivo ***sum1bcc_primitive.v***
+
+Sin embargo si no importo el archivo ***sum1bcc_primitive.v*** , digitar o copiar el siguiente código, recuerde que el HDL lo encuentra en la carpeta src
 
 
 
 
-![proyectWizard](./figs/f5.PNG) 
 
 ```verilog
 
