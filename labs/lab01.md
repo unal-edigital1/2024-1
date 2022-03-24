@@ -1,9 +1,10 @@
 ## Prueba basicas de Quartuus con el Funcionamiento del sumador de 1 bit
 
-## En este paquete de trabajo los estudiantes deben familiarizarce con el framework de trabajo de la FPGA seleccionado, a partir de la descripción de un sumador de 1, y su simulación básica 
+### Introducción
 
+En este paquete de trabajo los estudiantes deben familiarizarce con el framework de trabajo de la FPGA seleccionado, a partir de la descripción de un sumador de 1, y su simulación básica 
 
-#### Diseño de sumador 1 bit 
+### Diseño de sumador 1 bit 
 
 ##### 1 Especificación
 Diseñar un sumador de un bit A y un bit B completo. Es decir el sumador cuenta con carrier  y se comporta acorde a la siguiente tabla de verdad.
@@ -33,7 +34,7 @@ Optimizando el circuito, según la Tabla de verdad , podemos observar que la ló
  
 ##### 4 Implementación HDL verilog
 
-  Nota: verifique que tenga el programa para sintetizar la descripción de hardware, para este ejemplo, se usa [Quartus prime lite](https://github.com/ELINGAP-7545/lab00#configuraci%C3%B3n-b%C3%A1sica-para-un-nuevo-proyecto-en-quartus-prime-lite), si desea usar ise  ir al  [link](https://github.com/Fabeltranm/SPARTAN6-ATMEGA-MAX5864/wiki/Introducci%C3%B3n) 
+  ***Nota: verifique que tenga el programa para sintetizar la descripción de hardware, para este ejemplo, se usa [Quartus prime lite](https://github.com/ELINGAP-7545/lab00#configuraci%C3%B3n-b%C3%A1sica-para-un-nuevo-proyecto-en-quartus-prime-lite), si desea usar el framework de Xilinx  ir al  [link](https://github.com/Fabeltranm/SPARTAN6-ATMEGA-MAX5864/wiki/Introducci%C3%B3n)***
 
 
 Una vez abierto el  framework  de [Quartus prime lite](https://github.com/ELINGAP-7545/lab00#configuraci%C3%B3n-b%C3%A1sica-para-un-nuevo-proyecto-en-quartus-prime-lite), En la barra de herramientas (toolbar) de Quartus, navegar en el menu File y hacer clic en New... selecionar verilog HDL File (ver imagen)
