@@ -46,7 +46,7 @@ Requisitos: Aparte de los establecidos en cada uno de los programas que incluyen
 * PROYECTO fINAL
 
 ### Evaluación
-* 100% Proyecto. se realizan 7 laboratorios como prerequisitos ,  y se realzian las respectivas realimentaciones  y observaciones de mejora, Todos los laboratoriso deben tener documentación.
+* 100% Proyecto. se realizan 7 laboratorios como prerequisito,  y se realizan las respectivas realimentaciones  y observaciones de mejora, Todos los laboratorios deben tener documentación.
 
 ## Estructura de los Laboratorios y Proyecto 
 
