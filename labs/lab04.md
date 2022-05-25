@@ -1,4 +1,4 @@
-## Laboratorio 05 Banco de registro
+## Laboratorio 04 Banco de registro
 
 # Introducción
 
