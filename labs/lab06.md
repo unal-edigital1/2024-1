@@ -1,6 +1,6 @@
 # Laboratorio 06 Multiplicador 
 
-explicaci+´n generar de FSM [slide](https://github.com/unal-edigital1-2020-1/page/tree/master/slides/week08)
+Explicación generar de FSM [slide](https://github.com/unal-edigital1-2020-1/page/tree/master/slides/week08)
 
 # Descripción general del sistema: (tomado del documento de clase)
 
@@ -32,9 +32,11 @@ la caja funcional o caja negra   tiene como entradas multiplicando y el multipli
 
 # Entregable
 
-simulación
-implementación
-video de funcionamiento 
+* Simulación de la multiplicación
+* Implementación integrando la visualización de los resultados en 7 segmentos
+* Video de funcionamiento 
+* implementar  la división a partir de maquinas de estados.
+
 
 
 
