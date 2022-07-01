@@ -140,8 +140,9 @@ WP  | semana | deadline  | Tema | Documentación| Repositorio
 
 ## Entregas
 ### Laboratorios
-### Proyecto 
 
+### Proyecto 
+[GRUPO09](https://github.com/unal-edigital1-lab/lab06-2022-1-grupo09-22-1-jopaju)
 
 ## Bibliografía
 * Daniel D. Gajski. Principles of Digital Design. Prentice Hall, 1997.
