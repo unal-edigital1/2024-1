@@ -28,7 +28,7 @@ El estudiante es responsable de adquirir el conocimiento, y tiene la responsabil
 
 Adicionalmente, el estudiante debe aprender a manejar por su cuenta los programas computacionales utilizados en el curso. Con esto se elimina la dependencia tecnológica y permite que en la vida profesional se puedan adquirir nuevos conocimientos de forma autónoma. Sobra decir que el componente práctico es de vital importancia ya que el estudiante debe ser capáz de realizar implementaciones físicas que cumplan con especificaciones físicas, eléctricas, funcionales y económicas.
 
-Requisitos: Aparte de los establecidos en cada uno de los programas que incluyen la asignatura, es recomendable que el estudiante tenga disposición para el diseño e implementación de circuitos electrónicos y así como bases en algún lenguaje de programación de computadores.
+Requisitos: Aparte de los establecidos en cada uno de los programas que incluye  el curso, es recomendable que el estudiante tenga disposición para el diseño e implementación de circuitos electrónicos y así como bases en algún lenguaje de programación de computadores.
 
 
 ### Objetivos 
