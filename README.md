@@ -1,10 +1,10 @@
-##  LABORATORIO DE ELECTRÓNICA DIGITAL 1 2022-1 UNIVERSIDAD NACIONAL DE COLOMBIA 
+##  LABORATORIO DE ELECTRÓNICA DIGITAL 1 2022-2 UNIVERSIDAD NACIONAL DE COLOMBIA 
 
 ### Profesor:
 	Ferney Alberto Beltrán Molina, Ing, MSc, PhD(c)
 	fabeltranm@unal.edu.co.
 	github: https://github.com/Fabeltranm/
-   https://unal-edigital1.github.io/2022-1
+   https://unal-edigital1.github.io/2022-2
 
 ### Material de clase, labs de años anteriores
 * [2015-2017](https://sites.google.com/site/edigital1unal/)
@@ -14,6 +14,7 @@
 * [2020-2](https://unal-edigital1.github.io/2020-2/)
 * [2021-1](https://unal-edigital1.github.io/2021-1/)
 * [2021-2](https://unal-edigital1.github.io/2021-2/)
+* [2022-2](https://unal-edigital1.github.io/2022-1/)
 
 	
 
@@ -46,7 +47,7 @@ Requisitos: Aparte de los establecidos en cada uno de los programas que incluye 
 * PROYECTO fINAL
 
 ### Evaluación
-* 100% Proyecto. se realizan 7 laboratorios como prerequisito,  y se realizan las respectivas realimentaciones  y observaciones de mejora, Todos los laboratorios deben tener documentación.
+* 100% Proyecto. se realizan 7 laboratorios como prerequisito. Se realizan las respectivas realimentaciones  y observaciones de mejora, Todos los laboratorios deben tener documentación.
 
 ## Estructura de los Laboratorios y Proyecto 
 
@@ -109,14 +110,13 @@ Recuerda también revisar que en la página de github se refleja las actualizaci
 
 [drive](https://drive.google.com/drive/folders/14dKrOBZGk-wQYUbxMbgQIClqHZV0Hbfb?usp=sharing)
 
-## tutorias 
 
 ## Cronograma de laboratorios  (labs) 
 
 
 Semana   | Tema   | Guia de laboratorio | WP | deadline 
 --       | --     | --            	| -- | --   
-Semana 1 | instalación Vivado/Quartus | [link](./labs/lab00.md) | |
+Semana 1 | instalación Quartus | [link](./labs/lab00.md) | |
 Semana 2 | L1 Configuracion de Git y Quartus sum1b | [link](./labs/lab01.md) | [L00 Basico](https://classroom.github.com/a/NBX54cVx) [L01 sum1b](https://classroom.github.com/a/i3tLepNR)  |
 Semana 4 | L2 Sumador 4b  y testbench| [link](./labs/lab02.md) | [L02](https://classroom.github.com/a/jiL9KP13) |  |
 Semana 6 | L3 BCD2sseg display 7 segmentos | [link](./labs/lab03.md) | [L03](https://classroom.github.com/a/zHtCSpPS) | |
@@ -140,9 +140,7 @@ WP  | semana | deadline  | Tema | Documentación| Repositorio
 
 ## Entregas
 ### Laboratorios
-
 ### Proyecto 
-[GRUPO09](https://github.com/unal-edigital1-lab/lab06-2022-1-grupo09-22-1-jopaju)
 
 ## Bibliografía
 * Daniel D. Gajski. Principles of Digital Design. Prentice Hall, 1997.
