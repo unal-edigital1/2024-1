@@ -47,7 +47,9 @@ Requisitos: Aparte de los establecidos en cada uno de los programas que incluye 
 * PROYECTO fINAL
 
 ### Evaluación
-* 100% Proyecto. se realizan 7 laboratorios como prerequisito. Se realizan las respectivas realimentaciones  y observaciones de mejora, Todos los laboratorios deben tener documentación.
+* 70% Proyecto y labs. se realizan 7 laboratorios como prerequisito. Se realizan las respectivas realimentaciones  y observaciones de mejora, Todos los laboratorios deben tener documentación.
+*15% autoevaluación
+*15% co-evaluación
 
 ## Estructura de los Laboratorios y Proyecto 
 
@@ -117,8 +119,7 @@ Recuerda también revisar que en la página de github se refleja las actualizaci
 Semana   | Tema   | Guia de laboratorio | WP | deadline 
 --       | --     | --            	| -- | --   
 Semana 1 | instalación Quartus | [link](./labs/lab00.md) | |
-Semana 0 | opcional | [L00 Basico](https://classroom.github.com/a/NBX54cVx) | |
-
+Semana 1 | Opcional | [L00 Basico](https://classroom.github.com/a/NBX54cVx) | |
 Semana 2 | L1 Configuracion de Git y Quartus sum1b | [link](./labs/lab01.md) |  [L01 sum1b](https://classroom.github.com/a/)  |
 Semana 4 | L2 Sumador 4b  y testbench| [link](./labs/lab02.md) | [L02](https://classroom.github.com/a/) |  |
 Semana 6 | L3 BCD2sseg display 7 segmentos | [link](./labs/lab03.md) | [L03](https://classroom.github.com/a/) | |
