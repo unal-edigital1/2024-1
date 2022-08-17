@@ -48,8 +48,8 @@ Requisitos: Aparte de los establecidos en cada uno de los programas que incluye 
 
 ### Evaluación
 * 70% Proyecto y labs. se realizan 7 laboratorios como prerequisito. Se realizan las respectivas realimentaciones  y observaciones de mejora, Todos los laboratorios deben tener documentación.
-*15% autoevaluación
-*15% co-evaluación
+* 15% autoevaluación
+* 15% co-evaluación
 
 ## Estructura de los Laboratorios y Proyecto 
 
