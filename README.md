@@ -14,7 +14,7 @@
 * [2020-2](https://unal-edigital1.github.io/2020-2/)
 * [2021-1](https://unal-edigital1.github.io/2021-1/)
 * [2021-2](https://unal-edigital1.github.io/2021-2/)
-* [2022-2](https://unal-edigital1.github.io/2022-1/)
+* [2022-1](https://unal-edigital1.github.io/2022-1/)
 
 	
 
