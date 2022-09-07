@@ -121,7 +121,7 @@ Semana   | Tema   | Guia de laboratorio | WP | deadline
 Semana 1 | instalación Quartus | [link](./labs/lab00.md) | |
 Semana 1 | Opcional | [L00 Basico](https://classroom.github.com/a/NBX54cVx) | |
 Semana 2 | L1 Configuracion de Git y Quartus sum1b | [link](./labs/lab01.md) |  [L01 sum1b](https://classroom.github.com/a/c9NchQjj)  |
-Semana 4 | L2 Sumador 4b  y testbench| [link](./labs/lab02.md) | [L02](https://classroom.github.com/a/Tj-RHoN9) |  |
+Semana 4 | L2 Sumador 4b  y testbench| [link](./labs/lab02.md) | [L02](https://classroom.github.com/a/5Nk8ypx8) |  |
 Semana 6 | L3 BCD2sseg display 7 segmentos | [link](./labs/lab03.md) | [L03](https://classroom.github.com/a/ONPk0J21) | |
 Semana 8 |  opcional implementación en remoto| [link](./labs/lab03b.md) |  [L03b](https://classroom.github.com/) [laboratorio de implementación.pdf](https://github.com/unal-edigital1/2020-2/tree/master/slides/week06) | |
 Semana 10 | L4 Banco de Registro| [link](./labs/lab04.md) | [L04](https://classroom.github.com/a/AtqGo72m)| |
