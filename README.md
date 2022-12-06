@@ -142,8 +142,19 @@ WP  | semana | deadline  | Tema | Documentación| Repositorio
 
 
 ## Entregas
-### Laboratorios
-### Proyecto 
+
+grupo  | link 
+  --   | --  
+01 | [link](https://github.com/unal-edigital1-lab/lab06-2022-2-grupo01_2022-2)
+02 | [link](https://github.com/unal-edigital1-lab/lab06-2022-2-grupo02_2022-2)
+03 | [link](https://github.com/unal-edigital1-lab/lab06-2022-2-grupo03_2022-2)
+04 | [link](https://github.com/unal-edigital1-lab/lab06-2022-2-grupo04_2022-2)
+05 | [link](https://github.com/unal-edigital1-lab/lab06-2022-2-grupo05_2022-2)
+06 | [link](https://github.com/unal-edigital1-lab/lab06-2022-2-grupo06_2022-2)
+07 | [link](https://github.com/unal-edigital1-lab/lab06-2022-2-grupo07_2022-2)
+08 | [link](https://github.com/unal-edigital1-lab/lab06-2022-2-grupo08_2022-2)
+09 | [link](https://github.com/unal-edigital1-lab/lab06-2022-2-grupo09_2022-2)
+
 
 ## Bibliografía
 * Daniel D. Gajski. Principles of Digital Design. Prentice Hall, 1997.
