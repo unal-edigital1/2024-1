@@ -1,4 +1,4 @@
-## Lab 01: Prueba básicas de Quartuus con el Funcionamiento del sumador de 1 bit
+## Lab 01: Prueba básicas de Quartus con el Funcionamiento del sumador de 1 bit
 
 
 En este paquete de trabajo los estudiantes deben familiarizarce con el framework de trabajo de la FPGA seleccionado, a partir de la descripción de un sumador de 1, y su simulación básica 
