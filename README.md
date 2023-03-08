@@ -117,19 +117,18 @@ Recuerda también revisar que en la página de github se refleja las actualizaci
 ## Cronograma de laboratorios  (labs) 
 
 
+
 Semana   | Tema   | Guia de laboratorio | WP | deadline 
 --       | --     | --            	| -- | --   
 Semana 1 | instalación Quartus | [link](./labs/lab00.md) | |
 Semana 1 | Opcional | [L00 Basico](https://classroom.github.com/a/NBX54cVx) | |
 Semana 2 | L1 Configuracion de Git y Quartus sum1b | [link](./labs/lab01.md) |  [L01 sum1b](https://classroom.github.com/a/c9NchQjj)  |
 Semana 4 | L2 Sumador 4b  y testbench| [link](./labs/lab02.md) | [L02](https://classroom.github.com/a/e9yDU7Fo) |  |
-Semana 6 | L3 BCD2sseg display 7 segmentos | [link](./labs/lab03.md) | [L03](https://classroom.github.com/a/) | |
+Semana 6 | L3 BCD2sseg display 7 segmentos | [link](./labs/lab03.md) | [L03](https://classroom.github.com/a/BzHX2gMj) | |
 Semana 8 |  opcional implementación en remoto| [link](./labs/lab03b.md) |  [L03b](https://classroom.github.com/) [laboratorio de implementación.pdf](https://github.com/unal-edigital1/2020-2/tree/master/slides/week06) | |
-Semana 10 | L4 Banco de Registro| [link](./labs/lab04.md) | [L04](https://classroom.github.com/a/)| |
-Semana 12 | L5 multiplicador| en 2022 no aplica [link](./labs/lab05.md) |[L05](https://classroom.github.com/a/) | |
-Semana 14|  L6 Prueba Buffer de memoria y configutación test VGA | [link](./docs/WP01.md) | [L06](https://classroom.github.com/a/H4_-uzcp)
-
-
+Semana 10 | L4 Banco de Registro| [link](./labs/lab04.md) | [L04](https://classroom.github.com/a/iWcCTIMU)| |
+Semana 12 | L5 multiplicador| [link](./labs/lab05.md) |[L05](https://classroom.github.com/a/3rQcJ08L) | |
+Semana 14|  L6 Prueba Buffer de memoria y configutación test VGA | [link](./docs/WP01.md) | [L06](https://classroom.github.com/a/Pfkbf7Fv)
 
 
 ## Desarrollo proyecto
