@@ -12,11 +12,11 @@ Las documentación deben estar diligencia en el archivo README.md del repositori
 
 Una vez clone el repositorio, realice lo siguiente:
 
-## Diseño BCD-7seg
+## Ejercicio 1 Diseño BCD-7seg
 
 En este punto, ya se estar en la capacidad de describir e implementar Hardware sencillo, con la ayuda de herramientas computaciones.  y como se vio en los  ejemplos anteriores, la suma se visualiza en leds,  algo que es difícil para  validad visualmente la respuesta. Por lo tanto, es aconsejable tener una visualización mas acorde a las necesidades, como por ejemplo  visualizar los resultados en el [ Display 7 Segmentos](https://en.wikipedia.org/wiki/Seven-segment_display) 
 
-En este Ejercicio se propone que realicen el diseño, sintentización e implementación del Display de 7 sergmentos (este último de manera virtual), el cual permita visualizar números  en representación hexadecimal (0x0 a 0xF).  En el siguiente gráfico, se observa cual es el funcionamiento deseado del display:
+En este Ejercicio se propone que realicen el diseño, sintentización e implementación del Display de 7 sergmentos, el cual permita visualizar números  en representación hexadecimal (0x0 a 0xF).  En el siguiente gráfico, se observa cual es el funcionamiento deseado del display:
 
 
 ![gif display](https://upload.wikimedia.org/wikipedia/commons/2/2b/Seven_segment_display-animated.gif)
@@ -25,25 +25,26 @@ Imagen tomada de [User:Guam + Various](https://commons.wikimedia.org/wiki/File:S
 
 A continuación se presentan los pasos recomendados para el ejercicio:
 
-**Definir la caja funcional del BCD**: 
+**1. Definir la caja funcional del BCD**: 
 
 ![bcd_black](https://github.com/Fabeltranm/SPARTAN6-ATMEGA-MAX5864/blob/master/lab/lab03-BCD2SSeg/doc/BCD2SSeg.jpg)
 
 Si observa la caja negra/ funcional  ademas  de la salidad de 7 segmentos contiene  una salida `An`. esta salida es para conectar eventualmente el ánodo del display y  poder hacer visualización dinámica, cuando se tiene mas de un display conectado.
 
 
-**Definir la descripción Funcional**
+**2 Definir la descripción Funcional**
 
 Para ello recuerde  que puede hacer uso, bien sea, de las tablas de verdad o de la descripción algorítmica del BCD a  siete segmentos. Recuerde que cada Segmento es una salida  del diseño. Ejemplo, si desea  visualizar el número **1**, la salida seria  de `Sseg es 0110000`. observe la gráfica a continuación, para generar las salidas acorde al número de entrada.
 
 ![sseg](https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/7_segment_display_labeled.svg/1024px-7_segment_display_labeled.svg.png)
 
 
-* Definir en  HDL el comportamiento del sistema ** :  Use Verilog para hacer la descripción funcional
-**simulación de Sistema** :  Use el Testbench para este fin.
+**3. Definir en  HDL el comportamiento del sistema** :  Use Verilog para hacer la descripción funcional
+**4. Simulación de Sistema** :  Use el Testbench para este fin.
+**5. Implementación**: en la tarjeta correspondiente implemente y valide el funcionamiento, recuerde definir el pinout
 
 
-# Ejercicio - Visualización Dinámica 4 Display- Segmentos
+# Ejercicio 2- Visualización Dinámica 4 Display- Segmentos
 
 
 Si el diseño digital de algún sistema se requiere mas de un display de 7 segmentos, es necesario  generar una visualización tal que sea necesario el menor número de pines para conectar todos los display en con la FPGA.
@@ -60,7 +61,7 @@ Visualmente esto se entiende mas con la siguiente simulación, donde se desea vi
 ![diagrama](https://github.com/Fabeltranm/SPARTAN6-ATMEGA-MAX5864/blob/master/lab/lab04_display_7segx4/doc/4sseg.jpg)
 
 
-## Diagrama Caja negra 
+## 1 Diagrama Caja negra 
 
 Como siempre, antes de realizar la descripción del hardware se debe diseñar la caja funcional del modulo, con las entradas y salidas
 
@@ -68,7 +69,7 @@ Como siempre, antes de realizar la descripción del hardware se debe diseñar la
 
 En este sentido, se adiciona al HDL de siete segmentos 4 señales de control para el LCD, llamadas An. cada bit de la señal `An` debe ser modificado en el tiempo, con el fin de activar solo un display.  
 
-## Diagrama Estructural 
+## 2 Diagrama Estructural 
 
 ![estructural](https://github.com/Fabeltranm/SPARTAN6-ATMEGA-MAX5864/blob/master/lab/lab04_display_7segx4/doc/display_7segx4_Diag_Estructural.jpg)
 
@@ -82,21 +83,21 @@ Se evidencia que se deben construir cuatro módulos  básicos, de los cuales uno
 
 Una vez clone el repositorio y lea la anterior guia, realice lo siguiente:
 
-En el paquete de trabajo esta la descripción del hardware que se implementa para visualizar un número hexadecimal de 32 bits en 4 display de 7 segmentos.
-
+En el paquete de trabajo esta la descripción del hardware que se implementa para visualizar un número hexadecimal en un display de 7 segmentos  y 32 bits  4 display de 7 segmentos. (se recomienda usar esto como guia de trabajo )
 
 * Comprenda cada línea del código HDL de los archivos que se encuentra en la carpera src. Si cree necesario realice los respectivos comentarios en el mismo archivo.
 
 1.  Simulación
-* Realice la simulación por medi ode testbench para el BCD-7seg, analice los resultados.
+* Realice la simulación por medio de testbench para el BCD-7seg (1 display), analice los resultados.
 * Cree el nuevo proyecto HDL para Visualización Dinámica 4 Display, tomando como base los archivos dados.
 * Creer el archivo testbench.v para simular la visualización de 4 display
-* Genera la simulación, Revise que el sistema funciona como usted lo esperaba. Realice lo comentarios necesarios en el archivo README.md.
+* Genera la simulación, Revise que el sistema funciona como usted lo esperaba. 
+* Realice lo comentarios necesarios en el archivo README.md de las dos simulaciones.
 
-2. implementación
-* implementar e la tarjeta el desarrollo de HDL según los parametros dados en clase 
-* Comprobar la lógica en la FPGA real 
-* Introducir cada uno de los números posibles mediante los interruptores, y verifica que se muestran todos correctamente
+2. Implementación
+* implementar en la tarjeta el desarrollo de HDL según los parametros dados en clase, primero el de 1 display  y luego el de 4 display
+* Comprobar la lógica en la FPGA 
+* Introducir cada uno de los números posibles mediante los interruptores, y verifica que se muestran todos correctamente. recuerde para un display se requieren 4 pulsadores  y para  4 display es necesario 32 interruptores
 * Realice lo comentarios necesarios en el archivo README.md.
 
 
