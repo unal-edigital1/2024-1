@@ -99,7 +99,7 @@ En el paquete de trabajo esta la descripción del hardware que se implementa par
 2. Implementación
 * implementar en la tarjeta el desarrollo de HDL según los parametros dados en clase, primero el de 1 display  y luego el de 4 display
 * Comprobar la lógica en la FPGA 
-* Introducir cada uno de los números posibles mediante los interruptores, y verifica que se muestran todos correctamente. recuerde para un display se requieren 4 pulsadores  y para  4 display es necesario 32 interruptores
+* Introducir cada uno de los números posibles mediante los interruptores, y verifica que se muestran todos correctamente. recuerde para un display se requieren 4 interruptores  y para  4 display es necesario 32 interruptores
 * Realice lo comentarios necesarios en el archivo README.md.
 
 
