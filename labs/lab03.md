@@ -85,7 +85,7 @@ Se evidencia que se deben construir cuatro módulos  básicos, de los cuales uno
 
 Una vez clone el repositorio y lea la anterior guia, realice lo siguiente:
 
-En el paquete de trabajo esta la descripción del hardware que se implementa para visualizar un número hexadecimal en un display de 7 segmentos  y 32 bits  4 display de 7 segmentos. (se recomienda usar esto como guia de trabajo )
+En el paquete de trabajo esta la descripción del hardware que se implementa para visualizar un número de 4 bit en un display de 7 segmentos  y un número de 16 bits en 4 display de 7 segmentos. (se recomienda usar esto como guia de trabajo )
 
 * Comprenda cada línea del código HDL de los archivos que se encuentra en la carpera src. Si cree necesario realice los respectivos comentarios en el mismo archivo.
 
