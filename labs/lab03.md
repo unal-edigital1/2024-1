@@ -39,8 +39,10 @@ Para ello recuerde  que puede hacer uso, bien sea, de las tablas de verdad o de 
 ![sseg](https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/7_segment_display_labeled.svg/1024px-7_segment_display_labeled.svg.png)
 
 
-**3. Definir en  HDL el comportamiento del sistema** :  Use Verilog para hacer la descripción funcional
-**4. Simulación de Sistema** :  Use el Testbench para este fin.
+**3. Definir en  HDL el comportamiento del sistema** :  Use Verilog para hacer la descripción funcional. recuerde 1 crear el proyecto, y luego escribir en verilog  las descripción funcional. Puede tomar como base, la descripcion dada  de BCD2seg.v en el SRC de repositorio antes clonado 
+
+**4. Simulación de Sistema** :  Use el Testbench para este fin. que esta en la carpeta src del repositorio
+
 **5. Implementación**: en la tarjeta correspondiente implemente y valide el funcionamiento, recuerde definir el pinout
 
 
