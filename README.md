@@ -1,4 +1,5 @@
-##  ELECTRÓNICA DIGITAL 1 2024-1 UNIVERSIDAD NACIONAL DE COLOMBIA 
+##  ELECTRÓNICA DIGITAL 1 2024-1
+##   UNIVERSIDAD NACIONAL DE COLOMBIA 
 
 ### Profesor:
 	Ferney Alberto Beltrán Molina, Ing, MSc, PhD(c)
@@ -79,9 +80,9 @@ Luego de unirse a cada grupo de trabajo debe clonar su  repositorio en su comput
 
 ## documentos de las clases teóricas 
 
-Semana   | Tema   | Guia de laboratorio | WP | deadline 
---       | --     | --            	| -- | --   
-Semana 1 | instroducción | [link](./labs/lab00.md) | |
+Semana   | Tema   | Material 
+--       | --     | --         
+Semana 1 | instroducción | [week1_pdf](./slides/week01/week1_digital1.pdf)| 
 
 
 ## Estructura de los Laboratorios y Proyecto 
