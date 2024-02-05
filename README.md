@@ -60,7 +60,7 @@ Requisitos: Aparte de los establecidos en cada uno de los programas que incluye 
 
 Semana   | Tema   | Material 
 --       | --     | --         
-Semana 1 | instroducción | [week1_pdf](./slides/week01/week1_digital1.pdf)| 
+Semana 1 | introducción | [week1_pdf](./slides/week01/week1_digital1.pdf)| 
 
 
 ## Estructura de los Laboratorios y Proyecto 
