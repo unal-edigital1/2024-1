@@ -1,10 +1,10 @@
-##  LABORATORIO DE ELECTRÓNICA DIGITAL 1 2023-1 UNIVERSIDAD NACIONAL DE COLOMBIA 
+##  ELECTRÓNICA DIGITAL 1 2024-1 UNIVERSIDAD NACIONAL DE COLOMBIA 
 
 ### Profesor:
 	Ferney Alberto Beltrán Molina, Ing, MSc, PhD(c)
 	fabeltranm@unal.edu.co.
 	github: https://github.com/Fabeltranm/
-   https://unal-edigital1.github.io/2023-1
+   https://unal-edigital1.github.io/2024-1
 
 ### Material de clase, labs de años anteriores
 * [2015-2017](https://sites.google.com/site/edigital1unal/)
@@ -16,6 +16,7 @@
 * [2021-2](https://unal-edigital1.github.io/2021-2/)
 * [2022-1](https://unal-edigital1.github.io/2022-1/)
 * [2022-2](https://unal-edigital1.github.io/2022-2/)
+* [2023-1](https://unal-edigital1.github.io/2023-1/)
 
 	
 
@@ -43,7 +44,8 @@ Requisitos: Aparte de los establecidos en cada uno de los programas que incluye 
 * Representación de Datos y Sistemas Numéricos
 * Lógica Combinacional
 * Lógica Secuencial FSM
-* Maquinas de Estado Algorítmico 
+* Maquinas de Estado Algorítmico
+* Unidad de Control y DataPath
 * Introducción a procesadores
 * PROYECTO FINAL
 
@@ -51,8 +53,6 @@ Requisitos: Aparte de los establecidos en cada uno de los programas que incluye 
 * 70% Proyecto y labs. se realizan 7 laboratorios como prerequisito. Se realizan las respectivas realimentaciones  y observaciones de mejora, Todos los laboratorios deben tener documentación.
 * 15% autoevaluación
 * 15% co-evaluación
-
-## Estructura de los Laboratorios y Proyecto 
 
 ### Metodología de trabajo 
 
@@ -77,6 +77,14 @@ Luego de unirse a cada grupo de trabajo debe clonar su  repositorio en su comput
 
  [Video configuración git ](https://drive.google.com/file/d/1g7gR4HmyNd5qsYGZwOFSVYfc5JuuLey6/view?usp=sharing)
 
+## documentos de las clases teóricas 
+
+Semana   | Tema   | Guia de laboratorio | WP | deadline 
+--       | --     | --            	| -- | --   
+Semana 1 | instroducción | [link](./labs/lab00.md) | |
+
+
+## Estructura de los Laboratorios y Proyecto 
 
 ###  Documentación
 
@@ -109,9 +117,6 @@ Recuerda también revisar que en la página de github se refleja las actualizaci
 ### Ejemplos sencillos de programación
 *[link](https://github.com/unal-edigital1/2021-2/tree/master/docs/recursosCicloneIV/Verilog-Examples)
 
-## Videos de clase 
-
-[drive](https://drive.google.com/drive/folders/14dKrOBZGk-wQYUbxMbgQIClqHZV0Hbfb?usp=sharing)
 
 
 ## Cronograma de laboratorios  (labs) 
@@ -129,6 +134,7 @@ Semana 8 |  opcional implementación en remoto| [link](./labs/lab03b.md) |  [L03
 Semana 10 | L4 Banco de Registro| [link](./labs/lab04.md) | [L04](https://classroom.github.com/a/iWcCTIMU)| |
 Semana 12 | L5 multiplicador| [link](./labs/lab05.md) |[L05](https://classroom.github.com/a/3rQcJ08L) | |
 Semana 14|  L6 Prueba Buffer de memoria y configutación test VGA | [link](./docs/WP01.md) | [L06](https://classroom.github.com/a/Pfkbf7Fv)
+
 
 
 ## Desarrollo proyecto
