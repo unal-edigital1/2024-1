@@ -55,7 +55,16 @@ Requisitos: Aparte de los establecidos en cada uno de los programas que incluye 
 * 15% autoevaluación
 * 15% co-evaluación
 
-### Metodología de trabajo 
+
+## Documentos de las clases teóricas 
+
+Semana   | Tema   | Material 
+--       | --     | --         
+Semana 1 | instroducción | [week1_pdf](./slides/week01/week1_digital1.pdf)| 
+
+
+## Estructura de los Laboratorios y Proyecto 
+### Metodología de trabajo de los laboratorios 
 
 Para cada paquete de trabajo se debe clonar la plantilla dada, y los resultados del trabajo de cada grupo deben ser subidos antes de la fecha estipulada. Se recomienda  leer la ayuda de github classroom en este [link](https://education.github.com/) y ver los videos de github de su canal de YouTube de este [link]( https://www.youtube.com/githubguides) o pueden descargar un libro de git del siguiente [link]( https://git-scm.com/book/en/v2)
 Antes de empezar  si no ha tenido ningún acercamiento con los repositorios de git  debe realizar los siguientes pasos:
@@ -78,14 +87,6 @@ Luego de unirse a cada grupo de trabajo debe clonar su  repositorio en su comput
 
  [Video configuración git ](https://drive.google.com/file/d/1g7gR4HmyNd5qsYGZwOFSVYfc5JuuLey6/view?usp=sharing)
 
-## documentos de las clases teóricas 
-
-Semana   | Tema   | Material 
---       | --     | --         
-Semana 1 | instroducción | [week1_pdf](./slides/week01/week1_digital1.pdf)| 
-
-
-## Estructura de los Laboratorios y Proyecto 
 
 ###  Documentación
 
