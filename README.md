@@ -130,11 +130,12 @@ Semana   | Tema   | Guia de laboratorio | WP | deadline
 Semana 1 | instalación Quartus | [link](./labs/lab00.md) | |
 Semana 1 | Opcional | [L00 Basico](https://classroom.github.com/a/NBX54cVx) | |
 Semana 2 | L1 Configuracion de Git y Quartus sum1b | [link](./labs/lab01.md) |  [L01 sum1b](https://classroom.github.com/a/htUgMbYE)  |
-Semana 3 | L2 Sumador 4b  y testbench| [link](./labs/lab02.md) | [L02](https://classroom.github.com/a/) |  |
-Semana 4 | L3 BCD2sseg display 7 segmentos | [link](./labs/lab03.md) | [L03](https://classroom.github.com/a/) | |
-Semana 6 | L4 Banco de Registro| [link](./labs/lab04.md) | [L04](https://classroom.github.com/a/)| |
-Semana 7 | L5 multiplicador| [link](./labs/lab05.md) |[L05](https://classroom.github.com/a/) | |
-Semana 8|  L6 Prueba Buffer de memoria y configutación test VGA | [link](./docs/WP01.md) | [L06](https://classroom.github.com/a/)
+Semana 3 | L2 Sumador 4b  y testbench| [link](./labs/lab02.md) | [L02](https://classroom.github.com/a/e9yDU7Fo) |  |
+Semana 4 | L3 BCD2sseg display 7 segmentos | [link](./labs/lab03.md) | [L03](https://classroom.github.com/a/BzHX2gMj) | |
+Semana 6 | L4 Banco de Registro| [link](./labs/lab04.md) | [L04](https://classroom.github.com/a/iWcCTIMU)| |
+Semana 7 | L5 multiplicador| [link](./labs/lab05.md) |[L05](https://classroom.github.com/a/3rQcJ08L) | |
+Semana 8|  L6 Prueba Buffer de memoria y configutación test VGA | [link](./docs/WP01.md) | [L06](https://classroom.github.com/a/Pfkbf7Fv)
+Semana 9|  L7 Procesador J1 | [link](./docs/WP01.md) | [L07]
 
 
 
@@ -152,15 +153,6 @@ WP  | semana | deadline  | Tema | Documentación| Repositorio
 
 grupo  | link 
   --   | --  
-01 | [link](https://github.com/unal-edigital1-lab/lab06-2022-2-grupo01_2022-2)
-02 | [link](https://github.com/unal-edigital1-lab/lab06-2022-2-grupo02_2022-2)
-03 | [link](https://github.com/unal-edigital1-lab/lab06-2022-2-grupo03_2022-2)
-04 | [link](https://github.com/unal-edigital1-lab/lab06-2022-2-grupo04_2022-2)
-05 | [link](https://github.com/unal-edigital1-lab/lab06-2022-2-grupo05_2022-2)
-06 | [link](https://github.com/unal-edigital1-lab/lab06-2022-2-grupo06_2022-2)
-07 | [link](https://github.com/unal-edigital1-lab/lab06-2022-2-grupo07_2022-2)
-08 | [link](https://github.com/unal-edigital1-lab/lab06-2022-2-grupo08_2022-2)
-09 | [link](https://github.com/unal-edigital1-lab/lab06-2022-2-grupo09_2022-2)
 
 
 ## Bibliografía
