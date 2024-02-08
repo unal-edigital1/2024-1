@@ -51,7 +51,7 @@ Esta guia está basada en el lab0 de intel [link](./docs//Intro_to_FPGA.pdf)
 
 * ***Add File***, si ya cuenta con los archivos fuentes de HDL adicione los ficheros respectivos. De igual manera, pueden agregar archivos fuentes más adelante.
 
-*  ***Family, Device & Board Settings***,  Busque la tarjeta de desarrollo o la referencia de la FPGA  que se va a utilizar, ```10M50DAF484```, si considera necesario busque  el nombre la casilla  ```Name filter```, seleccione en el panel  Available devices el dispositivo usado. (ver imagen)
+*  ***Family, Device & Board Settings***,  Busque la tarjeta de desarrollo o la referencia de la FPGA  que se va a utilizar, ```10M50DAF484```, si considera necesario busque el nombre en la casilla  ```Name filter```, seleccione en el panel  Available devices el dispositivo usado. (ver imagen)
 
 ![proyectWizard](./figs/f3.png) 
 
@@ -60,7 +60,7 @@ Esta guia está basada en el lab0 de intel [link](./docs//Intro_to_FPGA.pdf)
 
 ![proyectWizard](./figs/f4.png) 
 
-* ***Summary***, se debe revisar que la información de este panel este acorde según la configuración realizada . (ver imagen)
+* ***Summary***, se debe revisar que la información de este panel esté acorde según la configuración realizada . (ver imagen)
 
 ![proyectWizard](./figs/f4b.png) 
 
