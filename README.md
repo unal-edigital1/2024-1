@@ -75,7 +75,7 @@ Antes de comenzar con cada paquete de trabajo se debe leer las instrucciones y t
 * Aceptar la asignación de cada link dado. 
 * La aplicación les pregunta si desean crear un grupo nuevo o unirse a uno existente:
 	* Para crear un grupo nuevo coloque "Grupo-xx", donde xx es el número del grupo.
-	* Para unirse a un grupo existente, busque el nombre  y pulse el botón ´join´.
+	* Para unirse a un grupo existente, busque el nombre  y pulse el botón ```join```.
 	
 ***Nota: Todos los estudiantes debes unirse al grupo correspondiente  y tener cuidado de no equivocarse de grupo***
 
@@ -97,7 +97,7 @@ Recuerde el trabajo que ustedes documenten, será el que leerán sus compañeros
 La documentación se debe  diligenciar en el archivo README.md, que se encuentra en cada repositorio dentro de la carpeta ```docs```, en el cual deben colocar el nombre de los integrantes y el número de identificación.
 
 El archivo README.md, se debe escribir en formato Markdown. Para aprender cuál es el formato de este documento se recomienda revisar el siguiente [link](https://guides.github.com/features/mastering-markdown/) que les da una visión rápida del formato usado para hacer la documentación. 
-Las imágenes, fotos y soportes gráficos deben ser alojados en la carpeta ‘figs’ y deben ser vinculadas en documento README.md.
+Las imágenes, fotos y soportes gráficos deben ser alojados en la carpeta ```figs``` y deben ser vinculadas en documento README.md.
 
 Para una mejor compresión y visualización de los avances de los pre-laboratorios y del proyecto se debe configurar la página con [https://pages.github.com/](https://pages.github.com/) 
 
