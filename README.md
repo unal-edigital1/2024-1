@@ -155,6 +155,10 @@ grupo  | link
   --   | --  
 
 
+## Préstamo de equipos LABDIEE
+
+En la carpeta ```labDIEE_2024_1``` encontrarán varios archivos relacionados al Laboratorio del Departamento de Ingeniería Eléctrica y Electrónica. El archivo ```FORMATO_Movimiento_transitorio_bienes-LABDIEE-2024-1.xlsm``` contiene el formato que deben diligenciar para que puedan adelantar el préstamo de equipos en casa. Por grupo de trabajo deben llevar al almacén el formato diligenciado, una copia del mismo y la fotocopia del carnet del integrante que vaya a figurar como el responsable de los equipos, quien será el encargado de recibirlos. Revisen todos los archivos de la carpeta, ya que encontrarán los horarios del almacén, el listado de equipos según la asignatura y las fechas de recepción de formatos y entrega de equipos, así como información relevante del laboratorio.
+
 ## Bibliografía
 * Daniel D. Gajski. Principles of Digital Design. Prentice Hall, 1997.
 * J. Wakerly Diseño Digital, Ed.3 – Principios y Prácticas.
