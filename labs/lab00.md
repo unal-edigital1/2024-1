@@ -3,7 +3,7 @@
 
 ***Field Programmable Gate Array (FPGA)*** son dispositivos reconfigurables, en los cuales se puede implementar cualquier lógica combinacional o secuencia, en general un amplio abanico de funciones electrónicas. Esto es gracias a que las FPGAS son dispositivos que integran bloques lógicos y que se pueden interconectar según la funcionalidad deseada escrita en Lenguaje de descripción de hardware (HDL).
 
-Para obtener mas información, se recomienda leer [FPGAs For Dummies eBook](https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/misc/FPGAs_For_Dummies_eBook.pdf)
+Para obtener mas información, se recomienda leer [FPGAs For Dummies eBook](https://www.stepfpga.com/doc/_media/fpgasfordummiesebook.pdf)
 
 # Configuración del Framework para FPGA
 

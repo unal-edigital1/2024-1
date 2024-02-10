@@ -66,9 +66,9 @@ Semana 1 | introducción | [week1_pdf](./slides/week01/week1_digital1.pdf)|
 ## Estructura de los Laboratorios y Proyecto 
 ### Metodología de trabajo de los laboratorios 
 
-Para cada paquete de trabajo se debe clonar la plantilla dada, y los resultados del trabajo de cada grupo deben ser subidos antes de la fecha estipulada. Se recomienda  leer la ayuda de github classroom en este [link](https://education.github.com/) y ver los videos de github de su canal de YouTube de este [link]( https://www.youtube.com/githubguides) o pueden descargar un libro de git del siguiente [link]( https://git-scm.com/book/en/v2)
+Para cada paquete de trabajo se debe clonar la plantilla dada, y los resultados del trabajo de cada grupo deben ser subidos antes de la fecha estipulada. Se recomienda  leer la ayuda de github classroom en este [link](https://education.github.com/) y ver los videos de github de YouTube, como por ejemplo este crash course de este [link](https://www.youtube.com/watch?v=RGOj5yH7evk&t=48s) o pueden descargar un libro de git del siguiente [link]( https://git-scm.com/book/en/v2)
 Antes de empezar, si no ha tenido ningún acercamiento con los repositorios de git  debe realizar los siguientes pasos:
-* Crear una cuenta de github. Ver este [video](https://www.youtube.com/watch?v=ezxRcdJ8glM&feature=youtu.be)
+* Crear una cuenta de github. Ver este [video](https://www.youtube.com/watch?v=Gn3w1UvTx0A)
 * Para crear repositorios  revise este [link](https://help.github.com/en/github/getting-started-with-github/create-a-repo)
 
 Antes de comenzar con cada paquete de trabajo se debe leer las instrucciones y tener todos los archivos. Para acceder a cada paquete de trabajo debe:
