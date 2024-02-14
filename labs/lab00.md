@@ -29,7 +29,7 @@ Esta guia está basada en el lab0 de intel [link](./docs//Intro_to_FPGA.pdf)
 
 ### Descargar instalador
 * Descargar los archivos de instalación de Quartus Prime lite del siguiente [link](http://fpgasoftware.intel.com/?edition=lite)
-* Selecione  la version 19.4 (o superior) y selecione el sistema operativo respectivo.
+* Seleccione  la version 19.4 (o superior) y seleccione el sistema operativo respectivo.
 * Descomprima  y ejecute el arcivo ***setup***. Siga las instrucciones de instalación de Quartus tools para su computador.
 
 **NOTA**: Si no cuenta con usuario registrado en la página de Intel debe crear uno.
