@@ -61,8 +61,8 @@ Requisitos: Aparte de los establecidos en cada uno de los programas que incluye 
 Semana   | Tema   | Material 
 --       | --     | --         
 Semana 1 | introducción | [week1_pdf](./slides/week01/week1_digital1.pdf)| 
-Semana 2 | sistema Númerico | [week2_pdf](https://github.com/unal-edigital1/2024-1/slides/week02/)| 
-Semana 2 | introducción | [week1_pdf](./slides/week03/week3_digital1.pdf)| 
+Semana 2 | sistema Númerico | [week2_pdf](https://github.com/unal-edigital1/2024-1/tree/master/slides/week02)| 
+Semana 3 | logica combinacional | [week3_pdf](https://github.com/unal-edigital1/2024-1/tree/master/slides/week03)| 
 
 
 
