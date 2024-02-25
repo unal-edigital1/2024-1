@@ -32,7 +32,7 @@ Como ejercicio académico, se presenta la descripción funcional del sumador de 
 nameOfModule  nameOfInstance(.port1(signal1),..,.portn(signaln))
 ```
 
-Donde ```nameOfModule``` es el  nombre del módulo a instanciar, para este ejemplo es ```sum1bcc```.  ```nameOfInstance```, el nombre local que se le da a los módulos. Y ```Port1 ... portn``` los puertos tanto de entrada como salida del módulo instanciado. De esta manera, la descripción funcional podrá ser mas una descripción estructural organizada  gracias a la biblioteca del componente creado anteriormente; ```sum1bcc```
+Donde ```nameOfModule``` es el  nombre del módulo a instanciar, para este ejemplo es ```sum1bcc```.  ```nameOfInstance```, el nombre local que se le da a los módulos. Y ```Port1 ... portn``` los puertos tanto de entrada como salida del módulo instanciado. De esta manera, la descripción funcional podrá ser mas una descripción estructural organizada  gracias a la biblioteca del componente creado anteriormente; ```sum1bcc```.
 
 Cree un nuevo proyecto, y construya un archivo llamado Sum4bcc.v, y adicione el siguiente HDL del sumador de 4 bits:
 
@@ -56,7 +56,7 @@ endmodule
 
 ```
 Observe que hay 4 instancias de **sum1bcc**, y por lo tanto, se debe adicionar el archivo sum1bcc.v a la raiz del actual proyecto. 
-En conclusión el proyecto de sumador de 4 bit, debe tener dos archivos de HDL: sum4bcc.v y sum1bcc.v. Donde sum4bcc.v es el top del proyecto.
+En conclusión, el proyecto de sumador de 4 bit, debe tener dos archivos de HDL: sum4bcc.v y sum1bcc.v. Donde sum4bcc.v es el top del proyecto.
 
 ### TestBench
 
@@ -69,7 +69,7 @@ Para probar el módulo diseñado se debe construir el archivo testbench.v  en el
 ![test2](https://github.com/Fabeltranm/SPARTAN6-ATMEGA-MAX5864/blob/master/lab/lab02-sumador4b/doc/testbench2.jpg.png)
 
 
-Para generar el archivo testbech.v , se recomienda seguir el procedimientos dado en clase, o seguir el manual ***Simulation-Lab_Manual*** de la carpeta doc del repositorio   y  copie en el archivo lo siguiente:
+Para generar el archivo testbech.v, se recomienda seguir el procedimientos dado en clase, o seguir el manual ***Simulation-Lab_Manual*** de la carpeta doc del repositorio  y  copie en el archivo lo siguiente:
 
 ```` verilog
 module testbench;
@@ -103,7 +103,7 @@ module testbench;
 endmodule
 
 ````
-Una vez, copie el archivo genere la simulación  y revise los resultados  dados
+Una vez copie el archivo genere la simulación, revise los resultados dados.
 
 
 # Entregables 
@@ -112,8 +112,10 @@ Una vez clone el repositorio y lea la anterior guia, realice lo siguiente:
 
 * Cree el nuevo proyecto HDL para el sumador de 4 bit, donde el top sea sum4bcc.v e instancie el sumador de 1 bit ***sum1bcc.v***
 * Creer el archivo testbench.v
-* Genera la simulación, Revise que el sistema funciona como usted lo esperaba. Realice lo comentarios necesarios en el archivo README.md.
-* Realice la respectiva publicación del repositorio antes de la fecha dada con todo el código  fuente 
+* Genera la simulación, revise que el sistema funciona como usted lo esperaba. Realice los comentarios necesarios en el archivo README.md.
+* Realice la respectiva publicación del repositorio antes de la fecha dada con todo el código fuente. 
 
 # Deadline
+
+
 
