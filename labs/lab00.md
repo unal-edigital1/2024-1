@@ -39,8 +39,8 @@ Esta guia está basada en el lab0 de intel [link](./docs//Intro_to_FPGA.pdf)
 En la terminal de linux:
 
  ```
-    chmod +x nombre_archivo.run
-    ./nombre_archivo.run
+chmod +x nombre_archivo.run
+./nombre_archivo.run
 ```
 
 ###  Configuración de variables de entorno
@@ -48,12 +48,12 @@ En la terminal de linux:
 En el archivo ```.bashrc```:
 
 ```
-    export ALTERAPATH="/home/user*/intelFPGA_lite/23.1std/"
-    export QUARTUS_ROOTDIR=${ALTERAPATH}/quartus
-    export QUARTUS_ROOTDIR_OVERRIDE="$QUARTUS_ROOTDIR"
-    export PATH=$PATH:${ALTERAPATH}/quartus/sopc_builder/bin
-    export PATH=$PATH:${ALTERAPATH}/nios2eds/bin
-    export PATH=$PATH:${QSYS_ROOTDIR}
+export ALTERAPATH="/home/user*/intelFPGA_lite/23.1std/"
+export QUARTUS_ROOTDIR=${ALTERAPATH}/quartus
+export QUARTUS_ROOTDIR_OVERRIDE="$QUARTUS_ROOTDIR"
+export PATH=$PATH:${ALTERAPATH}/quartus/sopc_builder/bin
+export PATH=$PATH:${ALTERAPATH}/nios2eds/bin
+export PATH=$PATH:${QSYS_ROOTDIR}
 ```
 
 donde ```user*``` corresponde a la cuenta de usuario del computador.
@@ -61,7 +61,7 @@ donde ```user*``` corresponde a la cuenta de usuario del computador.
 En la terminal:
 
 ```
-    sudo ln -s $QUARTUS_ROOTDIR/bin/quartus /bin/quartus
+sudo ln -s $QUARTUS_ROOTDIR/bin/quartus /bin/quartus
 ```
 
 Ahora se podrá correr la IDE usando el comando ```quartus``` en la terminal.
@@ -130,6 +130,7 @@ Center (SSLC)](https://www.intel.com/content/www/us/en/secure/forms/fpga-sslc-re
     - Dar click en ```+New Computer```.
 
     - Diligenciar los campos requeridos:
+        - En  ```Primary NIC ID``` deben escribir el nombre de la cuenta de usuario de su pc.
         
         - En ```License type``` seleccionar FIXED.
 
