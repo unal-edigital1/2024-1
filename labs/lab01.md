@@ -156,20 +156,24 @@ Library*** y verifique que la libreria ***work***, tenga el archivo **sum1bcc**.
 
 # Anexos
 
-## Tutorial para Linux de implementación en la FPGA Cyclone IV:
-
-### **Configuración del programador (usb bláster) de la FPGA**:
-
+## **Tutorial de implementación en la FPGA Cyclone IV**:
 
 ***Partes y conexiones***
 
 ![fpga](./figs/FPGA.png)
 
+
+### **Configuración del programador (USB-blaster) de la FPGA**:
+
+### **1. Linux**:
+----------------------------------------------------------------
+
+
 ***udev - Gestor Dinámico de Dispositivos Linux***: 
 
-```udev``` es un sistema de espacio de usuario (se refiere a un espacio de aplicación, parcialmente en Unix o en sistemas operativos tipo Unix, el cual es externo al núcleo) que permite al administrador del sistema operativo registrar controladores de espacio de usuario para eventos. Estos eventos son generados principalmente por el kernel de Linux en respuesta a eventos físicos relacionados con dispositivos periféricos, en este caso el bláster de la FPGA, permitiendo identificar dispositivos de forma dinámica en función de sus propiedades, como la ID del proveedor y la ID del dispositivo.
+```udev``` es un sistema de espacio de usuario (se refiere a un espacio de aplicación, parcialmente en Unix o en sistemas operativos tipo Unix, el cual es externo al núcleo) que permite al administrador del sistema operativo registrar controladores de espacio de usuario para eventos. Estos eventos son generados principalmente por el kernel de Linux en respuesta a eventos físicos relacionados con dispositivos periféricos, en este caso el USB-blaster de la FPGA, permitiendo identificar dispositivos de forma dinámica en función de sus propiedades, como la ID del proveedor y la ID del dispositivo.
 
-### **Cómo crear una regla ```udev``` para el bláster de la FPGA**:
+### **Cómo crear una regla ```udev``` para el USB-blaster de la FPGA**:
 
  * Existe una carpeta de reglas ```udev ``` en el directorio ```root```, para acceder a este se debe:
 
@@ -209,7 +213,7 @@ SUBSYSTEM=="usb", ATTR{idVendor}=="09fb", ATTR{idProduct}=="6810", MODE="0666"
 
 ```
 
-* Una vez creadas las reglas para el bláster de la FPGA el siguiente comando actualizará dichas reglas en el sistema:
+* Una vez creadas las reglas para el USB-blaster de la FPGA el siguiente comando actualizará dichas reglas en el sistema:
 
 ```
 udevadm control --reload-rules
@@ -217,7 +221,39 @@ udevadm control --reload-rules
 
 * Poterior a esto se debe hacer un *reboot* del computator.
 
+
+### **2. Windows**:
+----------------------------------------------------------------
+
+1. Se debe conectar el USB-Blaster a su computador.
+
+2. Abrir el ```Device Manager```.
+
+3. Bajo **Other devices** ---> **Unknown device** se encontrará el USB-blaster.
+
+4. Click derecho sobre este dispositivo y seleccionar **Update driver**.
+
+![blaster_windows](./figs/blaster_windows1.png)
+
+5. Seleccionar **Browse my computer for driver software**.
+
+6. Buscar el driver en ```Path de la instalación de Quartus\quartus\drivers\usb-blaster-ii```.
+
+7. Click en **Next**
+
+8. Seleccionar **Install** en la ventana **Would you like to install this device software?**.
+
+9. Deberá aparecer una ventana confirmando la instalación exitosa del driver.
+
+10. Finalmente, en el ```Device Manager```ya no aparecerá el USB-blaster como un dispositivo desconocido (**Unknown device**).
+
+![blaster_windows2](./figs/blaster_windows2.png)
+
+
+(Tutorial para Windows tomado de [link](https://www.terasic.com.tw/wiki/Intel_USB_Blaster_II_Driver_Installation_Instructions))
+
 ### **Implementación del sumador de 1 bit**:
+----------------------------------------------------------------
 
 * Abrir el proyecto previamente creado para el sumador de 1 bit en *Quartus*.
 
@@ -250,7 +286,7 @@ udevadm control --reload-rules
 ![programmer](./figs/programmer.png)
 
 
-* En la ventana  **Programmer** deben darle click al botón ```Hardware Setup``` que abrirá usa sub ventana en donde deben seleccionar el bláster de la FPGA como se muestra en la imagen.
+* En la ventana  **Programmer** deben darle click al botón ```Hardware Setup``` que abrirá usa sub ventana en donde deben seleccionar el USB-blaster de la FPGA como se muestra en la imagen.
 
 ![hw_setup](./figs/hardware_setup.png)
 
