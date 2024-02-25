@@ -243,9 +243,9 @@ udevadm control --reload-rules
 
 8. Seleccionar **Install** en la ventana **Would you like to install this device software?**.
 
-9. Deberá aparecer una ventana confirmando la instalación exitosa del driver.
+9. Al finalizar deberá aparecer una ventana confirmando la instalación exitosa del driver.
 
-10. Finalmente, en el ```Device Manager```ya no aparecerá el USB-blaster como un dispositivo desconocido (**Unknown device**).
+10. Finalmente, en el ```Device Manager``` ya no aparecerá el USB-blaster como un dispositivo desconocido (**Unknown device**).
 
 ![blaster_windows2](./figs/blaster_windows2.png)
 
@@ -257,15 +257,15 @@ udevadm control --reload-rules
 
 * Abrir el proyecto previamente creado para el sumador de 1 bit en *Quartus*.
 
-* En la sección ```Project Navigator``` ---> ```Hierarchy``` hacer click derecho sobre el nombre del dispositivo como se muestra en la imagen.
+* En la sección ```Project Navigator``` ---> ```Hierarchy``` hacer click derecho sobre el nombre del dispositivo como se muestra en la imagen y seleccionar la opción **Device**.
 
 ![device_sel](./figs/device_sel.png)
 
-* Se abrirá la ventana ```Device``` en donde se debe seleccionar en ```Family``` la opción **Cyclone IV E** y en  ```Available devices``` seleccionar la referencia **EP4CE6E22C8** como se muestra en la imagen.
+* Se abrirá la ventana ```Device``` en donde se debe seleccionar en **Family** la opción **Cyclone IV E** y en  **Available devices** seleccionar la referencia **EP4CE6E22C8** como se muestra en la imagen.
 
 ![device_sel2](./figs/device_sel2.png)
 
-* Luego, en la sección ```Task``` deben darle click a la opción ```Compile Design```.
+* Luego, en la sección ```Task``` se debe hacer click a la opción **Compile Design**.
 
 * Posteriormente, en la barra **Standard** (que está debajo de la barra de menús), deben seleccionar el icono de **Pin Planer** que abrirá dicha ventana, donde se encontrará el pinout de la FPGA, como se muestra en las siguiente imagenes:
 
@@ -275,23 +275,23 @@ udevadm control --reload-rules
 ![pin_planer](./figs/pin_planner2.png)
 
 
-  - En la parte inferior de la venta **Pin Planer** se puede observar una tabla con las entradas y salidas del diseño del sumador de 1 bit en la columna **Node name**.
+  - En la parte inferior de la ventana ```Pin Planer``` se puede observar una tabla con las entradas y salidas del diseño del sumador de 1 bit en la columna **Node name**.
 
   - En la columna **Location** se podrá seleccionar los pines de la FPGA asociados a ciertos elementos, en este caso, se van a usar switches para las entradas y leds para las salidas, dicha numeración se podrá observar directamente en la FPGA.
 
-  - Posteriormente se debe dar doble click a la opción **Run I/O Assignment Analysis** que se encuentra en la sección ```Task```, en la parte izquierda de la ventana **Pin Planer**.
+  - Posteriormente se debe dar doble click a la opción **Run I/O Assignment Analysis** que se encuentra en la sección ```Task```, en la parte izquierda de la ventana ```Pin Planer```.
 
-* En la ventana principal de *Quartus*, se debe dar doble click en la opción **Program Device (Open Programmer)** que aparece en la sección ```Task```, que abrirá la ventana  **Programmer** como se muestra en la imagen.
+* En la ventana principal de *Quartus*, se debe dar doble click en la opción **Program Device (Open Programmer)** que aparece en la sección ```Task```, que abrirá la ventana  ```Programmer``` como se muestra en la imagen.
 
 ![programmer](./figs/programmer.png)
 
 
-* En la ventana  **Programmer** deben darle click al botón ```Hardware Setup``` que abrirá usa sub ventana en donde deben seleccionar el USB-blaster de la FPGA como se muestra en la imagen.
+* En la ventana  ```Programmer``` deben darle click al botón **Hardware Setup** que abrirá usa sub ventana en donde deben seleccionar el USB-blaster de la FPGA como se muestra en la imagen.
 
 ![hw_setup](./figs/hardware_setup.png)
 
 
-* Finalmente, en la ventana  **Programmer** deben darle click al botón ```Start``` que iniciará la programación de la FPGA, la cual pueden  observar en la barra de progreso (***No desconectar ni mover las conexiones a la FPGA mientras no vean la barra de progreso completada***) como se ve en la siguiente image.
+* Finalmente, en la ventana  ```Programmer``` deben darle click al botón **Start** que iniciará la programación de la FPGA, la cual pueden  observar en la barra de progreso (***No desconectar ni mover las conexiones a la FPGA mientras no vean la barra de progreso completada***) como se ve en la siguiente image.
 
 ![programmer100](./figs/programmer_100.png)
 
