@@ -80,13 +80,11 @@ Observe que el HDL inicia con la descripción del módulo **sum1bcc_primitive**:
 
 Luego se instancia las respectivas puertas lógicas (AND, OR, XOR), acorde a los resultados de la lógica de la tabla de verdad. Se resalta la definición de tres componentes ```a_ab, x_ab, cout_t ```, de tipo ```wire ```, que no es más que 'cables' utilizados para conectar las salidas y entradas de unos módulos, en el actual ejemplo son conexiones de puertas. 
 
-<div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #3c763d; background-color: #dff0d8; border-color: #d6e9c6;">
 
-Entregables 1
+### Entregables 1
 
 * Comprenda cada línea del código HDL del archivo **sum1bcc_primitive.v** que se encuentra en la carpera ```src``` y comente si es necesario  en el archivo README.md
 
-</div>
 
 
 
@@ -120,15 +118,13 @@ endmodule
 
 Se evidencia que esta nueva descripción cuenta con un  ```reg```  de 2 bits ```st```. En este sentido, representa un elemento de almacenamiento de datos y conserva dicho valor hasta que se le asigna el siguiente valor.
 
-<div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #3c763d; background-color: #dff0d8; border-color: #d6e9c6;">
-Entregables 2
+### Entregables 2
 
 * Implemente un nuevo proyecto en quartus, pero donde el archivo top sea elmodule sum1bcc del archivo **sum1bcc.v**.
 
 * Comprenda cada línea del código HDL del archivo **sum1bcc.v** que se encuentra en la carpera src, si cree necesario realice los respectivos comentarios en el mismo archivo o el README.md
 
 * Comente en el archivo README.md las diferencias entre las dos descripciones ```modulo sum1bcc``` y ```modulo sum1bcc_primitive```.
-</div>
 
 
 
@@ -205,15 +201,12 @@ Una vez configurado, estas listo para realizar las simulaciones del banco de pru
 6. configure las señales en sus estados y haga clic en **Run**.
 
 
-<div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #3c763d; background-color: #dff0d8; border-color: #d6e9c6;">
-
- Entregable 3
+### Entregable 3
 * Generar la simulación visual  y forzar la entradas ```A```, ```B``` y ```Ci``` a clock para  validar todas las posibles entradas.
 
 * Analice la simulación de cada uno de los archivos y compruebe que el sumador funciona correctamente.
 
 * Generar las gráficas respectivas y documente sus resultados en README.md.
-</div>
 
 # Anexos
 
