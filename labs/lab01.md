@@ -4,7 +4,8 @@
 En este paquete de trabajo los estudiantes deben familiarizarce con el framework de trabajo de la FPGA seleccionado, a partir de la descripción de un sumador de 1 y su simulación básica.
 
 
-### 1 Especificación
+### 1. Especificación
+---
 Diseñar un sumador de un bit A y un bit B completo. Es decir el sumador cuenta con carrier  y se comporta acorde a la siguiente tabla de verdad.
 
 A  | B  | Cin | Out | Cout 
@@ -18,19 +19,22 @@ A  | B  | Cin | Out | Cout
 1| 1 | 0 | 0| 1
 1| 1 | 1 | 1| 1
 
-### 2 Bloque funcional
+### 2. Bloque funcional
+---
 
 Según la especificación del sumador completo de 1 bit, se deduce que el bloque o modulo funcional esta dado por la siguiente gráfica: 
 
 ![Sumador 1bit](https://github.com/Fabeltranm/SPARTAN6-ATMEGA-MAX5864/blob/master/lab/lab01-sumador1b/doc/bloqSum1b.jpg)
 
-### 3 Lógica combinacional 
+### 3. Lógica combinacional
+--- 
 
 Optimizando el circuito, según la tabla de verdad, podemos observar que la lógica combinacional del ejercicio propuesto esta dada por:
 
 ![Sumador 1bit](https://github.com/Fabeltranm/SPARTAN6-ATMEGA-MAX5864/blob/master/lab/lab01-sumador1b/doc/sum1bPuertas.jpg)
  
-### 4 Implementación HDL con Verilog
+### 4. Implementación HDL con Verilog
+---
 
 
    ***Nota***: Verifique que tenga el programa para sintetizar la descripción de hardware, para este ejemplo, se usa [Quartus prime lite](https://github.com/ELINGAP-7545/lab00#configuraci%C3%B3n-b%C3%A1sica-para-un-nuevo-proyecto-en-quartus-prime-lite), si desea usar el framework de Xilinx  ir al  [link](https://github.com/Fabeltranm/SPARTAN6-ATMEGA-MAX5864/wiki/Introducci%C3%B3n).
@@ -74,7 +78,7 @@ module sum1bcc_primitive (A, B, Ci,Cout,S);
 
 endmodule
 ```
-Observe que el HDL inicia con la descripción del módulo ``` sum1bcc_primitive.v```: Se definen las  entradas  y salidas del bloque funcional, tal cual  como se estaba especificado en el bloque funcional.
+Observe que el HDL inicia con la descripción del módulo ``` sum1bcc_primitive.v```: Se definen las  entradas  y salidas del bloque funcional, tal cual  como estaba especificado en el bloque funcional.
 
 Luego se instancia las respectivas puertas lógicas (AND, OR, XOR), acorde a los resultados de la lógica de la tabla de verdad. Se resalta la definición de tres componentes ```a_ab, x_ab, cout_t ```, de tipo ```wire ```, que no es más que 'cables' utilizados para conectar las salidas y entradas de unos módulos, en el actual ejemplo son conexiones de puertas. 
 
@@ -120,21 +124,22 @@ Se evidencia que esta nueva descripción cuenta con un  ```reg```  de 2 bits ```
 * Comprenda cada línea del código HDL del archivo sum1bcc.v que se encuentra en la carpera src, si cree necesario realice los respectivos comentarios en el mismo archivo o el README.md
 * Comente en el archivo README.md las diferencias entre las dos descripciones ```modulo sum1bcc``` y ```modulo sum1bcc_primitive```
 
-### 5 Configuración del Proyecto en ***Quartus***
+### 5. Configuración del Proyecto en ***Quartus***
+---
 
-1. Una vez haya creado un nuevo proyecto, como se explicó en el lab00.md, aparecerá éste en la sección ```Project Navigator``` ---> ```Hierarchy```. 
+1. Una vez haya creado un nuevo proyecto, como se explicó en el lab00.md, aparecerá éste en la sección ```Project Navigator``` &rarr; ```Hierarchy```. 
 
 2. Hacer click derecho en el nombre del proyecto dentro  de la lista **Entity_:Instance** y escoger la opción **Settings**.
 
       ![project_config](./figs/project_config.png)
 
-3. En la ventana ```Settings```, escoger la opción  **Files**,  en la lista **Category**.
+3. En la ventana ```Settings```, escoger la opción  **Files**  en la lista **Category**.
 
-4. En el botón ```...``` seleccionar el archivo .v creado anteriormente (**sum1bcc.v** o **sum1bcc_primitive.v**). Hacer click en el botón ```Add```, para incluirlo en el proyecto.
+4. En el botón ```...``` seleccionar el archivo .v creado anteriormente (**sum1bcc.v** o **sum1bcc_primitive.v**), que debe estar en el mismo directorio del proyecto. Hacer click en el botón ```Add``` para incluirlo en el proyecto.
 
       ![project_config](./figs/project_config_files.png)
 
-5. Escoger la opción  **General**,  en la lista **Category**.
+5. Escoger la opción  **General**  en la lista **Category**.
 
 6. En la sección **Top-level entity** hacer click en el botón ```...```, lo que  desplegará un cuadro de diálogo, en donde se enlistaran los nombres de los módulos definidos en los archivos incluidos anteriormente. Seleccionar el módulo correspondiente. Este paso consiste en definir un módulo Top para el proyecto.
 
@@ -147,7 +152,8 @@ Se evidencia que esta nueva descripción cuenta con un  ```reg```  de 2 bits ```
 
 
 
-### 6 Simulación funcional  en ***Quartus***
+### 6. Simulación funcional  en ***Quartus***
+---
 
 #### a. Configure el path del simulador en Quartus 
 
@@ -173,20 +179,20 @@ Para ejecutar el simulador de EDA (ModelSim o Questa) automáticamente desde el 
 
    5. Haga clic en **OK**.
 
-#### b. ModelSim-Altera
+#### b. ***ModelSim-Altera***
 
 Una vez configurado, estas listo para realizar las simulaciones del banco de pruebas (testBench), para ello:
 
-1. Invocar ModelSim desde *Quartus*:  ```Tools``` --> **Run Simulation Tool** --> **RTL Simulation**.
+1. Invocar ModelSim desde *Quartus*:  ```Tools``` &rarr; **Run Simulation Tool** &rarr; **RTL Simulation**.
 
-2. En ModelSim, abra la vista de la **library**  si aún no está abierta (seleccionando **View** -->
+2. En ModelSim, abra la vista de la **library**  si aún no está abierta (seleccionando **View** &rarr;
 **Library** y verifique que la libreria **work**, tenga el archivo **sum1bcc**.
 
-3. En la pestaña **library**, seleccione **work** --> **sum1bcc**, que es el banco de pruebas. Haga doble click.
+3. En la pestaña **library**, seleccione **work** &rarr; **sum1bcc**, que es el banco de pruebas. Haga doble click.
 
 4. Deben cargarse dos ventanas de simulación: la ventana de **Objects** y la ventana de **wave**. Si no, cargarlas usted mismo haciendo click en el menú **view** y marcando la respectiva ventana.
 
-5. Para mostrar todas las señales de prueba en la ventana Wave, teniendo como foco la ventana **Objects**, haga click en **add** --> **A Wave** -> **Signals in Region**.  Alternativamente, puede mostrar algunas señales seleccionadas en la ventana Wave: En la ventana  **Objects**, seleccione las señales que le gustaría monitorear y arrástrelas a la ventana ```Wave``` (o copiar y pegar).
+5. Para mostrar todas las señales de prueba en la ventana Wave, teniendo como foco la ventana **Objects**, haga click en **add** &rarr; **A Wave** &rarr; **Signals in Region**.  Alternativamente, puede mostrar algunas señales seleccionadas en la ventana Wave: En la ventana  **Objects**, seleccione las señales que le gustaría monitorear y arrástrelas a la ventana ```Wave``` (o copiar y pegar).
 
 6. configure las señales en sus estados y haga clic en **Run**.
 
@@ -273,7 +279,7 @@ udevadm control --reload-rules
 
 2. Abrir el ```Device Manager```.
 
-3. Bajo **Other devices** ---> **Unknown device** se encontrará el USB-blaster.
+3. Bajo **Other devices** &rarr; **Unknown device** se encontrará el USB-blaster.
 
 4. Click derecho sobre este dispositivo y seleccionar **Update driver**.
 
@@ -301,7 +307,7 @@ udevadm control --reload-rules
 
 * Abrir el proyecto previamente creado para el sumador de 1 bit en *Quartus*.
 
-* En la sección ```Project Navigator``` ---> ```Hierarchy``` hacer click derecho sobre el nombre del dispositivo como se muestra en la imagen y seleccionar la opción **Device**.
+* En la sección ```Project Navigator``` &rarr; ```Hierarchy``` hacer click derecho sobre el nombre del dispositivo como se muestra en la imagen y seleccionar la opción **Device**.
 
 ![device_sel](./figs/device_sel.png)
 
@@ -330,12 +336,12 @@ udevadm control --reload-rules
 ![programmer](./figs/programmer.png)
 
 
-* En la ventana  ```Programmer``` deben darle click al botón **Hardware Setup** que abrirá usa sub ventana en donde deben seleccionar el USB-blaster de la FPGA como se muestra en la imagen.
+* En la ventana  ```Programmer``` deben darle click al botón ```Hardware Setup``` que abrirá usa sub ventana en donde deben seleccionar el USB-blaster de la FPGA como se muestra en la imagen.
 
 ![hw_setup](./figs/hardware_setup.png)
 
 
-* Finalmente, en la ventana  ```Programmer``` deben darle click al botón **Start** que iniciará la programación de la FPGA, la cual pueden  observar en la barra de progreso (***No desconectar ni mover las conexiones a la FPGA mientras no vean la barra de progreso completada***) como se ve en la siguiente image.
+* Finalmente, en la ventana  ```Programmer``` deben darle click al botón ```Start``` que iniciará la programación de la FPGA, la cual pueden  observar en la barra de progreso (***No desconectar ni mover las conexiones a la FPGA mientras no vean la barra de progreso completada***) como se ve en la siguiente image.
 
 ![programmer100](./figs/programmer_100.png)
 

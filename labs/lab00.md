@@ -175,25 +175,25 @@ Center (SSLC)](https://www.intel.com/content/www/us/en/secure/forms/fpga-sslc-re
 
 ![proyectWizard](./figs/f1.png) 
 
-* ***Directory, Name, Top-Level Entity***,  seleccione el directorio donde se guarda el proyecto y el nombre del mismo. Tenga presente que debe colocar el nombre del módulo top en la tercera casilla, puede ser el mismo del proyecto. (ver imagen) 
+* **Directory, Name, Top-Level Entity**,  seleccione el directorio donde se guarda el proyecto y el nombre del mismo. Tenga presente que debe colocar el nombre del módulo top en la tercera casilla, puede ser el mismo del proyecto. (ver imagen) 
     ***Recuerde:*** El nombre del módulo-top es sensible a mayúsculas.
 
 ![proyectWizard](./figs/f2.png) altera
 
-* ***Project Type***, seleccione el template ```Empy project```.
+* **Project Type**, seleccione el template ```Empy project```.
 
-* ***Add File***, si ya cuenta con los archivos fuentes de HDL adicione los ficheros respectivos. De igual manera, pueden agregar archivos fuentes más adelante.
+* **Add File**, si ya cuenta con los archivos fuentes de HDL adicione los ficheros respectivos. De igual manera, pueden agregar archivos fuentes más adelante.
 
-*  ***Family, Device & Board Settings***,  Busque la tarjeta de desarrollo o la referencia de la FPGA  que se va a utilizar, ```10M50DAF484```, si considera necesario busque el nombre en la casilla  ```Name filter```, seleccione en el panel  Available devices el dispositivo usado. (ver imagen)
+*  **Family, Device & Board Settings**,  Busque la tarjeta de desarrollo o la referencia de la FPGA  que se va a utilizar, ```10M50DAF484```, si considera necesario busque el nombre en la casilla  ```Name filter```, seleccione en el panel  Available devices el dispositivo usado. (ver imagen)
 
 ![proyectWizard](./figs/f3.png) 
 
 
-* ***EDA Tool Settings***,  espeficar la herramienta de simulación que se va a utilizar, se recomiendan  ```ModelSim``` (ver imagen) o ```Questa```. 
+* **EDA Tool Settings**,  espeficar la herramienta de simulación que se va a utilizar, se recomiendan  ```ModelSim``` (ver imagen) o ```Questa```. 
 
 ![proyectWizard](./figs/f4.png) 
 
-* ***Summary***, se debe revisar que la información de este panel esté acorde según la configuración realizada . (ver imagen)
+* **Summary**, se debe revisar que la información de este panel esté acorde según la configuración realizada . (ver imagen)
 
 ![proyectWizard](./figs/f4b.png) 
 
