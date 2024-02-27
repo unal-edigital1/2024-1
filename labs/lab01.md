@@ -26,24 +26,24 @@ Según la especificación del sumador completo de 1 bit, se deduce que el bloque
 
 ### 3 Lógica combinacional 
 
-Optimizando el circuito, según la tabla de verdad, podemos observar que la lógica combinación del ejercicio propuesto esta dada por:
+Optimizando el circuito, según la tabla de verdad, podemos observar que la lógica combinacional del ejercicio propuesto esta dada por:
 
 ![Sumador 1bit](https://github.com/Fabeltranm/SPARTAN6-ATMEGA-MAX5864/blob/master/lab/lab01-sumador1b/doc/sum1bPuertas.jpg)
  
 ### 4 Implementación HDL con Verilog
 
 
-   ***Nota*** : verifique que tenga el programa para sintetizar la descripción de hardware, para este ejemplo, se usa [Quartus prime lite](https://github.com/ELINGAP-7545/lab00#configuraci%C3%B3n-b%C3%A1sica-para-un-nuevo-proyecto-en-quartus-prime-lite), si desea usar el framework de Xilinx  ir al  [link](https://github.com/Fabeltranm/SPARTAN6-ATMEGA-MAX5864/wiki/Introducci%C3%B3n).
+   ***Nota***: Verifique que tenga el programa para sintetizar la descripción de hardware, para este ejemplo, se usa [Quartus prime lite](https://github.com/ELINGAP-7545/lab00#configuraci%C3%B3n-b%C3%A1sica-para-un-nuevo-proyecto-en-quartus-prime-lite), si desea usar el framework de Xilinx  ir al  [link](https://github.com/Fabeltranm/SPARTAN6-ATMEGA-MAX5864/wiki/Introducci%C3%B3n).
  
-#### a. HDL con bloques primitives
+#### a. HDL con bloques ***primitives***
 
 Una vez abierto el  framework  de [Quartus prime lite](https://github.com/ELINGAP-7545/lab00#configuraci%C3%B3n-b%C3%A1sica-para-un-nuevo-proyecto-en-quartus-prime-lite), cree el nuevo proyecto como se explico en el laboratorio anterior con el wizard.
 
-***Nota***: Recuerde se debe clonar el repositorio en su computador, e importar el archivo ***sum1bcc_primitive.v***
+***Nota***: Recuerde se debe clonar el repositorio en su computador e importar el archivo **sum1bcc_primitive.v**.
 
-Sin embargo si ***no*** importó el archivo ***sum1bcc_primitive.v*** ,  realice el siguiente procedimiento: 
+Sin embargo si ***no*** importó el archivo **sum1bcc_primitive.v**,  realice el siguiente procedimiento: 
 
-1. Navegar en el menú ***File*** y hacer clic en``` ***New***. Selecionar ***Verilog HDL File***  según imagen:
+1. Navegar en el menú **File** y hacer clic en **New**. Selecionar **Verilog HDL File** según imagen:
 
 ![proyectWizard](./figs/f5.png) 
 
@@ -74,7 +74,6 @@ module sum1bcc_primitive (A, B, Ci,Cout,S);
 
 endmodule
 ```
-
 Observe que el HDL inicia con la descripción del módulo ``` sum1bcc_primitive.v```: Se definen las  entradas  y salidas del bloque funcional, tal cual  como se estaba especificado en el bloque funcional.
 
 Luego se instancia las respectivas puertas lógicas (AND, OR, XOR), acorde a los resultados de la lógica de la tabla de verdad. Se resalta la definición de tres componentes ```a_ab, x_ab, cout_t ```, de tipo ```wire ```, que no es más que 'cables' utilizados para conectar las salidas y entradas de unos módulos, en el actual ejemplo son conexiones de puertas. 
@@ -86,7 +85,7 @@ Luego se instancia las respectivas puertas lógicas (AND, OR, XOR), acorde a los
 
 #### b. HDL con descripción de suma
 
-como vimos en el paso anterior y su nombre lo indica se esta realizando una descripción funcional del módulo,este sentido, podemos tener varios tipos de descripción, pero que cumplen con el mismo funcionamiento. a continuacíón se presenta otra descripción a partir del mismo sumados. 
+Como vimos en el paso anterior, y su nombre lo indica, se está realizando una descripción funcional del módulo, en este sentido, podemos tener varios tipos de descripción, pero que cumplen con el mismo funcionamiento. A continuacíón se presenta otra descripción a partir del mismo sumador. 
 
 En el archivo ``` sum1bcc.v```, que se encuentra en la carpeta ```src``` de su paquete de trabajo clonado, pueden observar la siguiente descripción:
 
@@ -109,10 +108,7 @@ module sum1bcc (A, B, Ci,Cout,S);
     st  <=   A+B+Ci;
   end
   
-endmodule# Anexos
-
-## Tutorial 
-
+endmodule
 ```
 
 Se evidencia que esta nueva descripción cuenta con un  ```reg```  de 2 bits ```st```. En este sentido, representa un elemento de almacenamiento de datos y conserva dicho valor hasta que se le asigna el siguiente valor.
@@ -124,33 +120,81 @@ Se evidencia que esta nueva descripción cuenta con un  ```reg```  de 2 bits ```
 * Comprenda cada línea del código HDL del archivo sum1bcc.v que se encuentra en la carpera src, si cree necesario realice los respectivos comentarios en el mismo archivo o el README.md
 * Comente en el archivo README.md las diferencias entre las dos descripciones ```modulo sum1bcc``` y ```modulo sum1bcc_primitive```
 
-### 5 Simulación Funcional  QUARTUS sum1bcc
+### 5 Configuración del Proyecto en ***Quartus***
 
-#### a. Configure el path del simulador en quartus 
+1. Una vez haya creado un nuevo proyecto, como se explicó en el lab00.md, aparecerá éste en la sección ```Project Navigator``` ---> ```Hierarchy```. 
 
-Para ejecutar el simulador de EDA (en este caso, Modelsim-Altera) automáticamente desde el software Quartus II usando la función NativeLink, se debe especificar la ruta de  herramienta de simulación realizando los siguientes pasos:
+2. Hacer click derecho en el nombre del proyecto dentro  de la lista **Entity_:Instance** y escoger la opción **Settings**.
 
-   1. En el menú tool, haga clic en ***Opciones***. Aparece el cuadro de diálogo ```Opciones```.
-   2. En la lista ***Category***, en  ***General category***, seleccione ***EDA Tool Options***. 
-   3. En la entrada Modelsim-Altera, la ubicación del ejecutable debería ser algo así como ```C:\intelFPGA_lite\19.1\modelsim_ase\win32aloem```.
-   4. Si no es así, busque el directorio que contiene el ejecutable de Modelsim-Altera simulador.
-  5. Haga clic en ***ok***.
+      ![project_config](./figs/project_config.png)
+
+3. En la ventana ```Settings```, escoger la opción  **Files**,  en la lista **Category**.
+
+4. En el botón ```...``` seleccionar el archivo .v creado anteriormente (**sum1bcc.v** o **sum1bcc_primitive.v**). Hacer click en el botón ```Add```, para incluirlo en el proyecto.
+
+      ![project_config](./figs/project_config_files.png)
+
+5. Escoger la opción  **General**,  en la lista **Category**.
+
+6. En la sección **Top-level entity** hacer click en el botón ```...```, lo que  desplegará un cuadro de diálogo, en donde se enlistaran los nombres de los módulos definidos en los archivos incluidos anteriormente. Seleccionar el módulo correspondiente. Este paso consiste en definir un módulo Top para el proyecto.
+
+      ![project_config](./figs/project_config_top.png)
+
+7. Finalmente podrá hacer doble click en la opción **Analysis & Synthesis**. 
+
+      ![synthesis](./figs/synthesis.png)
+
+
+
+
+### 6 Simulación funcional  en ***Quartus***
+
+#### a. Configure el path del simulador en Quartus 
+
+Para ejecutar el simulador de EDA (ModelSim o Questa) automáticamente desde el software *Quartus II* usando la función NativeLink, se debe especificar la ruta de  herramienta de simulación realizando los siguientes pasos:
+
+   1. En el menú **Tools**, haga clic en **Options**. Aparece el cuadro de diálogo ```Options```.
+
+   2. En la lista **Category**, en  **General**, seleccione **EDA Tool Options**. 
+
+   3. En la opción ModelSim, se debe especificar la ubicación del ejecutable debería ser algo así como:
+   
+   ```
+   /home/user*/intelFPGA_lite/20.1/modelsim_ase/linuxaloem
+   ```
+
+  ```
+   /home/user*/intelFPGA_lite/23.1std/questa_fse/linux_x86_64
+   ```
+
+   donde ```user*``` es el nombre de la cuenta de usuario del computador.
+   
+   4. Si no es así, busque el directorio que contiene el ejecutable del simulador.
+
+   5. Haga clic en **OK**.
 
 #### b. ModelSim-Altera
 
 Una vez configurado, estas listo para realizar las simulaciones del banco de pruebas (testBench), para ello:
 
-1. Invocar ModelSim desde Quartus:  Tools --> Run Simulation Tool --> RTL Simulation
-2. En ModelSim, abra la vista de la ***library***  si aún no está abierta (seleccionando ***View -->
-Library*** y verifique que la libreria ***work***, tenga el archivo **sum1bcc**.
-3. En la pestaña ***library***, seleccione ***work --> sum1bcc***, que es el banco de pruebas. Haga clic.
-4. Deben cargarse dos ventanas de simulación: la ventana de ***Objects*** y la ventana de ***wave***. Si no, cargarlas usted mismo haciendo clic en el menú ***view*** y marcando la respectiva ventana.
-5. Para mostrar todas las señales de prueba en la ventana Wave, teniendo como foco la ventana ***Objects***, haga clic en ***add -> A Wave -> Signals in Region***.  Alternativamente, puede mostrar algunas señales seleccionadas en la ventana Wave: En la ventana  ***Objects***, seleccione las señales que le gustaría monitorear y arrástrelas a la ventana Wave (o copiar y pegar).
-6. configure las señales en sus estados, y haga clic en ***Run***.
+1. Invocar ModelSim desde *Quartus*:  ```Tools``` --> **Run Simulation Tool** --> **RTL Simulation**.
+
+2. En ModelSim, abra la vista de la **library**  si aún no está abierta (seleccionando **View** -->
+**Library** y verifique que la libreria **work**, tenga el archivo **sum1bcc**.
+
+3. En la pestaña **library**, seleccione **work** --> **sum1bcc**, que es el banco de pruebas. Haga doble click.
+
+4. Deben cargarse dos ventanas de simulación: la ventana de **Objects** y la ventana de **wave**. Si no, cargarlas usted mismo haciendo click en el menú **view** y marcando la respectiva ventana.
+
+5. Para mostrar todas las señales de prueba en la ventana Wave, teniendo como foco la ventana **Objects**, haga click en **add** --> **A Wave** -> **Signals in Region**.  Alternativamente, puede mostrar algunas señales seleccionadas en la ventana Wave: En la ventana  **Objects**, seleccione las señales que le gustaría monitorear y arrástrelas a la ventana ```Wave``` (o copiar y pegar).
+
+6. configure las señales en sus estados y haga clic en **Run**.
 
 ####  Entregable 3
 * Generar la simulación visual  y forzar la entradas ```A```, ```B``` y ```Ci``` a clock para  validar todas las posibles entradas.
+
 * Analice la simulación de cada uno de los archivos y compruebe que el sumador funciona correctamente.
+
 * Generar las gráficas respectivas y documente sus resultados en README.md.
 
 
@@ -225,7 +269,7 @@ udevadm control --reload-rules
 ### **2. Windows**:
 ----------------------------------------------------------------
 
-1. Se debe conectar el USB-Blaster a su computador.
+1. Se debe conectar el USB-Blaster al computador.
 
 2. Abrir el ```Device Manager```.
 
@@ -239,9 +283,9 @@ udevadm control --reload-rules
 
 6. Buscar el driver en ```Path de la instalación de Quartus\quartus\drivers\usb-blaster-ii```.
 
-7. Click en **Next**
+7. Click en **Next**.
 
-8. Seleccionar **Install** en la ventana **Would you like to install this device software?**.
+8. Seleccionar **Install** en la ventana **Would you like to install this device software?**
 
 9. Al finalizar deberá aparecer una ventana confirmando la instalación exitosa del driver.
 
