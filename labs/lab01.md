@@ -35,8 +35,6 @@ Optimizando el circuito, según la tabla de verdad, podemos observar que la lóg
  
 ### 4. Implementación HDL con Verilog
 ---
-
-
    ***Nota***: Verifique que tenga el programa para sintetizar la descripción de hardware, para este ejemplo, se usa [Quartus prime lite](https://github.com/ELINGAP-7545/lab00#configuraci%C3%B3n-b%C3%A1sica-para-un-nuevo-proyecto-en-quartus-prime-lite), si desea usar el framework de Xilinx  ir al  [link](https://github.com/Fabeltranm/SPARTAN6-ATMEGA-MAX5864/wiki/Introducci%C3%B3n).
  
 #### a. HDL con bloques ***primitives***
@@ -78,20 +76,23 @@ module sum1bcc_primitive (A, B, Ci,Cout,S);
 
 endmodule
 ```
-Observe que el HDL inicia con la descripción del módulo ``` sum1bcc_primitive.v```: Se definen las  entradas  y salidas del bloque funcional, tal cual  como estaba especificado en el bloque funcional.
+Observe que el HDL inicia con la descripción del módulo **sum1bcc_primitive**: Se definen las  entradas  y salidas del bloque funcional, tal cual  como estaba especificado en el bloque funcional.
 
 Luego se instancia las respectivas puertas lógicas (AND, OR, XOR), acorde a los resultados de la lógica de la tabla de verdad. Se resalta la definición de tres componentes ```a_ab, x_ab, cout_t ```, de tipo ```wire ```, que no es más que 'cables' utilizados para conectar las salidas y entradas de unos módulos, en el actual ejemplo son conexiones de puertas. 
 
+<div class="warning box">
+  Entregables 1
 
-#### Entregables 1
+* Comprenda cada línea del código HDL del archivo **sum1bcc_primitive.v** que se encuentra en la carpera ```src``` y comente si es necesario  en el archivo README.md
 
-* Comprenda cada línea del código HDL del archivo ```sum1bcc_primitive.v``` que se encuentra en la carpera ```src``` y comente si es necesario  en el archivo README.md
+</div>
+
 
 #### b. HDL con descripción de suma
 
 Como vimos en el paso anterior, y su nombre lo indica, se está realizando una descripción funcional del módulo, en este sentido, podemos tener varios tipos de descripción, pero que cumplen con el mismo funcionamiento. A continuacíón se presenta otra descripción a partir del mismo sumador. 
 
-En el archivo ``` sum1bcc.v```, que se encuentra en la carpeta ```src``` de su paquete de trabajo clonado, pueden observar la siguiente descripción:
+En el archivo **sum1bcc.v**, que se encuentra en la carpeta ```src``` de su paquete de trabajo clonado, pueden observar la siguiente descripción:
 
 
 ```verilog
@@ -117,25 +118,30 @@ endmodule
 
 Se evidencia que esta nueva descripción cuenta con un  ```reg```  de 2 bits ```st```. En este sentido, representa un elemento de almacenamiento de datos y conserva dicho valor hasta que se le asigna el siguiente valor.
 
+<div class="warning box">
 
-#### Entregables 2
+Entregables 2
 
-* Implemente un nuevo proyecto en quartus, pero donde el archivo top sea elmodule sum1bcc del archivo ``` sum1bcc.v```
-* Comprenda cada línea del código HDL del archivo sum1bcc.v que se encuentra en la carpera src, si cree necesario realice los respectivos comentarios en el mismo archivo o el README.md
-* Comente en el archivo README.md las diferencias entre las dos descripciones ```modulo sum1bcc``` y ```modulo sum1bcc_primitive```
+* Implemente un nuevo proyecto en quartus, pero donde el archivo top sea elmodule sum1bcc del archivo **sum1bcc.v**.
+
+* Comprenda cada línea del código HDL del archivo **sum1bcc.v** que se encuentra en la carpera src, si cree necesario realice los respectivos comentarios en el mismo archivo o el README.md
+
+* Comente en el archivo README.md las diferencias entre las dos descripciones ```modulo sum1bcc``` y ```modulo sum1bcc_primitive```.
+
+</div>
 
 ### 5. Configuración del Proyecto en ***Quartus***
 ---
 
 1. Una vez haya creado un nuevo proyecto, como se explicó en el lab00.md, aparecerá éste en la sección ```Project Navigator``` &rarr; ```Hierarchy```. 
 
-2. Hacer click derecho en el nombre del proyecto dentro  de la lista **Entity_:Instance** y escoger la opción **Settings**.
+2. Hacer click derecho en el nombre del proyecto dentro  de la lista **Entity_:Instance** y escoger la opción **Settings** o en el menú **Assignments** &rarr; **Settings**. 
 
       ![project_config](./figs/project_config.png)
 
-3. En la ventana ```Settings```, escoger la opción  **Files**  en la lista **Category**.
+3. En la ventana ```Settings``` escoger la opción  **Files**  en la lista **Category**. 
 
-4. En el botón ```...``` seleccionar el archivo .v creado anteriormente (**sum1bcc.v** o **sum1bcc_primitive.v**), que debe estar en el mismo directorio del proyecto. Hacer click en el botón ```Add``` para incluirlo en el proyecto.
+4. En el botón ```...``` seleccionar el archivo HDL creado anteriormente (**sum1bcc.v** o **sum1bcc_primitive.v**), que debe estar en el mismo directorio del proyecto. Hacer click en el botón ```Add``` para incluirlo en el proyecto.
 
       ![project_config](./figs/project_config_files.png)
 
@@ -196,13 +202,15 @@ Una vez configurado, estas listo para realizar las simulaciones del banco de pru
 
 6. configure las señales en sus estados y haga clic en **Run**.
 
-####  Entregable 3
+<div class="warning box">
+
+Entregable 3
 * Generar la simulación visual  y forzar la entradas ```A```, ```B``` y ```Ci``` a clock para  validar todas las posibles entradas.
 
 * Analice la simulación de cada uno de los archivos y compruebe que el sumador funciona correctamente.
 
 * Generar las gráficas respectivas y documente sus resultados en README.md.
-
+</div>
 
 # Anexos
 
