@@ -233,7 +233,7 @@ Una vez configurado, estas listo para realizar las simulaciones del banco de pru
 
 ```
 cd /
-cd udev/rules.d/
+cd etc/udev/rules.d/
 ```
 
  * Una vez en este directorio, con el comando ```sudo``` (porque estamos en un directorio ```root```) se debe crear un archivo con el nombre **51-usbblaster.rules** así:
