@@ -63,6 +63,7 @@ Semana   | Tema   | Material
 Semana 1 | introducción | [week1_pdf](./slides/week01/week1_digital1.pdf)| 
 Semana 2 | sistema Númerico | [week2_pdf](https://github.com/unal-edigital1/2024-1/tree/master/slides/week02)| 
 Semana 3 | logica combinacional | [week3_pdf](https://github.com/unal-edigital1/2024-1/tree/master/slides/week03)| 
+Semana 4 | logica combinacional/análisis de tiempos | [week4_pdf](https://github.com/unal-edigital1/2024-1/tree/master/slides/week04)| 
 
 
 
