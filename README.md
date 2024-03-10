@@ -64,6 +64,7 @@ Semana 1 | introducción | [week1_pdf](./slides/week01/week1_digital1.pdf)|
 Semana 2 | sistema Númerico | [week2_pdf](https://github.com/unal-edigital1/2024-1/tree/master/slides/week02)| 
 Semana 3 | logica combinacional | [week3_pdf](https://github.com/unal-edigital1/2024-1/tree/master/slides/week03)| 
 Semana 4 | logica combinacional/análisis de tiempos | [week4_pdf](https://github.com/unal-edigital1/2024-1/tree/master/slides/week04)| 
+Semana 5 y 6 | logica Secuencial/Registro  | [week5-6_pdf](https://github.com/unal-edigital1/2024-1/tree/master/slides/week05-06)| 
 
 
 
@@ -124,6 +125,12 @@ Recuerde también revisar que en la página de github se reflejan las actualizac
 
 
 
+
+## Préstamo de equipos LABDIEE
+
+En la carpeta ```labDIEE_2024_1``` encontrarán varios archivos relacionados al Laboratorio del Departamento de Ingeniería Eléctrica y Electrónica. El archivo ```FORMATO_Movimiento_transitorio_bienes-LABDIEE-2024-1.xlsm``` contiene el formato que deben diligenciar para que puedan adelantar el préstamo de equipos en casa. Por grupo de trabajo deben llevar al almacén el formato diligenciado, una copia del mismo y la fotocopia del carnet del integrante que vaya a figurar como el responsable de los equipos, quien será el encargado de recibirlos. Revisen todos los archivos de la carpeta, ya que encontrarán los horarios del almacén, el listado de equipos según la asignatura y las fechas de recepción de formatos y entrega de equipos, así como información relevante del laboratorio.
+
+
 ## Cronograma de laboratorios  (labs) 
 
 
@@ -156,11 +163,6 @@ WP  | semana | deadline  | Tema | Documentación| Repositorio
 
 grupo  | link 
   --   | --  
-
-
-## Préstamo de equipos LABDIEE
-
-En la carpeta ```labDIEE_2024_1``` encontrarán varios archivos relacionados al Laboratorio del Departamento de Ingeniería Eléctrica y Electrónica. El archivo ```FORMATO_Movimiento_transitorio_bienes-LABDIEE-2024-1.xlsm``` contiene el formato que deben diligenciar para que puedan adelantar el préstamo de equipos en casa. Por grupo de trabajo deben llevar al almacén el formato diligenciado, una copia del mismo y la fotocopia del carnet del integrante que vaya a figurar como el responsable de los equipos, quien será el encargado de recibirlos. Revisen todos los archivos de la carpeta, ya que encontrarán los horarios del almacén, el listado de equipos según la asignatura y las fechas de recepción de formatos y entrega de equipos, así como información relevante del laboratorio.
 
 ## Bibliografía
 * Daniel D. Gajski. Principles of Digital Design. Prentice Hall, 1997.
