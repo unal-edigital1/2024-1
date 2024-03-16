@@ -20,7 +20,7 @@ Un banco de registros es una componente esencial en la arquitectura de procesado
 
 La señalización y control en un banco de registros son aspectos críticos que garantizan su correcta operación. Se utilizan señales de control específicas para seleccionar los registros adecuados para las operaciones de lectura y escritura, así como para activar la escritura o el reseteo de los registros a valores predeterminados. Este nivel de control permite una gran flexibilidad y precisión en el manejo de datos dentro de un sistema digital.
 
-# Requerimientos 
+## Requerimientos 
 
 El objetivo es desarrollar un banco de registros como se observa en la imagen inferior. Los requisitos específicos son:
 
@@ -35,14 +35,52 @@ El objetivo es desarrollar un banco de registros como se observa en la imagen in
 
  ![caja](https://github.com/Fabeltranm/SPARTAN6-ATMEGA-MAX5864/blob/master/lab/lab07-BancosRgistro/doc/banco%20registro.png)
 
+## Procedimiento
 
-Entregables:
+Para este paquete de trabajo usted debe:
 
-* Documentación
-* Archivo `testbench` el cuál debe simular la escritura de 8 registros y 4 lecturas mas el rst, el resultado de la simulación debe visualizarse en diagrama de tiempo.
-* Vídeo de la implementación.
-* Código HDL de la solución.
-.
+1. ***Configuración del Proyecto:***
+
+Inicie creando un nuevo proyecto en su entorno de desarrollo. Generar el módulo principal (top module)
+
+2. ***Visualización de 7 Segmentos:***
+
+Incorpore la visualización de 7 segmentos, aprovechando el módulo display.v utilizado en el laboratorio anterior para mostrar valores decimales que estan almacendos en los Registros. Esta etapa requiere instanciar correctamente losmódulos del laboratorio anterior.
+
+3. ***Implementación del Banco de Registros:***
+
+Desarrolle el banco de registros siguiendo los requisitos detallados anteriormente, lo que incluye soporte para lectura simultanea de dos registros y la escritura de un registro, entre otras funcionalidades.
+Conecte adecuadamente el banco de registros a los demás componentes del sistema Para referencia y ejemplos de implementación, consulte el archivo "BancoRegistro.v" en la carpeta src de su paquete de trabajo.
+
+4. ***Inicialización de Registros:***
+
+Implemente la lógica necesaria para pre-cargar el banco de registros con valores iniciales, estableciendo un estado de partida conocido para las simulaciones y pruebas.
+
+5. ***Simulación:***
+
+* Desarrolle un testbench que verifique todas las funcionalidades del banco de registros, incluyendo las operaciones de lectura y escritura simultáneas, y la lógica de reset.
+
+* Utilice el testbench creado para simular su diseño, comprobando su correcto funcionamiento con diversas entradas de prueba. 
+
+6. ***Depuración:***
+
+* Si durante la simulación se identifican errores, proceda a ajustar el código y repita las pruebas necesarias hasta lograr que el diseño funcione de manera correcta.
+* Esta depuración debe estar documentada en su archivo README 
+
+7. ***Implementación en Hardware:***
+
+Transfiera el diseño a una FPGA y lleve a cabo pruebas reales para confirmar su funcionamiento en un entorno de hardware.
 
 
+## Entregables
 
+Para completar este proyecto, se requiere la entrega de los siguientes componentes:
+
+
+- **Código HDL de la Solución:** El archivo o archivos que contienen la descripción en Verilog de su banco de registros, incluyendo todos los módulos y submódulos desarrollados para este laboratorio. y los archivos de inicialización de memoria
+
+- **Documentación:** e el archivos markdown (`README.md`) detallen el diseño, implementación y uso de su banco de registros. Incluya explicaciones sobre la arquitectura del diseño, cómo realizar la simulación, y cualquier otra información relevante para entender y replicar su trabajo.
+
+- **Archivo `testbench`:** Un archivo de prueba que simula todas las operaciones posibles en el banco de registros, incluyendo la escritura en todos los registros, la lectura de cuatro registros específicos, y la verificación del correcto funcionamiento de la señal de reset (`rst`). Los resultados de estas simulaciones deben presentarse en un diagrama de tiempo, facilitando la interpretación de las operaciones y el comportamiento del sistema.
+
+- **Vídeo de la Implementación:** Un vídeo que muestre la implementación funcional de su proyecto en la implementación en hardware. 
