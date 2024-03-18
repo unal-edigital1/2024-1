@@ -41,7 +41,7 @@ El objetivo es desarrollar un banco de registros como se observa en la imagen in
 
 Para este paquete de trabajo usted debe:
 
-1. ***Configuración del Proyecto:***
+1. ***Configuración del laboratorio:***
 
 Inicie creando un nuevo proyecto en su entorno de desarrollo. Generar el módulo principal (top module)
 
@@ -76,7 +76,7 @@ Transfiera el diseño a una FPGA y lleve a cabo pruebas reales para confirmar su
 
 ## Entregables
 
-Para completar este proyecto, se requiere la entrega de los siguientes componentes:
+Para completar este laboratorio, se requiere la entrega de los siguientes componentes:
 
 
 - **Código HDL de la Solución:** El archivo o archivos que contienen la descripción en Verilog de su banco de registros, incluyendo todos los módulos y submódulos desarrollados para este laboratorio. y los archivos de inicialización de memoria
@@ -85,4 +85,4 @@ Para completar este proyecto, se requiere la entrega de los siguientes component
 
 - **Archivo `testbench`:** Un archivo de prueba que simula todas las operaciones posibles en el banco de registros, incluyendo la escritura en todos los registros, la lectura de cuatro registros específicos, y la verificación del correcto funcionamiento de la señal de reset (`rst`). Los resultados de estas simulaciones deben presentarse en un diagrama de tiempo, facilitando la interpretación de las operaciones y el comportamiento del sistema.
 
-- **Vídeo de la Implementación:** Un vídeo que muestre la implementación funcional de su proyecto en la implementación en hardware. 
+- **Vídeo de la Implementación:** Un vídeo que muestre la implementación funcional de su laboratorio en la implementación en hardware. 
