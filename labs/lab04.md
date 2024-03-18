@@ -15,11 +15,10 @@ Un banco de registros  es un grupo de _n_ registro y señales de control las cua
 
 ![inbR](https://github.com/unal-edigital1/2024-1/blob/master/labs/figs/br2.PNG)
 
-![br](https://github.com/unal-edigital1/2024-1/blob/master/labs/figs/br1.PNG)
-
-
 
 Un banco de registros es una componente esencial en la arquitectura de procesadores y sistemas digitales, funcionando como un almacenamiento de acceso rápido para los datos que están siendo procesados. Cada registro dentro del banco puede contener un valor binario de tamaño fijo, el cual puede ser leído o modificado mediante operaciones de lectura y escritura. Los registros son fundamentales para realizar operaciones intermedias, almacenar resultados temporales, y mantener estados necesarios durante la ejecución de programas y procesos digitales.
+
+![br](https://github.com/unal-edigital1/2024-1/blob/master/labs/figs/br1.PNG)
 
 La señalización y control en un banco de registros son aspectos críticos que garantizan su correcta operación. Se utilizan señales de control específicas para seleccionar los registros adecuados para las operaciones de lectura y escritura, así como para activar la escritura o el reseteo de los registros a valores predeterminados. Este nivel de control permite una gran flexibilidad y precisión en el manejo de datos dentro de un sistema digital.
 
