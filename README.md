@@ -150,6 +150,17 @@ Semana 9|  L7 Procesador J1 | [link](./docs/WP01.md) | [L07]
 
 
 
+## proyectos de años anteriores
+
+1. [Nacho Pong](https://github.com/unal-edigital1-lab/lab06-2022-1-grupo09-22-1-jopaju)
+2. [Digital Drawing](https://github.com/unal-edigital1-lab/wp01-2021-2-grupo03-2021-2)
+3. [Juego de memoria](https://github.com/unal-edigital1-lab/wp01-2021-2-grupo05-2021-2)
+4. [Camara VGA](https://github.com/unal-edigital1-lab/wp01-entregafinal-grupo-01)
+5. [Drumpad con visualización VGA](https://github.com/unal-edigital1-lab/wp01-entregafinal-grupo-06)
+6. [Avatar](https://github.com/unal-edigital1-lab/lab06-2022-2-grupo09_2022-2)
+7. [Piano](https://github.com/unal-edigital1-lab/lab06-2022-2-grupo02_2022-2)
+8. [concentrece](https://github.com/unal-edigital1-lab/lab06-2022-2-grupo01_2022-2)
+
 ## Desarrollo proyecto
 A  partir de los laboratorisos el estudiante realiza el plan de trabajo del proyecto.
 
