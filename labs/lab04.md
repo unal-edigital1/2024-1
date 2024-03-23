@@ -11,7 +11,7 @@ Las documentación deben estar diligencia en el archivo README.md del repositori
 
 El objetivo de este laboratorio es comprender el funcionamiento y la utilidad de un banco de registros dentro de un sistema digital al igual que desarrollar habilidades en la descripción de hardware utilizando Verilog.
 
-Un banco de registros  es un grupo de _n_ registros y señales de control las cuales permiten que cada registros sea escrito o leido. Por lo generar el banco de registro tiene  un puerto de salida de datos y uno de entrada.  Dependiedo de la aplicación el banco de registro debe  permite la lectura y escritura simultánea de varios registros.  
+Un banco de registros  es un grupo de _n_ registros y señales de control las cuales permiten que cada registros sea escrito o leido. Por lo generar el banco de registro tiene  un puerto de salida de datos y uno de entrada.  Dependiedo de la aplicación el banco de registro debe  permitir la lectura y escritura simultánea de varios registros.  
 
 ![inbR](https://github.com/unal-edigital1/2024-1/blob/master/labs/figs/br2.PNG)
 
@@ -28,10 +28,10 @@ El objetivo es desarrollar un banco de registros como se observa en la imagen in
 
 * El banco de registro debe tener 16 registros de R/W, cada uno de 8 bits, con capacidad de lectura y escritura (R/W).
 *  Debe ser posible leer dos registros al mismo tiempo, facilitando operaciones paralelas.
-* La escritura en un registro se activará mediante una señal de control específica  llamada "regwrite".
+* La escritura en un registro se activará mediante una señal de control específica  llamada  "regwrite".
 * Tener una señal de reset (rst) que inicialice todos los registros a un valor predefinido. 
 * La información de cada registro leído se mostrará en al menos dos displays de 7 segmentos, y en reprecentación decimal.
-* La carga de datos en los registros debe realizarce a través de interruptores o pines disponibles en la tarjeta de desarollo de la FPGA.
+* La carga de datos en los registros debe realizarse a través de interruptores o pines disponibles en la tarjeta de desarollo de la FPGA.
 * Tanto el tamaño de palabra de cada registro como el número total de registros deben ser parametrizables. Se sugiere consultar el siguiente documento para una comprensión más profunda: [link](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-884-complex-digital-systems-spring-2005/related-resources/parameter_models.pdf) .
 *  Se debe pre-cargar el banco de registros con datos específicos utilizando _$readmemh_.(Investigar: "Initialize Memory in Verilog").
 
