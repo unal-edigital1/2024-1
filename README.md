@@ -143,14 +143,12 @@ Semana 1 | Opcional | [L00 Basico](https://classroom.github.com/a/NBX54cVx) | |
 Semana 2 | L1 Configuracion de Git y Quartus sum1b | [link](./labs/lab01.md) |  [L01 sum1b](https://classroom.github.com/a/htUgMbYE)  |
 Semana 3 | L2 Sumador 4b  y testbench| [link](./labs/lab02.md) | [L02](https://classroom.github.com/a/e9yDU7Fo) |  |
 Semana 4 | L3 BCD2sseg display 7 segmentos | [link](./labs/lab03.md) | [L03](https://classroom.github.com/a/BzHX2gMj) | |
-Semana 6 | L4 Banco de Registro| [link](./labs/lab04.md) | [L04](https://classroom.github.com/a/iWcCTIMU)| |
+Semana 6 | L4 Banco de Registro| [link lab](./labs/lab04.md) [link video](https://github.com/unal-edigital1/2024-1/blob/master/labs/figs/CLASELAB4.mp4) | [L04](https://classroom.github.com/a/iWcCTIMU)| |
 Semana 7 | L5 multiplicador| [link](./labs/lab05.md) |[L05](https://classroom.github.com/a/3rQcJ08L) | |
-Semana 8|  L6 Prueba Buffer de memoria y configutación test VGA | [link](./docs/WP01.md) | [L06](https://classroom.github.com/a/Pfkbf7Fv)
-Semana 9|  L7 Procesador J1 | [link](./docs/WP01.md) | [L07]
 
 
 
-## proyectos de años anteriores
+## Proyectos de años anteriores
 
 1. [Nacho Pong](https://github.com/unal-edigital1-lab/lab06-2022-1-grupo09-22-1-jopaju)
 2. [Digital Drawing](https://github.com/unal-edigital1-lab/wp01-2021-2-grupo03-2021-2)
@@ -159,7 +157,7 @@ Semana 9|  L7 Procesador J1 | [link](./docs/WP01.md) | [L07]
 5. [Drumpad con visualización VGA](https://github.com/unal-edigital1-lab/wp01-entregafinal-grupo-06)
 6. [Avatar](https://github.com/unal-edigital1-lab/lab06-2022-2-grupo09_2022-2)
 7. [Piano](https://github.com/unal-edigital1-lab/lab06-2022-2-grupo02_2022-2)
-8. [concentrece](https://github.com/unal-edigital1-lab/lab06-2022-2-grupo01_2022-2)
+8. [Concéntrese](https://github.com/unal-edigital1-lab/lab06-2022-2-grupo01_2022-2)
 
 ## Desarrollo proyecto
 A  partir de los laboratorisos el estudiante realiza el plan de trabajo del proyecto.
@@ -169,6 +167,8 @@ WP  | semana | deadline  | Tema | Documentación| Repositorio
 --  | --     | --        | --   | --          | --  
 02  | semana 2 |   |propuesta adición |  |  [WP02]()
 03  | semana 3 |  | Entrega  ||  [WP03](https://classroom.github.com/a/)
+04|  L6 Prueba Buffer de memoria y configutación test VGA | [link](./docs/WP01.md) | [L06](https://classroom.github.com/a/Pfkbf7Fv)
+05|  L7 Procesador J1 | [link](./docs/WP01.md) | [L07]
 
 
 ## Entregas
