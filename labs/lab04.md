@@ -91,5 +91,5 @@ Para completar este laboratorio, se requiere la entrega de los siguientes compon
 - **Documentación:** En el archivo markdown (`README.md`), deben detallar el diseño, implementación y uso de su banco de registros. Es importante incluir explicaciones sobre la arquitectura del diseño, cómo realizar la simulación y cualquier otra información relevante para entender y replicar su trabajo.
 
 - **Archivo `testbench`:** Se debe proporcionar un archivo de prueba que simule todas las operaciones posibles en el banco de registros. Esto incluye la escritura en todos los registros, la lectura de cuatro registros específicos y la verificación del correcto funcionamiento de la señal de reset (`rst`). Los resultados de estas simulaciones deben presentarse en un diagrama de tiempo.
-
+ 
 - **Vídeo de la Implementación:** Se solicita un vídeo que demuestre la implementación funcional de su laboratorio en el hardware.
