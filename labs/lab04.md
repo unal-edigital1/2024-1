@@ -58,7 +58,7 @@ Integre la funcionalidad de visualización utilizando displays de 7 segmentos. E
 
 Desarrolle el banco de registros siguiendo los requisitos detallados anteriormente, lo que incluye soporte para la lectura simultánea de dos registros y la escritura en un registro, entre otras funcionalidades. Conecte adecuadamente el banco de registros a los demás componentes del sistema. Para referencia y ejemplos de implementación, consulte el archivo `BancoRegistro.v` en la carpeta `src` de su paquete de trabajo.
 
-Como guía, puede tener en cuenta el siguiente diagrama. Sin embargo, tenga en cuenta que el `display.v` presenta los datos en valor hexadecimal y, por lo tanto, `num` puede aceptar al mismo tiempo los dos registros que salen del `BancoRegistro.v`. Si se requiere visualización en decimal, debe separar los datos de entrada en 2 antes de hacer la decodificación.
+Como guía, puede tener en cuenta el siguiente diagrama. Sin embargo, tenga en cuenta que el `display.v` presenta los datos en valor hexadecimal y, por lo tanto, `num` puede aceptar al mismo tiempo los dos registros que salen del `BancoRegistro.v`. Si se requiere visualización en decimal, debe separar los datos de entrada en 2 antes de hacer la decodificación. 
 
  ![cajaNegraEjemplo](https://github.com/unal-edigital1/2024-1/blob/master/labs/figs/br4.PNG)
 
