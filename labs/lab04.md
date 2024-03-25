@@ -68,15 +68,15 @@ Implemente la lógica necesaria para pre-cargar el banco de registros con valore
 
 5. ***Simulación:***
 
-- Desarrolle un testbench que verifique todas las funcionalidades del banco de registros, incluyendo las operaciones de lectura y escritura simultáneas y la lógica de reset.
+Desarrolle un testbench que verifique todas las funcionalidades del banco de registros, incluyendo las operaciones de lectura y escritura simultáneas y la lógica de reset.
 
-- Utilice el testbench creado para simular su diseño, comprobando su correcto funcionamiento con diversas entradas de prueba.
+Utilice el testbench creado para simular su diseño, comprobando su correcto funcionamiento con diversas entradas de prueba.
 
 6. ***Depuración:***
 
-- Si durante la simulación se identifican errores, proceda a ajustar el código y repita las pruebas necesarias hasta lograr que el diseño funcione de manera correcta.
+Si durante la simulación se identifican errores, proceda a ajustar el código y repita las pruebas necesarias hasta lograr que el diseño funcione de manera correcta.
 
-- Esta depuración debe estar documentada en su archivo README.md.
+Esta depuración debe estar documentada en su archivo README.md.
 
 7. ***Implementación en Hardware:***
 
@@ -86,10 +86,10 @@ Transfiera el diseño a una FPGA y lleve a cabo pruebas reales para confirmar su
 
 Para completar este laboratorio, se requiere la entrega de los siguientes componentes:
 
-- **Código HDL de la Solución:** Debe incluirse el archivo o archivos que contienen la descripción en Verilog de su banco de registros. Esto abarca todos los módulos y submódulos desarrollados para este laboratorio, así como los archivos de inicialización de memoria.
+- **Código HDL de la Solución:** Debe incluirse el archivo o archivos que contienen la descripción en Verilog de su topLab. Esto abarca todos los módulos y submódulos desarrollados para este laboratorio, así como los archivos de inicialización de memoria.
 
 - **Documentación:** En el archivo markdown (`README.md`), deben detallar el diseño, implementación y uso de su banco de registros. Es importante incluir explicaciones sobre la arquitectura del diseño, cómo realizar la simulación y cualquier otra información relevante para entender y replicar su trabajo.
 
-- **Archivo `testbench`:** Se debe proporcionar un archivo de prueba que simule todas las operaciones posibles en el banco de registros. Esto incluye la escritura en todos los registros, la lectura de cuatro registros específicos y la verificación del correcto funcionamiento de la señal de reset (`rst`). Los resultados de estas simulaciones deben presentarse en un diagrama de tiempo, lo que facilitará la interpretación de las operaciones y el comportamiento del sistema.
+- **Archivo `testbench`:** Se debe proporcionar un archivo de prueba que simule todas las operaciones posibles en el banco de registros. Esto incluye la escritura en todos los registros, la lectura de cuatro registros específicos y la verificación del correcto funcionamiento de la señal de reset (`rst`). Los resultados de estas simulaciones deben presentarse en un diagrama de tiempo.
 
-- **Vídeo de la Implementación:** Se solicita un vídeo que demuestre la implementación funcional de su laboratorio en el hardware. Este vídeo es fundamental para mostrar la efectividad del diseño en un entorno real.
+- **Vídeo de la Implementación:** Se solicita un vídeo que demuestre la implementación funcional de su laboratorio en el hardware.
