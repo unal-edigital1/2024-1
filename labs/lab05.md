@@ -1,6 +1,6 @@
 # Laboratorio 05 Multiplicador 
 
-Explicación generar de FSM [slide](https://github.com/unal-edigital1-2020-1/page/tree/master/slides/week08)
+Explicación generaL de FSM [slide](https://github.com/unal-edigital1-2020-1/page/tree/master/slides/week08)
 
 # Descripción general del sistema: (tomado del documento de clase)
 

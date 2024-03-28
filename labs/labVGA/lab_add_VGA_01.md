@@ -1,7 +1,8 @@
 
-![DIAGRAMA](https://github.com/unal-edigital1/2022-2/blob/master/docs/figs/Diapositiva1_.PNG)
+## EVALUACIÓN DE MEMORIA, TEST VGA 
 
-## TRABAJO 01- EVALUACIÓN DE MEMORIA, TEST VGA 
+
+![DIAGRAMA](https://github.com/unal-edigital1/2024-1/blob/master/docs/figs/Diapositiva1.PNG)
 
 Para el sistema de visualziación y almacenarlos en el buffer de memoria se propone el siguiente esquema de trabajo, donde el estudiante puede testear el funcionamiento del driver de la VGA
 
