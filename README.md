@@ -146,7 +146,7 @@ Semana 7 | L5 multiplicador| [link](./labs/lab05.md) |[L05](https://classroom.gi
 
 Tema     | Subtema   | Guia  | WP |  
 --       | --        | --    | --    
-Visualiación | VGA| [link](./labs/Visualización/labVGA/lab_add_VGA_01.md) |[WP LabVGA](https://github.com/unal-edigital1/lab06/tree/main) | |
+Visualización | VGA| [link](./labs/Visualización/labVGA/lab_add_VGA_01.md) |[WP LabVGA](https://github.com/unal-edigital1/lab06/tree/main) | |
 
 
 ### Ejemplos sencillos de programación
