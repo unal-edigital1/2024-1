@@ -214,7 +214,7 @@ La rúbrica de evaluación de las entregas es:
 
 ### Entregas  del Proyecto
 
-#### Primera Entrega (30% del total de la nota del proyecto)
+#### Primera Entrega (10% del total de la nota del proyecto)
 **Objetivo:** Definición periféricos del proyecto y diseño inicial.
 
 **Esperado:**
@@ -222,7 +222,7 @@ La rúbrica de evaluación de las entregas es:
 - Plan inicial de la arquitectura del sistema (Solo a y b).
 - Documentación inicial en el repositorio de Git (a y b).
 
-#### Segunda Entrega (30% del total de la nota del proyecto)
+#### Segunda Entrega (20% del total de la nota del proyecto)
 **Objetivo:** Desarrollo y simulación del diseño.
 
 **Esperado:**
