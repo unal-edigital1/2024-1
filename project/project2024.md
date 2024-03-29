@@ -77,15 +77,6 @@ La selección y aplicación de los sensores dependerán de las metas del equipo,
 
 Los equipos tienen libertad para seleccionar o combinar diferentes métodos de visualización para enriquecer la experiencia del usuario. Alternativas avanzadas pueden incluir pantallas OLED, LCD TFT, o interfaces HDMI/VGA, aumentando la complejidad y el alcance del proyecto.
 
-
-
-### Modos de operación
-modo test
-modo aceleración
-modo automatico 
-
-
-
 ## 4. Arquitectura del Sistema
 ### 4.1. Diagramas de Bloques:
 (Incluiría un diagrama básico que muestre la FPGA, la pantalla, los botones de entrada y cualquier otro componente clave).
@@ -97,12 +88,35 @@ Pantalla: cuál.
 Botones: Permiten al usuario interactuar con la mascota.
 sensor: cuál
 
-## 5. Especificaciones de Diseño Detalladas
-
-### 5.1. Interfaces:
+### 4.3. Interfaces:
 
 Comunicación entre la FPGA y la pantalla.
 Entradas digitales para los botones.
+Comunicación entre la FPGA y el sensor.
+
+## 5. Especificaciones de Diseño Detalladas
+
+## 5.1 Modos de operación
+### 5.1.1 Modo Test
+
+El modo Test permite a los usuarios y desarrolladores validar la funcionalidad del sistema y sus estados sin necesidad de seguir el flujo de operación normal. En este modo, se pueden forzar transiciones de estado específicas mediante interacciones simplificadas, como pulsaciones cortas de botones, para verificar las respuestas del sistema y la visualización. Este modo es esencial durante la fase de desarrollo para pruebas rápidas y efectivas de nuevas características o para diagnóstico de problemas.
+
+- **Activación:** Se ingresa al modo Test manteniendo pulsado el botón "Test" por un periodo de 5 segundos.
+- **Funcionalidad:** Permite la navegación manual entre los estados del Tamagotchi, ignorando los temporizadores o eventos aleatorios, para observar directamente las respuestas y animaciones asociadas.
+
+### 5.1.2 Modo Normal
+El Modo Normal es el estado de operación estándar del Tamagotchi, donde la interacción y respuesta a las necesidades de la mascota virtual dependen enteramente de las acciones del usuario. 
+
+- **Activación:** El sistema arranca por defecto en el Modo Normal tras el encendido o reinicio del dispositivo. No requiere una secuencia de activación especial, ya que es el modo de funcionamiento predeterminado.
+
+- **Funcionalidad:** Los usuarios interactúan con la mascota a través de botones y, potencialmente, sensores para satisfacer sus necesidades básicas. La mascota transita entre diferentes estados (por ejemplo, Hambriento, Feliz, Dormido, Enfermo) en respuesta a las acciones del usuario y al paso del tiempo. El sistema proporciona retroalimentación inmediata sobre las acciones mediante la visualización.
+
+### 5.1.3 Modo Aceleración (opcional)
+El modo Aceleración incrementa la velocidad a la que transcurren los eventos y el paso del tiempo dentro de la simulación del Tamagotchi, permitiendo a los usuarios experimentar ciclos de vida más rápidos y evaluar cómo las interacciones afectan al estado de la mascota en un periodo comprimido.
+
+- **Activación:** Se activa pulsando el botón dedicado a "Aceleración de Tiempo", con cada pulsación aumentando la velocidad de simulación (por ejemplo, 5x, 10x, 50x).
+- **Funcionalidad:** Todos los temporizadores internos y los ciclos de eventos operan a una velocidad incrementada, acelerando la necesidad de interacciones como alimentar, jugar o curar.
+
 
 ## 5.2. Estados y Transiciones:
 
@@ -147,7 +161,6 @@ Se desarrollará un sistema de niveles o puntuación que reflejará la calidad d
 **Eventos Aleatorios (Opcional):**
 
 Se contempla la integración de eventos aleatorios capaces de alterar los estados emocionales o de salud de la mascota, introduciendo elementos de dinamismo e imprevisibilidad en la interacción. La incorporación de estos eventos, aunque opcional, contribuirá a la complejidad y riqueza del diseño del sistema, ofreciendo un nivel adicional de desafío y variabilidad en el cuidado de la mascota virtual.
-
 
 ## 6. Requisitos de Implementación
 
