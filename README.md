@@ -2,7 +2,7 @@
 ##   UNIVERSIDAD NACIONAL DE COLOMBIA 
 
 ### Profesor:
-	Ferney Alberto Beltrán Molina, Ing, MSc, PhD(c)
+	Ferney Alberto Beltrán Molina
 	fabeltranm@unal.edu.co.
 	github: https://github.com/Fabeltranm/
    https://unal-edigital1.github.io/2024-1
@@ -40,7 +40,7 @@ Requisitos: Aparte de los establecidos en cada uno de los programas que incluye 
 * Adopción y utilización de metodologías de diseño modernas basadas en representaciones funcionales, estructúrales y físicas.
 * Sembrar las bases para el desarrollo de aplicaciones comerciales.
 
-### Contenido macro para el desarrollo de los laboratorios 
+### Contenido  
 * Introducción al Diseño Electrónico Digital  
 * Representación de Datos y Sistemas Numéricos
 * Lógica Combinacional
@@ -70,6 +70,7 @@ Semana 7 | Proyecto y maquinas de estado   | [informe labs.pdf](https://github.c
 
 
 ## Estructura de los Laboratorios y Proyecto 
+
 ### Metodología de trabajo de los laboratorios 
 
 Para cada paquete de trabajo se debe clonar la plantilla dada, y los resultados del trabajo de cada grupo deben ser subidos antes de la fecha estipulada. Se recomienda  leer la ayuda de github classroom en este [link](https://education.github.com/) y ver los videos de github de YouTube, como por ejemplo este crash course de este [link](https://www.youtube.com/watch?v=RGOj5yH7evk&t=48s) o pueden descargar un libro de git del siguiente [link]( https://git-scm.com/book/en/v2)
@@ -100,7 +101,7 @@ Para todos los paquetes de trabajo se debe  realizar la documentación respectiv
 
 Recuerde el trabajo que ustedes documenten, será el que leerán sus compañeros de los próximos semestres. En este contexto, la evaluación de la documentación será tenida en cuenta la minuciosidad y claridad de la misma.
 
-La documentación se debe  diligenciar en el archivo README.md, que se encuentra en cada repositorio dentro de la carpeta ```docs```, en el cual deben colocar el nombre de los integrantes y el número de identificación.
+La documentación se debe  diligenciar en el archivo README.md, que se encuentra en cada repositorio, en el cual deben colocar el nombre de los integrantes y el número de identificación.
 
 El archivo README.md, se debe escribir en formato Markdown. Para aprender cuál es el formato de este documento se recomienda revisar el siguiente [link](https://guides.github.com/features/mastering-markdown/) que les da una visión rápida del formato usado para hacer la documentación. 
 Las imágenes, fotos y soportes gráficos deben ser alojados en la carpeta ```figs``` y deben ser vinculadas en documento README.md.
@@ -111,7 +112,7 @@ Para una mejor compresión y visualización de los avances de los pre-laboratori
 El código HDL está alojado en la carpeta ```src```. Allí  están los archivos fuente dados en clase  y allí deben alojar todo los archivos  diseñados  y desarrollados por los integrantes de grupo y según sea solicitado en la  guía de cada paquete de trabajo.
 
 ### Entrega
-Recuerde tener presente el deadline  de cada paquete de trabajo, a las 8 de la noche del día indicado se cierra el sistema y los grupos no podrán actualizar el repositorio.
+Recuerde tener presente el deadline  de cada paquete de trabajo.
 Para actualizar el repositorio deben realizar  el respectivo ```commit``` y ```push```, según sea la plataforma que estén utilizando y como se explicó en clase.
 Recuerde también revisar que en la página de github se reflejan las actualizaciones realizadas por el grupo de trabajo.
 
@@ -122,19 +123,13 @@ Recuerde también revisar que en la página de github se reflejan las actualizac
 * [Recursos](https://github.com/unal-edigital1/2021-2/tree/master/docs/recursosCicloneIV)
 
 
-
-### Préstamo de equipos LABDIEE
+#### Préstamo de equipos LABDIEE
 
 En la carpeta ```labDIEE_2024_1``` encontrarán varios archivos relacionados al Laboratorio del Departamento de Ingeniería Eléctrica y Electrónica. El archivo ```FORMATO_Movimiento_transitorio_bienes-LABDIEE-2024-1.xlsm``` contiene el formato que deben diligenciar para que puedan adelantar el préstamo de equipos en casa. Por grupo de trabajo deben llevar al almacén el formato diligenciado, una copia del mismo y la fotocopia del carnet del integrante que vaya a figurar como el responsable de los equipos, quien será el encargado de recibirlos. Revisen todos los archivos de la carpeta, ya que encontrarán los horarios del almacén, el listado de equipos según la asignatura y las fechas de recepción de formatos y entrega de equipos, así como información relevante del laboratorio.
 
 
-### Ejemplos sencillos de programación
-*[link](https://github.com/unal-edigital1/2021-2/tree/master/docs/recursosCicloneIV/Verilog-Examples)
-
 
 ## Cronograma de laboratorios  (labs) 
-
-
 
 Semana   | Tema   | Guia de laboratorio | WP | deadline 
 --       | --     | --            	| -- | --   
@@ -145,6 +140,115 @@ Semana 3 | L2 Sumador 4b  y testbench| [link](./labs/lab02.md) | [L02](https://c
 Semana 4 | L3 BCD2sseg display 7 segmentos | [link](./labs/lab03.md) | [L03](https://classroom.github.com/a/BzHX2gMj) | |
 Semana 6 | L4 Banco de Registro| [link lab](./labs/lab04.md) [link video](https://github.com/unal-edigital1/2024-1/blob/master/labs/figs/CLASELAB4.mp4) | [L04](https://classroom.github.com/a/iWcCTIMU)| |
 Semana 7 | L5 multiplicador| [link](./labs/lab05.md) |[L05](https://classroom.github.com/a/3rQcJ08L) | |
+
+
+## laboratorios  complementarios 
+
+Tema     | Subtema   | Guia  | WP |  
+--       | --        | --    | --    
+Visualiación | VGA| [link](./labs/Visualización/labVGA/lab_add_VGA_01.md) |[WP LabVGA](https://github.com/unal-edigital1/lab06/tree/main) | |
+
+
+### Ejemplos sencillos de programación
+*[link](https://github.com/unal-edigital1/2021-2/tree/master/docs/recursosCicloneIV/Verilog-Examples)
+
+
+## Proyecto
+
+### Introducción
+
+El proyecto final de este curso de Electrónica Digital 1 representa la culminación del proceso de aprendizaje a través de los fundamentos y las aplicaciones avanzadas de la electrónica digital. Tras haber explorado temas esenciales como la representación de datos, lógica combinacional y secuencial, máquinas de estado algorítmico, unidades de control, datapath y una introducción a los procesadores, el objetivo principal de este proyecto es aplicar de manera integrada todos estos conocimientos para resolver un problema práctico específico o innovar en el diseño de una solución tecnológica.
+
+Este proyecto no solo busca evaluar la comprensión teórica de los contenidos del curso, sino también, y más importante, medir la habilidad para aplicar estos conocimientos en la creación de sistemas digitales funcionales. Se espera que, a través de este ejercicio, los estudiantes demuestren no solo competencia en el uso de herramientas y técnicas de diseño electrónico digital, sino también creatividad, pensamiento crítico y habilidades de resolución de problemas.
+
+El proyecto final es una oportunidad para:
+
+**Integrar y aplicar conocimientos**: Utilizar de manera conjunta los conceptos aprendidos para diseñar y construir un sistema digital complejo, que pueda incluir componentes como FSM, lógica combinacional y secuencial, y unidades de control personalizadas.
+
+**Desarrollar habilidades prácticas**: Ganar experiencia práctica en el diseño, simulación, implementación y prueba de circuitos y sistemas electrónicos digitales.
+
+**Innovar**: Ir más allá de la reproducción de conocimientos y demostrar capacidad para innovar, ya sea mejorando un diseño existente o creando una solución completamente nueva a un problema dado.
+
+**Colaborar y comunicar**: Trabajar efectivamente en equipo y comunicar los resultados de manera clara y efectiva, tanto por escrito como oralmente, incluyendo la documentación técnica del proyecto.
+
+El éxito en este proyecto no se mide solo por la funcionalidad del sistema o producto final, sino también por la calidad del proceso de diseño, la capacidad para enfrentar y resolver desafíos técnicos, y la habilidad para documentar y comunicar el trabajo realizado de manera efectiva. Este proyecto es, por lo tanto, el paso final hacia la consolidación de una sólida base en electrónica digital, sobre la cual los estudiantes pueden construir en futuros proyectos de ingeniería, investigación o desarrollo tecnológico.
+
+### Rúbrica
+
+El proyecto equivale al 70% de la nota total del curso, y se realizan 3 entregas de avances del mismo. En este sentido, los laboratorios no son evaluables pero son requisitos fundamentales para poder empezar a trabajar en el proyecto.
+
+La rúbrica de evaluación de las entregas es:
+
+**Especificación de los sistemas que conforman el proyecto:**
+- **a)** Detalle de la especificación de los componentes del proyecto, su descripción funcional y sistema de caja negra.
+- **b)** Uso de un lenguaje adecuado para describir el sistema.
+- **c)** Utilización de diagramas de conexión claros para describir cada módulo y especificar los bloques funcionales en HW.
+
+
+**Arquitectura del sistema:**
+- **a)** Definición clara de la funcionalidad de cada periférico y coherencia con la implementación en HDL y su conexión.
+- **b)** Capacidad para decidir la arquitectura más adecuada del proyecto y replanteamiento de modelos.
+- **c)** Correcto uso de la simulación para cada componente y el sistema completo, incluyendo la detección de posibles fallas.
+- **d)** Complejidad del diseño, qué tan desafiante es el diseño desde el punto de vista técnico.
+
+**Prototipo:**
+- **a)** Interpretación de resultados de simulaciones y determinación de causas físicas que puedan generar malos funcionamientos.
+- **b)** Coherencia entre la especificación, el diseño, las pruebas y la implementación.
+- **c)** Justificación y replanteamiento del modelo basado en una evaluación cíclica de diseño.
+- **d)** Interpretación de resultados de la implementación y determinación de causas físicas que puedan generar malos funcionamientos.
+- **e)** Capacidad para responder preguntas técnicas sobre el diseño e implementación del proyecto de manera clara y concisa.
+- **f)** Evaluación del cumplimiento de los requisitos funcionales y técnicos especificados para el proyecto.
+
+**Trabajo en Equipo y Gestión del Proyecto:** 
+- **a)** Planificación y gestión del tiempo para el cumplimiento de hitos y la gestión eficiente del tiempo.
+- **b)** Capacidad para superar obstáculos, evaluando la resiliencia del equipo para superar dificultades y obstáculos durante el proyecto.
+- **c)** Colaboración y trabajo en equipo, evaluando la efectividad del trabajo en equipo y la contribución equitativa de todos los miembros del equipo. La evaluación de este ítem se basará en la contribución al repositorio del proyecto, revisiones entre pares (autoevaluación y coevaluación) y presentaciones individuales.
+
+
+**Documentación:**
+- **a)** Consolidación de la documentación en un repositorio de Git, incluyendo texto, imágenes y videos de los criterios anteriormente expuestos.
+- **b)** Organización clara y estructurada de la documentación, facilitando la comprensión del proyecto y el seguimiento del proceso.
+- **c)** Inclusión de detalles técnicos relevantes, explicando las decisiones de diseño, las configuraciones utilizadas y los resultados obtenidos.
+- **d)**  Se evaluará la claridad, legibilidad y organización del código fuente, incluyendo el uso adecuado de comentarios para explicar la lógica de implementación y las decisiones de diseño. Se valorará positivamente la adherencia a los estándares de codificación establecidos y la estructuración lógica del código en módulos o componentes bien definidos.
+
+
+### Entregas  del Proyecto
+
+#### Primera Entrega (30% del total de la nota del proyecto)
+**Objetivo:** Definición periféricos del proyecto y diseño inicial.
+
+**Esperado:**
+- Especificación detallada del sistema (Completo).
+- Plan inicial de la arquitectura del sistema (Solo a y b).
+- Documentación inicial en el repositorio de Git (a y b).
+
+#### Segunda Entrega (30% del total de la nota del proyecto)
+**Objetivo:** Desarrollo y simulación del diseño.
+
+**Esperado:**
+- Arquitectura del sistema (Completo).
+- Avances en el prototipo, incluyendo resultados de simulaciones (a y b).
+- Actualización del trabajo en equipo y gestión del proyecto (a, b, c).
+- Actualización de la documentación con avances y simulaciones (a, b, c).
+
+#### Tercera Entrega (40% del total de la nota del proyecto)
+**Objetivo:** Finalización e implementación del prototipo.
+
+**Esperado:**
+- Prototipo finalizado (Completo).
+- Trabajo en Equipo y Gestión del Proyecto (Completo).
+- Coherencia completa entre especificación, diseño, pruebas y implementación.
+- Documentación finalizada, incluyendo la calidad del código
+
+### Especificación de proyecto 
+
+Cada año, el proyecto se propone en la semana 7 del curso. Durante las primeras semanas, se detalla la metodología de selección del proyecto. Para este año, el proyecto se encuentra definido en la siguiente documentación que se encuentra en [project/project2024.md](./project/project2024.md)
+
+### Entregas 
+
+grupo  | link 
+  --   | --  
+
 
 
 
@@ -159,22 +263,7 @@ Semana 7 | L5 multiplicador| [link](./labs/lab05.md) |[L05](https://classroom.gi
 7. [Piano](https://github.com/unal-edigital1-lab/lab06-2022-2-grupo02_2022-2)
 8. [Concéntrese](https://github.com/unal-edigital1-lab/lab06-2022-2-grupo01_2022-2)
 
-## Desarrollo proyecto
-A  partir de los laboratorisos el estudiante realiza el plan de trabajo del proyecto.
 
-
-WP  | semana | deadline  | Tema | Documentación| Repositorio 
---  | --     | --        | --   | --          | --  
-02  | semana 2 |   |propuesta adición |  |  [WP02]()
-03  | semana 3 |  | Entrega  ||  [WP03](https://classroom.github.com/a/)
-04|  L6 Prueba Buffer de memoria y configutación test VGA | [link](./docs/WP01.md) | [L06](https://classroom.github.com/a/Pfkbf7Fv)
-05|  L7 Procesador J1 | [link](./docs/WP01.md) | [L07]
-
-
-## Entregas
-
-grupo  | link 
-  --   | --  
 
 ## Bibliografía
 * Daniel D. Gajski. Principles of Digital Design. Prentice Hall, 1997.

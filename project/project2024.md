@@ -1,39 +1,13 @@
 
 ## Introducción 
-En las próximas 6 semanas se estará trabajando en la adquisición, procesamiento y visualización de  imágenes. Para ello se hará uso de los siguientes componentes:
 
-* Cámara OV7970 sin FIFO con las siguientes características:
-	* Matriz fotosensible: 640 x 480, el tamaño de la imagen   se puede configurar 
-	* Formato de salida RGB, RGB (GRB4: 2: 2, RGB565 / 555/444) sin formato, YUV (4: 2: 2) e YCbCr (4: 2: 2) Admite VGA, CIF y de CIF a formato 40 x 30.
-	* Se configura  por medio del  bus SCCB (compatible con I2C), para obtener los modos de  configuración se recomienda leer la hoja de datos de la cámara.
-* Tarjeta STM o Arduino, En primera instancia  y para las pruebas iniciales, se hará uso de la tarjeta de procesamiento comerciales, como Arduino o STM32 , 
-* Tarjeta de desarrollo FPGA, Nexys4, quacho-basic 
-* Sistema de visualización 
-* Sistema de captura,  sistema manual para iniciar la captura de información
+## plan de trabajo:
 
-En resumen se muestra la configuración del dispositivo que se implementará.
-
-![Diagrama](./figs/diagramaGeneral.jpg)
-
-Como se observa en el diagrama anterior se debe  diseñar por parte de cada grupo de trabajo el contenido del bloque en verde  el cual se describir a continuación:
-
-
-![Diagrama 2](./figs/estructura_fpga.jpg)
-
-
-En este sentido cada grupo debe trabajar en los bloques internos verdes junto con las interconexiones.  Se proporcionarán los bloques en naranja.
-
-El plan de trabajo propuesto es:
-
-* WP01: Buffer de memoria  [WP01](https://classroom.github.com/g/Ra4G34mi) 
-	* Semana 1: Buffer de memoria  Simulación (TestBench).  Analizar la máxima memoria ram que podemos alojar en la FPGA,  y planear el método de adquisición de los datos de la cámara 
-* WP02  Cuenta de pixle y href [WP02](https://classroom.github.com/g/fTcztVJQ)
-	* Semana 2: Captura de datos Construcción del bloque de captura de datos y divisor de frecuencias según hoja de datos de la cámara.
-	* Semana 3: Captura de datos Pruebas físicas con cámara 
-* WP03: Simulación
-	* Semana 4: Procesamiento 
-* WP04: Integración e implementación [WP04](https://classroom.github.com/g/-N1YMEhS)
-	* Semana 6: Integración del proyecto y pruebas funcionales
+* WP01: 
+* WP02:
+* WP03:
+* WP04: 
+Semana 6: Integración del proyecto y pruebas funcionales
 Semana 7: Presentación  
 
 
@@ -81,8 +55,8 @@ A continuación se presenta cada actividad a realizar, el plan de trabajo del pr
 
 WP  | semana | deadline  | Tema | Documentación| Repositorio 
 --  | --     | --        | --   | --          | --  
-01| semana 1 | 1 Nov | Buffer de memoria | [link](./docs/WP01.md) | [WP01](https://classroom.github.com/g/Ra4G34mi) 
-02| semana 2 /semana 3 | 15 Nov | Captura de datos | [link](./docs/WP02.md) | [WP02](https://classroom.github.com/g/fTcztVJQ)  
-03  | semana 4 | 16 ene | Procesamiento | [link](./docs/WP03.md) |  [WP03](https://classroom.github.com/g/dq2gMMs9) 
-04| Semana 8 | 6  febrero | Integración | [link](./docs/WP04.md) |  [WP04](https://classroom.github.com/g/-N1YMEhS) 
+01| semana 1 | 1 Nov | Buffer de memoria | [link](./docs/WP01.md) | [WP01](https://classroom.github.com/g/) 
+02| semana 2 /semana 3 | 15 Nov | Captura de datos | [link](./docs/WP02.md) | [WP02](https://classroom.github.com/g/)  
+03  | semana 4 | 16 ene | Procesamiento | [link](./docs/WP03.md) |  [WP03](https://classroom.github.com/g/) 
+04| Semana 8 | 6  febrero | Integración | [link](./docs/WP04.md) |  [WP04](https://classroom.github.com/g/) 
 
