@@ -1,7 +1,159 @@
+# Especificación de Diseño del Proyecto Tamagotchi en FPGA
 
-## Introducción 
+## 1. Introducción
 
-## plan de trabajo:
+### 1.1 Objetivo
+Desarrollar un sistema de Tamagotchi en FPGA (Field-Programmable Gate Array) que simule el cuidado de una mascota virtual. El diseño incorporará una lógica de estados para reflejar las diversas necesidades y condiciones de la mascota, junto con mecanismos de interacción a través de sensores y botones que permitan al usuario cuidar adecuadamente de ella.
+
+### 1.2 Delimitaciones
+El alcance del proyecto se centra en la creación de un sistema básico de Tamagotchi, que incluirá:
+- Una interfaz de usuario operada mediante botones físicos.
+- Al menos un sensor para ampliar las formas de interacción.
+- Un sistema de visualización para representar el estado actual y las necesidades de la mascota virtual.
+
+Este proyecto se diseñará e implementará utilizando la FPGA ciclone IV, con restricciones claras en términos de recursos de hardware disponibles. La implementación se detallará en Verilog.
+
+
+## 2. Descripción General del Sistema
+
+### 2.1 Contexto del Sistema
+El proyecto Tamagotchi en FPGA es concebido como un sistema autónomo, destinado a emular la experiencia de mantener y cuidar una mascota virtual. Este diseño se fundamenta en el uso de máquinas de estado algorítmico para gestionar las diversas condiciones y comportamientos de la mascota.
+
+### 2.2 Funcionalidad Principal
+El núcleo del sistema está diseñado para simular interactivamente el cuidado de una mascota virtual, permitiendo al usuario participar en actividades esenciales tales como alimentar, jugar, dormir y curar, a través de una interfaz visual  y de un sistema de botones y sensores.
+
+## 3. Requisitos del Sistema
+
+La FPGA está programada para simular distintos estados de la mascota, basándose en el comportamiento y la interacción con el usuario a través de al menos tres sistemas principales:
+
+### 3.1 Sistema de Botones:
+
+#### 3.1.1 Botones Mínimos: 
+La interacción usuario-sistema se realizará mediante los siguientes botones configurados:
+
+1. **Reset:** Reestablece el Tamagotchi a un estado inicial conocido al mantener pulsado el botón durante al menos 5 segundos. Este estado inicial simula el despertar de la mascota con salud óptima.
+2. **Test:** Activa el modo de prueba al mantener pulsado por al menos 5 segundos, permitiendo al usuario navegar entre los diferentes estados del Tamagotchi con cada pulsación.
+3. **Botones de Interacción (2):** Facilitan acciones directas como alimentar, jugar, o curar, posibilitando la implementación de actividades específicas para el bienestar del Tamagotchi.
+
+#### 3.1.2 Botones Adicionales (Opcional):
+1. **Acelerador de Tiempo:** Permite modificar la velocidad del tiempo en el Tamagotchi, incrementando la rapidez de los cambios de estado para simular diferentes velocidades temporales.
+
+
+### 3.2 Sistema de Sensado
+
+Para integrar al Tamagotchi con el entorno real y enriquecer la experiencia de interacción, se incorporará al menos un sensor que modifique el comportamiento de la mascota virtual en respuesta a estímulos externos. Los sensores permitirán simular condiciones ambientales y actividades que afecten directamente el bienestar de la mascota. Los siguientes son ejemplos de sensores y sus aplicaciones potenciales:
+
+1. **Sensor de Ultrasonido:** Utilizado para la detección de proximidad y movimiento, este sensor puede:
+   - **Despertar:** Activar el Tamagotchi de un estado de reposo cuando se detecta proximidad cercana, simulando el despertar por la presencia del usuario.
+   - **Jugar:** Interpreta gestos o movimientos cercanos como interacciones lúdicas, aumentando el nivel de felicidad de la mascota.
+
+2. **Sensor de Humedad:** Evalúa el nivel de humedad ambiental, influyendo en:
+   - **Estado de Ánimo/Salud:** Condiciones de humedad extremas pueden afectar negativamente la salud o el confort de la mascota, desencadenando posibles estados de enfermedad o descontento.
+
+3. **Sensor de Color:** Permite al Tamagotchi "alimentarse" de colores específicos presentes en su entorno, cada uno asociado a diferentes tipos de nutrientes o efectos:
+   - **Nutrición Variada:** La identificación de diferentes colores se traduce en una variedad de alimentos consumidos, impactando positiva o negativamente en la salud y el estado anímico del Tamagotchi.
+
+4. **Sensor de Audio:** Hace que el Tamagotchi responda a estímulos sonoros, lo que permite:
+   - **Comandos de Voz:** La mascota puede reconocer y reaccionar a comandos específicos o a sonidos ambientales, ajustando su comportamiento o estado emocional de acuerdo.
+   - **Reacción a Sonidos:** Los sonidos agradables pueden aumentar la felicidad, mientras que los ruidos fuertes podrían generar estrés o miedo.
+
+5. **Sensor de Temperatura:** Afecta la salud o estado anímico del Tamagotchi en función de las condiciones térmicas.
+
+6. **Sensor de Luz:** Simula los ciclos de día y noche, influyendo en las rutinas de actividad y descanso de la mascota.
+
+7. **Sensor de Movimiento:** Promueve la actividad física al requerir que el usuario mueva el dispositivo para mantener en forma al Tamagotchi, ejemplo el usuario se puede desplazar y dar la sensacion de caminar para el tamagotchi.
+
+La selección y aplicación de los sensores dependerán de las metas del equipo, promoviendo un enfoque en la innovación y permitiendo la colaboración entre distintos grupos para compartir desarrollos y estrategias de interacción con los snesores.
+
+
+
+### 3.3 Sistema de Visualización
+
+#### 3.3.1 Visualización de Información de Estado:
+- **Matriz de Puntos 8x8:** Esencial para representar visualmente el estado actual del Tamagotchi, incluyendo emociones y necesidades básicas.
+
+#### 3.3.2 Indicadores Simples:
+- **Display de 7 Segmentos:** Utilizado para mostrar niveles y puntuaciones específicas, como el nivel de hambre o felicidad, complementando la visualización principal.
+
+Los equipos tienen libertad para seleccionar o combinar diferentes métodos de visualización para enriquecer la experiencia del usuario. Alternativas avanzadas pueden incluir pantallas OLED, LCD TFT, o interfaces HDMI/VGA, aumentando la complejidad y el alcance del proyecto.
+
+
+
+### Modos de operación
+modo test
+modo aceleración
+modo automatico 
+
+
+
+## 4. Arquitectura del Sistema
+### 4.1. Diagramas de Bloques:
+(Incluiría un diagrama básico que muestre la FPGA, la pantalla, los botones de entrada y cualquier otro componente clave).
+
+### 4.2 Descripción de Componentes:
+
+FPGA: Corazón del sistema, ejecuta la lógica del Tamagotchi.
+Pantalla: cuál.
+Botones: Permiten al usuario interactuar con la mascota.
+sensor: cuál
+
+## 5. Especificaciones de Diseño Detalladas
+
+### 5.1. Interfaces:
+
+Comunicación entre la FPGA y la pantalla.
+Entradas digitales para los botones.
+
+## 5.2. Estados y Transiciones:
+
+### 5.2.1. Estados Mínimos
+El Tamagotchi operará a través de una serie de estados  que reflejan las necesidades físicas y emocionales de la mascota virtual, a saber:
+
+- **Hambriento:** Este estado alerta sobre la necesidad de alimentar a la mascota. La falta de atención a esta necesidad puede desencadenar un estado de enfermedad.
+  
+- **Diversión:** Denota la necesidad de entretenimiento de la mascota. La inactividad prolongada puede llevar a estados de aburrimiento o tristeza.
+
+- **Descansar:** Identifica cuando la mascota requiere reposo para recuperar energía, especialmente después de períodos de actividad intensa o durante la noche, limitando la interacción del usuario durante estas fases.
+
+- **Enfermo:** Se activa por el descuido en el cuidado de la mascota, requiriendo intervenciones específicas para su recuperación.
+
+- **Feliz:** Refleja el bienestar general de la mascota como resultado de satisfacer adecuadamente sus necesidades básicas.
+
+### 5.2.2 Estados Adicionales
+Para enriquecer la experiencia del usuario y aumentar la complejidad del sistema, se contemplan estados adicionales que ofrecen una simulación más detallada del cuidado de la mascota, esto estado no son obligatorios:
+
+- **Triste:** Emergerá en respuesta a la negligencia continua de las necesidades de la mascota, pudiendo ser mitigado mediante la interacción y cuidado oportunos.
+
+- **Aburrido:** Indica la necesidad de diversificar las actividades de entretenimiento para mantener el interés de la mascota.
+
+- **Higiene:** Subraya la importancia de mantener la limpieza de la mascota, introduciendo otra dimensión al cuidado requerido.
+
+- **Crecimiento/Evolución:** La mascota experimentará distintas fases de crecimiento, cada una con requisitos y comportamientos específicos, ilustrando el desarrollo y maduración de la mascota a lo largo del tiempo.
+
+### 5.2.3 Transiciones
+
+**Temporizadores**:
+
+Se implementarán temporizadores para simular el avance temporal, afectando las necesidades básicas del Tamagotchi. A medida que el tiempo progresa, ciertas necesidades como el hambre incrementarán de forma gradual, requiriendo intervención del usuario para suministrar alimento a la mascota y mantener su estado de salud óptimo.
+
+**Interacciones y Eventos Aleatorios:**
+
+Las transiciones entre diferentes estados de la mascota se desencadenarán por interacciones directas del usuario, utilizando botones y sensores. Estas acciones permitirán al usuario influir activamente en el bienestar y comportamiento de la mascota virtual.
+
+**Sistema de Niveles o Puntos:**
+
+Se desarrollará un sistema de niveles o puntuación que reflejará la calidad del cuidado proporcionado al Tamagotchi. Aspectos como el nivel de hambre y felicidad fluctuarán en una escala de 1 a 5, donde acciones positivas como alimentar o interactuar con la mascota incrementarán dichos niveles, mientras que la inactividad o negligencia resultará en su disminución. Este mecanismo brindará retroalimentación constante al usuario sobre la condición actual de la mascota virtual.
+
+**Eventos Aleatorios (Opcional):**
+
+Se contempla la integración de eventos aleatorios capaces de alterar los estados emocionales o de salud de la mascota, introduciendo elementos de dinamismo e imprevisibilidad en la interacción. La incorporación de estos eventos, aunque opcional, contribuirá a la complejidad y riqueza del diseño del sistema, ofreciendo un nivel adicional de desafío y variabilidad en el cuidado de la mascota virtual.
+
+
+## 6. Requisitos de Implementación
+
+## 7. Plan de Verificación y Validación
+
+## 8. plan de trabajo:
 
 * WP01: 
 * WP02:
@@ -10,53 +162,4 @@
 Semana 6: Integración del proyecto y pruebas funcionales
 Semana 7: Presentación  
 
-
-## Metodología de trabajo 
-
-Para cada paquete de trabajo se debe clonar la plantilla dada, y los resultados del trabajo de cada grupo deben ser subidos antes de la fecha estipulada. Se recomienda  leer la ayuda de github classroom en este [link](https://education.github.com/) y ver los videos de github de su canal de YouTube de este [link]( https://www.youtube.com/githubguides) o pueden descargar un libro de git del siguiente [link]( https://git-scm.com/book/en/v2)
-Antes de empezar  si no ha tenido ningún acercamiento con los repositorios de git  debe realizar los siguientes pasos:
-* Crear una cuenta de github. Ver este [video](https://www.youtube.com/watch?v=ezxRcdJ8glM&feature=youtu.be)
-* Para crear repositorios  revise este [link](https://help.github.com/en/github/getting-started-with-github/create-a-repo)
-
-Antes de comenzar con cada paquete de trabajo se debe leer las instrucciones  y tener todos los archivos. Para acceder a cada paquete de trabajo debe:
-* Aceptar la asignación de cada link dado. 
-* La aplicación les pregunta si desean crear un grupo nuevo o unirse a uno existente:
-	* Para crear un grupo nuevo coloque "Grupo-xx", donde xx es el número del grupo.
-	* Para unirse a un grupo existente, busque el nombre  y pulse el botón ´join´.
-	
-***Nota: Todos los estudiantes debes unirse al grupo correspondiente  y tener cuidado de no equivocarse de grupo***
-
-Luego de unirse a cada grupo de trabajo debe clonar su  repositorio en su computador, para lo cual: 
-* Si usted  no tiene ningún conocimiento de cómo hacer esto, recomiendo  usar ***github Desktop*** el cual se puede descargar de este [link]( https://desktop.github.com), y la documentación  de uso la encuentra en este [link](https://help.github.com/en/desktop/getting-started-with-github-desktop) ***Recuerde lo que debe hacer es clonar el repositorio creado de forma automática por git classroom y NO crear uno nuevo***
-* Para los estudiantes que usen el sistema operativo Linux  les recomiendo usar la siguiente guía para clonar el repositorio e iniciar en  el mundo de  control de versiones [link]( https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository)
-
-***RECUERDEN:*** Todos los integrantes del grupo deben  trabajar en el respectivo repositorio y participar en los respectivos commit y push, tanto de la documentación
-
-## Documentación
-Para todos los paquetes de trabajo se debe  realizar  la documentación respectiva, que evidencie el progreso del trabajo. Puede hacer uso de fotos, videos, comentar el código HDL, y todo lo que el grupo considere necesario  para explicar los avances que va teniendo. 
-Recuerde el trabajo que ustedes documenten, será el que leerán sus compañeros de los próximos semestres. En este contexto, la evaluación de la documentación será  tenida en cuenta la minuciosidad y claridad de la misma.
-
-La documentación se debe  diligenciar en el archivo README.md, que se encuentra en cada repositorio dentro de la carpeta docs, en el cual deben colocar el nombre3 de los integrantes  y el  número de identificación.
-El archivo README.md, se debe escribir en formato Markdown. Para aprender cual es el formato de este documento se recomienda revisar el siguiente [link](https://guides.github.com/features/mastering-markdown/) que les da una visión rápida de formato usado para hacer la documentación. 
-Las imágenes, fotos y soportes gráficos deben ser alojados en la carpeta ‘figs’ y deben ser vinculadas en documento README.md.
-
-# Código HDL
-El código HDL está alojado en la carpeta ´src´. Allí  están los archivos fuentes dados en clase  y allí deben alojar todo los archivos  diseñados  y desarrollados por los integrantes de grupo y según sea solicitado en la  guía de cada paquete de trabajo.
-
-# Entrega
-Recuerde tener presente el deadline  de cada paquete de trabajo, a las 8 de  la noche del día indicado  se cierra  el sistema  y los grupos no podrán actualizar el repositorio.
-Para actualizar el repositorio deben realizar  el respectivo commit y push, según sea la plataforma que estén utilizando y como se explicó en clase.
-Recuerda también revisar que en la página de github se refleja las actualizaciones realizadas por el grupo de trabajo 
-  
-
-## Desarrollo 
-A continuación se presenta cada actividad a realizar, el plan de trabajo del proyecto de cada semana se encuentra en el link de documentación y el link de trabajo se encuentra en la columna  repositorio.
-
-
-WP  | semana | deadline  | Tema | Documentación| Repositorio 
---  | --     | --        | --   | --          | --  
-01| semana 1 | 1 Nov | Buffer de memoria | [link](./docs/WP01.md) | [WP01](https://classroom.github.com/g/) 
-02| semana 2 /semana 3 | 15 Nov | Captura de datos | [link](./docs/WP02.md) | [WP02](https://classroom.github.com/g/)  
-03  | semana 4 | 16 ene | Procesamiento | [link](./docs/WP03.md) |  [WP03](https://classroom.github.com/g/) 
-04| Semana 8 | 6  febrero | Integración | [link](./docs/WP04.md) |  [WP04](https://classroom.github.com/g/) 
-
+ 
