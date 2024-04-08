@@ -67,6 +67,12 @@ Semana 4 | logica combinacional/análisis de tiempos | [week4_pdf](https://githu
 Semana 5 y 6 | logica Secuencial  | [week5-6_pdf](https://github.com/unal-edigital1/2024-1/tree/master/slides/week05-06)| 
 Semana 7 | Proyecto y maquinas de estado   | [informe labs.pdf](https://github.com/unal-edigital1/2024-1/tree/master/slides/week07)| 
 
+## Videos de tutorias de proyectos
+
+Semana   | Tema   | Material 
+--       | --     | --         
+6 de Abril | Explicación de la 1 entrega | [video 1]() y [Video 2]()|
+8 de Abril | Matriz 8x8, max 7912,  SPI| | [video 1]() y [Video 2]()|
 
 
 ## Estructura de los Laboratorios y Proyecto 

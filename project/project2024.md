@@ -129,7 +129,7 @@ El Tamagotchi operará a través de una serie de estados  que reflejan las neces
 
 - **Descansar:** Identifica cuando la mascota requiere reposo para recuperar energía, especialmente después de períodos de actividad intensa o durante la noche, limitando la interacción del usuario durante estas fases.
 
-- **Enfermo:** Se activa por el descuido en el cuidado de la mascota, requiriendo intervenciones específicas para su recuperación.
+- **Salud:** va a niveles de enfermo por el descuido en el cuidado de la mascota, requiriendo intervenciones específicas para su recuperación.
 
 - **Feliz:** Refleja el bienestar general de la mascota como resultado de satisfacer adecuadamente sus necesidades básicas.
 
