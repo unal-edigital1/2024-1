@@ -71,9 +71,10 @@ Semana 7 | Proyecto y maquinas de estado   | [informe labs.pdf](https://github.c
 
 Semana   | Tema   | Material 
 --       | --     | --         
-6 de Abril | Explicación de la 1 entrega | [video 1]() y [Video 2]()|
-8 de Abril | Matriz 8x8, max 7912,  SPI| | [video 1]() y [Video 2]()|
-
+6 de Abril | Explicación de la 1 entrega | [video 1](./project/videos/Proj_parte1.mp4) y [Video 2](./project/videos/Proj_parte2.mp4)|
+8 de Abril | Matriz 8x8, max 7912,  SPI, ADC| | [video 1](()
+)|
+digital1\2024-1\project\videos
 
 ## Estructura de los Laboratorios y Proyecto 
 
