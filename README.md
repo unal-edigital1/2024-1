@@ -71,10 +71,12 @@ Semana 7 | Proyecto y maquinas de estado   | [informe labs.pdf](https://github.c
 
 Semana   | Tema   | Material 
 --       | --     | --         
-6 de Abril | Explicación de la 1 entrega | [video 1](./project/videos/Proj_parte1.mp4) y [Video 2](./project/videos/Proj_parte2.mp4)|
-8 de Abril | Matriz 8x8, max 7912,  SPI, ADC| | [video 1](()
-)|
-digital1\2024-1\project\videos
+6 de Abril | Explicación de la 1 entrega | [video 1](https://drive.google.com/file/d/1R_En9b5jw5dj_m-tmyqB1kqwUGPQnM8y/view?usp=drive_link) y [Video 2](https://drive.google.com/file/d/1Pu6rF7cpWYjoyeH4reoQa_S7qDrLe90h/view?usp=sharing)|
+8 de Abril | Matriz 8x8, max 7912,  SPI, ADC| | [video 1](https://drive.google.com/file/d/1vpltPd9aAVmT5m7gOqj64tkOBXOZJM6I/view?usp=sharing)|
+10 de abril |  pantalla LCD y ultrasonido | [video 1](https://drive.google.com/file/d/1LC2rz3Vd6-stt9pG4VR9rrmfUbIQ5KTe/view?usp=drive_link)  y [video 2](https://drive.google.com/file/d/15VnkXs6pFVoRfnI4S53dAh0XMq6-iM1M/view?usp=sharing) | 
+15 de abril |  Explicación de como hacer la logica de SPI |[video 1] () | 
+
+
 
 ## Estructura de los Laboratorios y Proyecto 
 
@@ -251,11 +253,11 @@ La rúbrica de evaluación de las entregas es:
 
 Cada año, el proyecto se propone en la semana 7 del curso. Durante las primeras semanas, se detalla la metodología de selección del proyecto. Para este año, el proyecto se encuentra definido en la siguiente documentación que se encuentra en [project/project2024.md](./project/project2024.md)
 
-### Entregas 
+### Cronograma 
 
-grupo  | link 
-  --   | --  
-
+entrega  | link repositorio  | fecha 
+   --  | --  | --
+ 1 |[primera entrega](https://classroom.github.com/a/Ag3phzjS)| pendiente
 
 
 
