@@ -53,17 +53,17 @@ Transición: Retorna al estado IDLE para estar listo para una nueva operación.
 
 Para crear el FSM que controle el envío de datos a un MAX7219 a una matriz de LED 8x8, debemos diseñar el FSM de modo que genere los patrones correctos para los registros del MAX7219 y los envíe mediante el SPI master que ya tenemos. El MAX7219 controla una matriz de LEDs y permite configurar individualmente cada columna y fila.
 
-                 __________       __________________           _________________
-                |    FSM   |     |     SPI MASTER   |         | O O O O O O O O |
-                |   CARAS  |   --| >clk             |         | O @ @ O O @ @ O |
-    50Mhz clk --|          |   --| rst              |         | O @ @ O O @ @ O |
-          rst --|  Reg/Val |-----| data_in [7:0]    |--sclk --| O O O O O O O O |
-                |       NC |   --| data_out [7:0]   |--mosi --| O O O O O O O O |
-    state[2:0]--|      500 |-----| freq_div[9:0]    |--miso NC| O @ @ O O @ @ O |
-         init --| spiStart |-----| start            |--cs   --| O O @ @ @ @ O O |
-        done <--|  spiBusy |-----| busy             |         | O O O O @ O O O |
-                | spiAvail |-----| avail            |         |   MAX7219 8X8   |
-                |__________|     |__________________|         |_________________|
+                   _______________       ______________________       _________________
+                  |      FSM      |     |       SPI MASTER     |     | O O O O O O O O |
+                  |     CARAS     |   --| >clk                 |     | O @ @ O O @ @ O |
+      50Mhz clk --|               |   --| rst                  |     | O @ @ O O @ @ O |
+            rst --|       Reg/Val |-----| data_in [7:0]    sclk|-----| O O O O O O O O |
+                  |            NC |   --| data_out [7:0]   mosi|-----| O O O O O O O O |
+      State[2:0]--|           500 |-----| freq_div[9:0]    miso|--   | O @ @ O O @ @ O |
+           init --|      spiStart |-----| start              cs|-----| O O @ @ @ @ O O |
+          done <--|       spiBusy |-----| busy                 |     | O O O O @ O O O |
+                  |      spiAvail |-----| avail                |     |   MAX7219 8X8   |
+                  |_______________|     |______________________|     |_________________|
 
 Este es un ejemplo de para configurar y usar el MAX7219:
 
