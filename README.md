@@ -75,6 +75,7 @@ Semana   | Tema   | Material
 8 de Abril | Matriz 8x8, max 7912,  SPI, ADC| | [video 1](https://drive.google.com/file/d/1vpltPd9aAVmT5m7gOqj64tkOBXOZJM6I/view?usp=sharing)|
 10 de abril |  pantalla LCD y ultrasonido | [video 1](https://drive.google.com/file/d/1LC2rz3Vd6-stt9pG4VR9rrmfUbIQ5KTe/view?usp=drive_link)  y [video 2](https://drive.google.com/file/d/15VnkXs6pFVoRfnI4S53dAh0XMq6-iM1M/view?usp=sharing) | 
 15 de abril |  Explicación de como hacer la logica de SPI |[video 1](https://drive.google.com/file/d/1p7SczdC5pQDNCdn3FxL2B7pj7cMABNUB/view?usp=drive_link) | 
+17 de abril |  Explicación de la arquitectura y Spec |[video 1](https://drive.google.com/file/d/12Px3RmUWvcI4d9DKrKQV-sJZZDL7EO3e/view?usp=sharing) | 
 
 
 
@@ -156,7 +157,7 @@ Semana 7 | L5 multiplicador| [link](./labs/lab05.md) |[L05](https://classroom.gi
 Tema     | Subtema   | Guia  | WP |  
 --       | --        | --    | --    
 Visualización | VGA| [link](./labs/Visualización/labVGA/lab_add_VGA_01.md) |[WP LabVGA](https://github.com/unal-edigital1/lab06/tree/main) | |
-Buses | SPI master| [link](./labs/buses/SPI/spi.md) |[WP SPILabVGA](./labs/buses/SPI/src) | |
+Buses | SPI master| [link](./labs/buses/SPI/spi.md) |[WP SPI](./labs/buses/SPI/src) | |
 
 ### Ejemplos sencillos de programación
 *[link](https://github.com/unal-edigital1/2021-2/tree/master/docs/recursosCicloneIV/Verilog-Examples)
