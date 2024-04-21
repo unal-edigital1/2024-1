@@ -6,7 +6,7 @@ Los buses seriales son interfaces de comunicación que transmiten datos entre di
 
 ### Descripción en HDL
 
-El HDL de Spi_master lo encuentran en la carpeta src  ./labs/buses/SPI/scr 
+El HDL de Spi_master lo encuentran en la carpeta [src](./labs/buses/SPI/src)
 
 El módulo spi_master, se encuentra en scr/spi_master.v actúa como un maestro en la interfaz SPI, controlando la comunicación serial con dispositivos esclavos. Al recibir una señal de inicio (start) y datos de entrada (data_in), el módulo inicia una transmisión SPI. Utiliza un divisor de reloj (clock_div) para configurar la velocidad del reloj SPI (sclk), permitiendo ajustes en la tasa de transmisión de datos. El proceso de transmisión implica enviar los datos desde el maestro al esclavo bit por bit, comenzando desde el bit más significativo hasta el menos significativo, mediante la línea MOSI (Master Out Slave In). Simultáneamente, el módulo recibe datos desde el esclavo a través de la línea MISO (Master In Slave Out), también bit por bit en sincronización con el reloj SPI.
 
