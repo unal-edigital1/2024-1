@@ -23,7 +23,6 @@ El módulo spi_master, se encuentra en scr/spi_master.v actúa como un maestro e
                                |_______________|
 
 
-
 Durante una comunicación activa, el módulo genera señales para controlar la comunicación y el estado de la comunicación. La señal cs (Chip Select) se activa (baja) para seleccionar el dispositivo esclavo con el que se comunica, y se desactiva (alta) al finalizar la transacción. El módulo también mantiene una señal busy que indica si una operación SPI está en curso, asegurando que no se inicie una nueva transacción hasta que la actual se complete. Al finalizar la recepción de los datos, se activa la señal avail para indicar que los datos del esclavo han sido completamente recibidos y están disponibles en data_out para su uso posterior. 
 
 
@@ -55,16 +54,16 @@ Para crear el FSM que controle el envío de datos a un MAX7219 a una matriz de L
 
                    _______________       ______________________       _________________
                   |      FSM      |     |       SPI MASTER     |     | O O O O O O O O |
-                  |     CARAS     |   --| >clk                 |     | O @ @ O O @ @ O |
-      50Mhz clk --|               |   --| rst                  |     | O @ @ O O @ @ O |
+                  |     CARAS     |   --| >clk                 |     | O ▓ ▓ O O ▓ ▓ O |
+      50Mhz clk --|               |   --| rst                  |     | O ▓ ▓ O O ▓ ▓ O |
             rst --|       Reg/Val |-----| data_in [7:0]    sclk|-----| O O O O O O O O |
                   |            NC |   --| data_out [7:0]   mosi|-----| O O O O O O O O |
-      State[2:0]--|           500 |-----| freq_div[9:0]    miso|--   | O @ @ O O @ @ O |
-           init --|      spiStart |-----| start              cs|-----| O O @ @ @ @ O O |
-          done <--|       spiBusy |-----| busy                 |     | O O O O @ O O O |
+      State[2:0]--|           500 |-----| freq_div[9:0]    miso|--   | O ▓ ▓ O O ▓ ▓ O |
+           init --|      spiStart |-----| start              cs|-----| O O ▓ ▓ ▓ ▓ O O |
+          done <--|       spiBusy |-----| busy                 |     | O O O ▓ ▓ O O O |
                   |      spiAvail |-----| avail                |     |   MAX7219 8X8   |
                   |_______________|     |______________________|     |_________________|
-
+                  
 Este es un ejemplo de para configurar y usar el MAX7219:
 
 1. Inicialización: Configura el MAX7219 para modo normal (no en modo de prueba), brillo adecuado, y modo de decodificación desactivado.
