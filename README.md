@@ -78,7 +78,7 @@ Semana   | Tema   | Material
 10 de abril |  pantalla LCD y ultrasonido | [video 1](https://drive.google.com/file/d/1LC2rz3Vd6-stt9pG4VR9rrmfUbIQ5KTe/view?usp=drive_link)  y [video 2](https://drive.google.com/file/d/15VnkXs6pFVoRfnI4S53dAh0XMq6-iM1M/view?usp=sharing) | 
 15 de abril |  Explicación de como hacer la logica de SPI |[video 1](https://drive.google.com/file/d/1p7SczdC5pQDNCdn3FxL2B7pj7cMABNUB/view?usp=drive_link) | 
 17 de abril |  Explicación de la arquitectura y Spec |[video 1](https://drive.google.com/file/d/12Px3RmUWvcI4d9DKrKQV-sJZZDL7EO3e/view?usp=sharing) | 
-24 de abril | Retroalimentación de 1 entrega | [Video 1](https://drive.google.com/file/d/1vE_GVYG7uDJuqb-V5x-1cq3RN9HjOGAV/view?usp=sharing) [Video 2](https://drive.google.com/file/d/1Pj0XkCHgAmq5UDRgBxCLlLcFJM7BMhxY/view?usp=sharing)|
+24 de abril | Retroalimentación de 1 entrega | [Video 1](https://drive.google.com/file/d/1vE_GVYG7uDJuqb-V5x-1cq3RN9HjOGAV/view?usp=sharing) y [Video 2](https://drive.google.com/file/d/1Pj0XkCHgAmq5UDRgBxCLlLcFJM7BMhxY/view?usp=sharing)|
 
 
 ## Estructura de los Laboratorios y Proyecto 
