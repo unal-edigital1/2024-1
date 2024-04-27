@@ -69,7 +69,7 @@ Semana 7 | Proyecto y maquinas de estado   | [informe labs.pdf](https://github.c
 
 ## Videos de tutorias de proyectos
 
-Todos los videos los encuentra en la carpeta de drive en este [link](https://drive.google.com/drive/folders/1SNzuV_2fBC8KMoJJ_IXuEhirtNdHYryF?usp=sharing)
+Todos los videos los encuentra en la carpeta de drive, en este [link](https://drive.google.com/drive/folders/1SNzuV_2fBC8KMoJJ_IXuEhirtNdHYryF?usp=sharing)
 
 Semana   | Tema   | Material 
 --       | --     | --         
