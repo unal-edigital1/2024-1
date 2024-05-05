@@ -159,7 +159,7 @@ Semana 7 | L5 multiplicador| [link](./labs/lab05.md) |[L05](https://classroom.gi
 Tema     | Subtema   | Guia  | WP |  
 --       | --        | --    | --    
 Visualización | VGA| [link](./labs/Visualización/labVGA/lab_add_VGA_01.md) |[WP LabVGA](https://github.com/unal-edigital1/lab06/tree/main) | |
-Visualización | LCD1602| [link](./labs/Visualización/LCD1602) |[HDL](https://github.com/unal-edigital1/2024-1/tree/master/labs/visualizacion/LCD1602/texto) | |
+Visualización | LCD1602| [link](./labs/Visualizacion/LCD1602) |[HDL](https://github.com/unal-edigital1/2024-1/tree/master/labs/visualizacion/LCD1602/texto) | |
 Buses | SPI master| [link](./labs/buses/SPI/spi.md) |[WP SPI](./labs/buses/SPI/src) | |
 
 ### Ejemplos sencillos de programación
