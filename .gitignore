@@ -11,6 +11,7 @@
 *.smsg
 *.done
 *.ammdb
+.~lock.*
 /labs/buses/SPI/db
 /labs/buses/SPI/simulation
 /labs/buses/SPI/c5_pin_model_dump.txt
