@@ -1,23 +1,29 @@
 |fsm_matriz8x8
 clk => clk.IN1
 reset => _.IN1
-reset => estado.OUTPUTSELECT
-reset => estado.OUTPUTSELECT
-reset => estado.OUTPUTSELECT
+reset => count.OUTPUTSELECT
+reset => count.OUTPUTSELECT
+reset => count.OUTPUTSELECT
+reset => count.OUTPUTSELECT
+reset => count.OUTPUTSELECT
+reset => count.OUTPUTSELECT
+reset => sendByte.OUTPUTSELECT
+reset => data_in.OUTPUTSELECT
+reset => data_in.OUTPUTSELECT
+reset => data_in.OUTPUTSELECT
+reset => data_in.OUTPUTSELECT
+reset => data_in.OUTPUTSELECT
+reset => data_in.OUTPUTSELECT
+reset => data_in.OUTPUTSELECT
+reset => data_in.OUTPUTSELECT
+reset => state2.OUTPUTSELECT
+reset => state2.OUTPUTSELECT
 reset => start.OUTPUTSELECT
-reset => data_in.OUTPUTSELECT
-reset => data_in.OUTPUTSELECT
-reset => data_in.OUTPUTSELECT
-reset => data_in.OUTPUTSELECT
-reset => data_in.OUTPUTSELECT
-reset => data_in.OUTPUTSELECT
-reset => data_in.OUTPUTSELECT
-reset => data_in.OUTPUTSELECT
 state[0] => ~NO_FANOUT~
 state[1] => ~NO_FANOUT~
 mosi <= spi_master:spi.mosi
 sclk <= spi_master:spi.sclk
-cs <= start.DB_MAX_OUTPUT_PORT_TYPE
+cs <= spi_master:spi.cs
 
 
 |fsm_matriz8x8|spi_master:spi

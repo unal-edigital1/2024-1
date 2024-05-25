@@ -1,0 +1,15 @@
+-- begin_signature
+-- fsm_matriz8x8
+-- end_signature
+WIDTH=8;
+DEPTH=4;
+
+ADDRESS_RADIX=UNS;
+DATA_RADIX=BIN;
+
+CONTENT BEGIN
+	3 :	11011101;
+	2 :	00000101;
+	1 :	00000000;
+	0 :	10101010;
+END;

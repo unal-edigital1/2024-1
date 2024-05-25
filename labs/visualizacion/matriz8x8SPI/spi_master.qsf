@@ -57,6 +57,16 @@ set_location_assignment PIN_28 -to cs
 set_location_assignment PIN_31 -to mosi
 set_location_assignment PIN_25 -to reset
 set_location_assignment PIN_33 -to sclk
-set_location_assignment PIN_38 -to state[1]
-set_location_assignment PIN_42 -to state[0]
+set_location_assignment PIN_88 -to state[1]
+set_location_assignment PIN_89 -to state[0]
+set_global_assignment -name VERILOG_FILE src/fsm_matriz8x8_TB.v
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
+set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name EDA_TEST_BENCH_ENABLE_STATUS TEST_BENCH_MODE -section_id eda_simulation
+set_global_assignment -name EDA_NATIVELINK_SIMULATION_TEST_BENCH fsm_matriz8x8_TB -section_id eda_simulation
+set_global_assignment -name EDA_TEST_BENCH_NAME fsm_matriz8x8_TB -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id fsm_matriz8x8_TB
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME fsm_matriz8x8_TB -section_id fsm_matriz8x8_TB
+set_global_assignment -name EDA_TEST_BENCH_FILE src/fsm_matriz8x8_TB.v -section_id fsm_matriz8x8_TB
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

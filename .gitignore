@@ -12,10 +12,11 @@
 *.done
 *.ammdb
 .~lock.*
-/labs/buses/SPI/db
+*/db
 /labs/buses/SPI/simulation
 /labs/buses/SPI/c5_pin_model_dump.txt
 /labs/buses/SPI/incremental_db
 *.cdb
 *.hdb
 *.cdf
+*.flock

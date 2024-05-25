@@ -1,0 +1,65 @@
+# Reading pref.tcl
+# do spi_master_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/UECCI/Documents/UNAL/digital1/2024-1/labs/visualizacion/matriz8x8SPI/src {C:/Users/UECCI/Documents/UNAL/digital1/2024-1/labs/visualizacion/matriz8x8SPI/src/spi_master.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:57:40 on May 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/UECCI/Documents/UNAL/digital1/2024-1/labs/visualizacion/matriz8x8SPI/src" C:/Users/UECCI/Documents/UNAL/digital1/2024-1/labs/visualizacion/matriz8x8SPI/src/spi_master.v 
+# -- Compiling module spi_master
+# 
+# Top level modules:
+# 	spi_master
+# End time: 15:57:40 on May 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/UECCI/Documents/UNAL/digital1/2024-1/labs/visualizacion/matriz8x8SPI/src {C:/Users/UECCI/Documents/UNAL/digital1/2024-1/labs/visualizacion/matriz8x8SPI/src/fsm_matriz8x8.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:57:40 on May 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/UECCI/Documents/UNAL/digital1/2024-1/labs/visualizacion/matriz8x8SPI/src" C:/Users/UECCI/Documents/UNAL/digital1/2024-1/labs/visualizacion/matriz8x8SPI/src/fsm_matriz8x8.v 
+# -- Compiling module fsm_matriz8x8
+# 
+# Top level modules:
+# 	fsm_matriz8x8
+# End time: 15:57:40 on May 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/UECCI/Documents/UNAL/digital1/2024-1/labs/visualizacion/matriz8x8SPI/src {C:/Users/UECCI/Documents/UNAL/digital1/2024-1/labs/visualizacion/matriz8x8SPI/src/fsm_matriz8x8_TB.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:57:40 on May 15,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/UECCI/Documents/UNAL/digital1/2024-1/labs/visualizacion/matriz8x8SPI/src" C:/Users/UECCI/Documents/UNAL/digital1/2024-1/labs/visualizacion/matriz8x8SPI/src/fsm_matriz8x8_TB.v 
+# -- Compiling module fsm_matriz8x8_TB
+# 
+# Top level modules:
+# 	fsm_matriz8x8_TB
+# End time: 15:57:41 on May 15,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  fsm_matriz8x8_TB
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" fsm_matriz8x8_TB 
+# Start time: 15:57:41 on May 15,2024
+# Loading work.fsm_matriz8x8_TB
+# Loading work.fsm_matriz8x8
+# Loading work.spi_master
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: UECCI  Hostname: CEINT-SALA3B-02  ProcessID: 17204
+#           Attempting to use alternate WLF file "./wlftkqr3c1".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftkqr3c1
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $stop    : C:/Users/UECCI/Documents/UNAL/digital1/2024-1/labs/visualizacion/matriz8x8SPI/src/fsm_matriz8x8_TB.v(42)
+#    Time: 320 ns  Iteration: 0  Instance: /fsm_matriz8x8_TB
+# Break in Module fsm_matriz8x8_TB at C:/Users/UECCI/Documents/UNAL/digital1/2024-1/labs/visualizacion/matriz8x8SPI/src/fsm_matriz8x8_TB.v line 42
