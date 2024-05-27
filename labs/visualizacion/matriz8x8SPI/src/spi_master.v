@@ -75,7 +75,7 @@ module spi_master(
 			avail <= 0;
 			cs <= 0;
 			shift_reg <= data_in;
-			bit_count <= 8;
+			bit_count <= 7;
 	  end else if (active) begin
 			if (clk_count < div_factor - 1) begin
 				 clk_count <= clk_count + 1;

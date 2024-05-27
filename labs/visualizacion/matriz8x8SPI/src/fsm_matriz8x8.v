@@ -10,13 +10,14 @@ module fsm_matriz8x8 (
 );
 
 
-   reg [1:0] state2;
    reg [7:0] data_in;
-   reg start;
    wire [7:0] data_out;
+ 
+   reg start;
    wire busy;
    wire avail;
-   wire [15:0] div_factor = 250000;  // Factor de división fijo
+  
+   wire [15:0] div_factor = 200000;  // Factor de división fijo
 
 	spi_master spi (
        .clk(clk),
@@ -31,46 +32,57 @@ module fsm_matriz8x8 (
        .busy(busy),
        .avail(avail)
    );
-   reg sendByte;
-	reg [10:0]count=0;
+  
+   
+	reg [7:0] memory4send [0:9];
+
+	reg [3:0] mem_index = 0;
+	 
+	reg sendByte;
+	reg [10:0]state_send=0;
+
+	
+	initial begin
+        memory4send[0] = 8'h0C;
+        memory4send[1] = 8'h01;
+        memory4send[2] = 8'h09;
+        memory4send[3] = 8'h00;
+        memory4send[4] = 8'h00;
+		  
+    end
+	
    always @(posedge clk) begin
 		 if (~reset) begin
-           count <= 0;
+           state_send <= 0;
            sendByte <= 0;
+			  mem_index <= 0;
        end else begin
-		 case (count)
+		 case (state_send)
 			0:	begin
-				data_in <=0;
+				data_in <= memory4send[mem_index]; 
 				sendByte <=1; 
-				count <= 1;
+				state_send <= 1;
 				end
 			1: begin
-				count <= 2;
+				state_send <= 2;
 				end
 			2: begin
 				sendByte <=0; 
-				if (avail)
-					count <= 3;				
-				end
-			3:	begin
-				data_in <=170;
-				count <= 4;
-				sendByte <=1; 
-				end
-			4: begin
-				count <= 5;
-				end
-			5: begin
-				sendByte <=0; 
-				if (avail)
-					count <=0;
+				if (avail) begin
+					state_send <= 0;	
+   				mem_index <= mem_index+1;
+					if (mem_index > 3)
+						  mem_index <= 0;
+					
+				end			
 				end
 			endcase
 			end
 	end
 
+	
 	// para enviar un byte por spi
-   always @(posedge clk) begin
+   always @(negedge clk) begin
 		 if (~reset) begin
            start <= 0;
        end else begin
