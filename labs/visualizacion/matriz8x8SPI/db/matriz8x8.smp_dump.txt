@@ -1,0 +1,7 @@
+
+State Machine - |fsm_matriz8x8|state_send
+Name state_send.00000000011 state_send.00000000010 state_send.00000000001 state_send.00000000000 
+state_send.00000000000 0 0 0 0 
+state_send.00000000001 0 0 1 1 
+state_send.00000000010 0 1 0 1 
+state_send.00000000011 1 0 0 1 

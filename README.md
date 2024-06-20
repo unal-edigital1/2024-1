@@ -74,12 +74,13 @@ Todos los videos los encuentra en la carpeta de drive, en este [link](https://dr
 Semana   | Tema   | Material 
 --       | --     | --         
 6 de Abril | Explicación de la 1 entrega | [video 1](https://drive.google.com/file/d/1R_En9b5jw5dj_m-tmyqB1kqwUGPQnM8y/view?usp=drive_link) y [Video 2](https://drive.google.com/file/d/1Pu6rF7cpWYjoyeH4reoQa_S7qDrLe90h/view?usp=sharing)|
-8 de Abril | Matriz 8x8, max 7912,  SPI, ADC| | [video 1](https://drive.google.com/file/d/1vpltPd9aAVmT5m7gOqj64tkOBXOZJM6I/view?usp=sharing)|
+8 de Abril | Matriz 8x8, max 7912,  SPI, ADC|  [video 1](https://drive.google.com/file/d/1vpltPd9aAVmT5m7gOqj64tkOBXOZJM6I/view?usp=sharing)|
 10 de abril |  pantalla LCD diver ILI91363C y ultrasonido | [video 1](https://drive.google.com/file/d/1LC2rz3Vd6-stt9pG4VR9rrmfUbIQ5KTe/view?usp=drive_link)  y [video 2](https://drive.google.com/file/d/15VnkXs6pFVoRfnI4S53dAh0XMq6-iM1M/view?usp=sharing) | 
 15 de abril |  Explicación de como hacer la logica de SPI |[video 1](https://drive.google.com/file/d/1p7SczdC5pQDNCdn3FxL2B7pj7cMABNUB/view?usp=drive_link) | 
 17 de abril |  Explicación de la arquitectura y Spec |[video 1](https://drive.google.com/file/d/12Px3RmUWvcI4d9DKrKQV-sJZZDL7EO3e/view?usp=sharing) | 
 24 de abril | Retroalimentación de 1 entrega | [Video 1](https://drive.google.com/file/d/1vE_GVYG7uDJuqb-V5x-1cq3RN9HjOGAV/view?usp=sharing) y [Video 2](https://drive.google.com/file/d/1Pj0XkCHgAmq5UDRgBxCLlLcFJM7BMhxY/view?usp=sharing)|
-
+4 de mayo | 1-wire y revisión de FSM para matriz 8x8 | [Video 1](https://drive.google.com/file/d/13H_Tg8are5IwLzRMJawv9-5SzLxDPnHF/view?usp=sharing) |
+6 de mayo| 7AM ,se habla de antirrebote,  y dos grupos presentan avances, 9AM un grupo presenta avances| [Video 7am ](https://drive.google.com/file/d/1NleWg2dt6s4VOwgn5kR6kMvGPKHhDCzL/view?usp=drive_link) y [Video 9am ](https://drive.google.com/file/d/1XCK2AI_rc1k2iQyc9urWMa47Ebiiksx7/view?usp=drive_link) | 
 
 ## Estructura de los Laboratorios y Proyecto 
 
@@ -159,6 +160,7 @@ Semana 7 | L5 multiplicador| [link](./labs/lab05.md) |[L05](https://classroom.gi
 Tema     | Subtema   | Guia  | WP |  
 --       | --        | --    | --    
 Visualización | VGA| [link](./labs/Visualización/labVGA/lab_add_VGA_01.md) |[WP LabVGA](https://github.com/unal-edigital1/lab06/tree/main) | |
+Visualización | LCD1602| [link](./labs/Visualizacion/LCD1602) |[HDL](https://github.com/unal-edigital1/2024-1/tree/master/labs/visualizacion/LCD1602/texto) | |
 Buses | SPI master| [link](./labs/buses/SPI/spi.md) |[WP SPI](./labs/buses/SPI/src) | |
 
 ### Ejemplos sencillos de programación

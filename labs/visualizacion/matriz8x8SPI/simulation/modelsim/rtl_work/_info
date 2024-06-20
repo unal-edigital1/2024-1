@@ -1,0 +1,84 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/UECCI/Documents/UNAL/digital1/2024-1/labs/visualizacion/matriz8x8SPI/simulation/modelsim
+vfsm_matriz8x8
+Z1 !s110 1715806660
+!i10b 1
+!s100 ==4OL?9Xe_g@Kni:O5PKT1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ii[D[0c3MNK^ReK8RBlAC63
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1715806135
+8C:/Users/UECCI/Documents/UNAL/digital1/2024-1/labs/visualizacion/matriz8x8SPI/src/fsm_matriz8x8.v
+FC:/Users/UECCI/Documents/UNAL/digital1/2024-1/labs/visualizacion/matriz8x8SPI/src/fsm_matriz8x8.v
+!i122 1
+L0 1 63
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1715806660.000000
+!s107 C:/Users/UECCI/Documents/UNAL/digital1/2024-1/labs/visualizacion/matriz8x8SPI/src/fsm_matriz8x8.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/UECCI/Documents/UNAL/digital1/2024-1/labs/visualizacion/matriz8x8SPI/src|C:/Users/UECCI/Documents/UNAL/digital1/2024-1/labs/visualizacion/matriz8x8SPI/src/fsm_matriz8x8.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work +incdir+C:/Users/UECCI/Documents/UNAL/digital1/2024-1/labs/visualizacion/matriz8x8SPI/src
+Z8 tCvgOpt 0
+vfsm_matriz8x8_TB
+!s110 1715806661
+!i10b 1
+!s100 ^?6h?@?<?hd8gFn>k5XVR1
+R2
+I<Z5^5[;EeZ0zOd2NF=GT33
+R3
+R0
+w1715806634
+8C:/Users/UECCI/Documents/UNAL/digital1/2024-1/labs/visualizacion/matriz8x8SPI/src/fsm_matriz8x8_TB.v
+FC:/Users/UECCI/Documents/UNAL/digital1/2024-1/labs/visualizacion/matriz8x8SPI/src/fsm_matriz8x8_TB.v
+!i122 2
+L0 3 44
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/UECCI/Documents/UNAL/digital1/2024-1/labs/visualizacion/matriz8x8SPI/src/fsm_matriz8x8_TB.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/UECCI/Documents/UNAL/digital1/2024-1/labs/visualizacion/matriz8x8SPI/src|C:/Users/UECCI/Documents/UNAL/digital1/2024-1/labs/visualizacion/matriz8x8SPI/src/fsm_matriz8x8_TB.v|
+!i113 1
+R6
+R7
+R8
+nfsm_matriz8x8_@t@b
+vspi_master
+R1
+!i10b 1
+!s100 <]To6iH1ZCmfkVoQkP7[D0
+R2
+II^ehm^hOL5NHG72_?dX;e2
+R3
+R0
+w1714867730
+8C:/Users/UECCI/Documents/UNAL/digital1/2024-1/labs/visualizacion/matriz8x8SPI/src/spi_master.v
+FC:/Users/UECCI/Documents/UNAL/digital1/2024-1/labs/visualizacion/matriz8x8SPI/src/spi_master.v
+!i122 0
+L0 40 64
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/UECCI/Documents/UNAL/digital1/2024-1/labs/visualizacion/matriz8x8SPI/src/spi_master.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/UECCI/Documents/UNAL/digital1/2024-1/labs/visualizacion/matriz8x8SPI/src|C:/Users/UECCI/Documents/UNAL/digital1/2024-1/labs/visualizacion/matriz8x8SPI/src/spi_master.v|
+!i113 1
+R6
+R7
+R8
