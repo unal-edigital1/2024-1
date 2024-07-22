@@ -66,6 +66,7 @@ Semana 3 | logica combinacional | [week3_pdf](https://github.com/unal-edigital1/
 Semana 4 | logica combinacional/análisis de tiempos | [week4_pdf](https://github.com/unal-edigital1/2024-1/tree/master/slides/week04)| 
 Semana 5 y 6 | logica Secuencial  | [week5-6_pdf](https://github.com/unal-edigital1/2024-1/tree/master/slides/week05-06)| 
 Semana 7 | Proyecto y maquinas de estado   | [informe labs.pdf](https://github.com/unal-edigital1/2024-1/tree/master/slides/week07)| 
+Semana 8 | Maquinas de estado  Algoritmico  | [week8_pdf](https://github.com/unal-edigital1/2024-1/tree/master/slides/week08)| 
 
 ## Videos de tutorias de proyectos
 
@@ -262,7 +263,7 @@ Cada año, el proyecto se propone en la semana 7 del curso. Durante las primeras
 
 entrega  | link repositorio  | fecha 
    --  | --  | --
- 1 |[primera entrega](https://classroom.github.com/a/Ag3phzjS)| pendiente
+ 1 |[primera entrega](https://classroom.github.com/a/Ag3phzjS)| 5 de agosto 2024
 
 
 
