@@ -266,7 +266,33 @@ entrega  | link repositorio  | fecha
  1 |[primera entrega](https://classroom.github.com/a/Ag3phzjS)| 5 de agosto 2024
 
 
+## Entregas de proyecto y evaliaciones
 
+[link de Coevaluaciòn y autoevaluaciòn](https://docs.google.com/forms/d/e/1FAIpQLSc0ZfITe_KCbQaQM6C9V4qGzUoEzUS8bPdsZB0O4iVfqZ8ocA/viewform?usp=sf_link)
+
+1. [Grupo 01](https://github.com/unal-edigital1-lab/entrega-1-proyecto-grupo01-2024-1)
+2. [Grupo 02](https://github.com/unal-edigital1-lab/entrega-1-proyecto-grupo02-2024-1)
+3. [Grupo 03](https://github.com/unal-edigital1-lab/entrega-1-proyecto-grupo03-2024-1)
+4. [Grupo 04](https://github.com/unal-edigital1-lab/entrega-1-proyecto-grupo04-2024-1)
+5. [Grupo 05](https://github.com/unal-edigital1-lab/entrega-1-proyecto-grupo05-2024-1)
+6. [Grupo 06](https://github.com/unal-edigital1-lab/entrega-1-proyecto-grupo06-2024-1)
+7. [Grupo 07](https://github.com/unal-edigital1-lab/entrega-1-proyecto-grupo07-2024-1)
+8. [Grupo 08](https://github.com/unal-edigital1-lab/entrega-1-proyecto-grupo08-2024-1)
+9. [Grupo 09](https://github.com/unal-edigital1-lab/entrega-1-proyecto-grupo09-2024-1)
+10. [Grupo 10](https://github.com/unal-edigital1-lab/entrega-1-proyecto-grupo10-2024-1)
+11. [Grupo 11](https://github.com/unal-edigital1-lab/entrega-1-proyecto-grupo11-2024-1)
+12. [Grupo 12](https://github.com/unal-edigital1-lab/entrega-1-proyecto-grupo12-2024-1)
+13. [Grupo 13](https://github.com/unal-edigital1-lab/entrega-1-proyecto-grupo13-2024-1)
+14. [Grupo 14](https://github.com/unal-edigital1-lab/entrega-1-proyecto-grupo14-2024-1)
+15. [Grupo 15](https://github.com/unal-edigital1-lab/entrega-1-proyecto-grupo15-2024-1)
+16. [Grupo 16](https://github.com/unal-edigital1-lab/entrega-1-proyecto-grupo16-2024-1)
+17. [Grupo 17](https://github.com/unal-edigital1-lab/entrega-1-proyecto-grupo17-2024-1)
+18. [Grupo 18](https://github.com/unal-edigital1-lab/entrega-1-proyecto-grupo18-2024-1)
+19. [Grupo 19](https://github.com/unal-edigital1-lab/entrega-1-proyecto-grupo19-2024-1)
+20. [Grupo 20](https://github.com/unal-edigital1-lab/entrega-1-proyecto-grupo20-2024-1)
+21. [Grupo 21](https://github.com/unal-edigital1-lab/entrega-1-proyecto-grupo21-2024-1)
+22. [Grupo 22](https://github.com/unal-edigital1-lab/entrega-1-proyecto-grupo22-2024-1)
+    
 ## Proyectos de años anteriores
 
 1. [Nacho Pong](https://github.com/unal-edigital1-lab/lab06-2022-1-grupo09-22-1-jopaju)
