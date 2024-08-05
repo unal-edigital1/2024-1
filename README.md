@@ -292,6 +292,12 @@ entrega  | link repositorio  | fecha
 20. [Grupo 20](https://github.com/unal-edigital1-lab/entrega-1-proyecto-grupo20-2024-1)
 21. [Grupo 21](https://github.com/unal-edigital1-lab/entrega-1-proyecto-grupo21-2024-1)
 22. [Grupo 22](https://github.com/unal-edigital1-lab/entrega-1-proyecto-grupo22-2024-1)
+23. [Grupo 23](https://github.com/unal-edigital1-lab/entrega-1-proyecto-grupo23-2024-1)
+24. [Grupo 24](https://github.com/unal-edigital1-lab/entrega-1-proyecto-grupo24-2024-1)
+25. [Grupo 25](https://github.com/unal-edigital1-lab/entrega-1-proyecto-grupo25-2024-1)
+25a. [Grupo 25a](https://github.com/unal-edigital1-lab/entrega-1-proyecto-grupo25a-2024-1)
+25b. [Grupo 25b](https://github.com/unal-edigital1-lab/entrega-1-proyecto-grupo25b-2024-1)
+26. [Grupo 26](https://github.com/unal-edigital1-lab/entrega-1-proyecto-grupo26-2024-1)
     
 ## Proyectos de años anteriores
 
