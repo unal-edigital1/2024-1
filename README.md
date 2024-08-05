@@ -266,7 +266,7 @@ entrega  | link repositorio  | fecha
  1 |[primera entrega](https://classroom.github.com/a/Ag3phzjS)| 5 de agosto 2024
 
 
-## Entregas de proyecto y evaliaciones
+## Entregas de proyecto y evaluaciones
 
 [link de Coevaluaciòn y autoevaluaciòn](https://docs.google.com/forms/d/e/1FAIpQLSc0ZfITe_KCbQaQM6C9V4qGzUoEzUS8bPdsZB0O4iVfqZ8ocA/viewform?usp=sf_link)
 
