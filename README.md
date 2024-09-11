@@ -262,7 +262,7 @@ La rúbrica de evaluación de las entregas es:
 
 ### [DESCARGAR RUBRICA](https://github.com/unal-edigital1/2024-1/blob/master/rubrica%20Digital%201.xlsx) 
 
-### [link para subor la rubrica de Auto y coevaluación](https://docs.google.com/forms/d/e/1FAIpQLSfmnbZb1KYEF4nHqD1K4Pg6zar4ZZ9ACPp6SEMS3mgeul2C7Q/viewform?usp=sf_link)
+### [link para subir la rúbrica de Auto y Coevaluación](https://docs.google.com/forms/d/e/1FAIpQLSfmnbZb1KYEF4nHqD1K4Pg6zar4ZZ9ACPp6SEMS3mgeul2C7Q/viewform?usp=sf_link)
 
 
 ### Cronograma 
